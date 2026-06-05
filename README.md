@@ -1,7 +1,9 @@
 # LibreDAB
 An open source bi-directional Dual Active Bridge converter for connecting a Sodium Ion Battery to a 400 V DC link
 Taking strong inspiration from the OwnTech microinverter: https://github.com/owntech-foundation/micro-inverter/
-- Development Stage - Planning - Design has not started
+
+![Development Stage](https://img.shields.io/badge/development%20stage-planning-red.svg)  Development Stage - Planning - Design has not started.
+
 - **Manifesto**
 	- The project goals are to:
 		- Develop an open source bi-directional Dual Active Bridge converter for connecting a Sodium Ion Battery to a 400 V DC link.
