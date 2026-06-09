@@ -1,0 +1,231 @@
+(footprint "Die Cast Casing 1550G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "44a033eb-8c75-4657-9bad-8617e5bdd828")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1550G"
+		(at -55.2 76.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "01542938-b5a3-4cf5-b242-20f4af931492")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c960e5d-ffec-4d8a-bfb2-11fd84c28aea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21b1501f-5c47-4c27-8b65-df8f37d92766")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -103.879373 62.279111)
+		(end -103.879373 -62.237857)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8ba41702-ed16-4085-b762-4d7e44c4852e")
+	)
+	(fp_line
+		(start -100.258484 -65.858746)
+		(end -5.741515 -65.858746)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9edd2453-8ac1-4b3f-82f3-c30d4374a8b1")
+	)
+	(fp_line
+		(start -5.741515 65.9)
+		(end -100.258484 65.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8236cff4-f0b5-430d-aba9-ff6af39b6b4e")
+	)
+	(fp_line
+		(start 5.741516 -65.858746)
+		(end 100.258485 -65.858746)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1da6d900-379a-4114-9477-b20365f65177")
+	)
+	(fp_line
+		(start 100.258484 65.9)
+		(end 5.741516 65.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7ca4d342-a4f4-4795-8620-edc4f80b743e")
+	)
+	(fp_line
+		(start 103.879373 -62.237857)
+		(end 103.879373 62.279112)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a2a497e8-900c-4d1a-98ff-099c3fd3607b")
+	)
+	(fp_arc
+		(start -103.879373 62.279111)
+		(mid -101.672063 63.69269)
+		(end -100.258484 65.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9c8db073-8439-4a1d-8a8a-04965824d670")
+	)
+	(fp_arc
+		(start -100.258484 -65.858746)
+		(mid -101.672063 -63.651436)
+		(end -103.879373 -62.237857)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "133e9804-bb44-49ef-9581-e9d3841daf44")
+	)
+	(fp_arc
+		(start -5.741515 65.9)
+		(mid 0 61.9)
+		(end 5.741516 65.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bef20346-e978-465f-a616-3352b98e2ec1")
+	)
+	(fp_arc
+		(start 5.741516 -65.858746)
+		(mid 0 -61.858746)
+		(end -5.741515 -65.858746)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3e74a99a-1e11-4a9a-a85b-8b929ca994c8")
+	)
+	(fp_arc
+		(start 100.258484 65.9)
+		(mid 101.672063 63.69269)
+		(end 103.879373 62.279112)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bf9a7eab-55d9-48f5-b802-4696d27dca6f")
+	)
+	(fp_arc
+		(start 103.879373 -62.237857)
+		(mid 101.672063 -63.651436)
+		(end 100.258485 -65.858746)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "96dd4abc-0729-4c71-afa4-fc80bd0d8d72")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -55.2 78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cee6529a-1121-42c0-8430-0f3f72408602")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(group ""
+		(uuid "fa736f7e-9127-407a-a5aa-b18c79351439")
+		(members "133e9804-bb44-49ef-9581-e9d3841daf44" "1da6d900-379a-4114-9477-b20365f65177"
+			"3e74a99a-1e11-4a9a-a85b-8b929ca994c8" "7ca4d342-a4f4-4795-8620-edc4f80b743e"
+			"8236cff4-f0b5-430d-aba9-ff6af39b6b4e" "8ba41702-ed16-4085-b762-4d7e44c4852e"
+			"96dd4abc-0729-4c71-afa4-fc80bd0d8d72" "9c8db073-8439-4a1d-8a8a-04965824d670"
+			"9edd2453-8ac1-4b3f-82f3-c30d4374a8b1" "a2a497e8-900c-4d1a-98ff-099c3fd3607b"
+			"bef20346-e978-465f-a616-3352b98e2ec1" "bf9a7eab-55d9-48f5-b802-4696d27dca6f"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/1550G1550G.step"
+		(opacity 0.2800)
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/1550G1550G_box.step"
+		(opacity 0.3100)
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

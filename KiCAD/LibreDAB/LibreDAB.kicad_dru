@@ -1,0 +1,357 @@
+(version 1)
+
+########################################## SAFETY ISOLATION ###########################################################
+########################################## IEC 60664        ###########################################################
+########################################## BASIC Isolation LV TO HV ###################################################
+########################################## ALL LAYERS #################################################################
+### Voltage RMS 250V - OVC III - Pollution degree 3 - Basic isolation - Material class IIIb
+### Shock voltage 4kV
+### Clearance 3mm
+### Creepage 6.3mmm
+
+(rule "iso_DGND_to_GND_HV_wc_3mm_all"
+  (constraint clearance (min 3mm))
+  (condition "(A.NetClass == 'DGND' && B.NetClass == 'GND_HV') || (A.NetClass == 'GND_HV' && B.NetClass == 'DGND')")
+)
+
+(rule "iso_DGND_to_GND_HV_wc_6p3mm_all"
+  (constraint creepage (min 6.3mm))
+  (condition "(A.NetClass == 'DGND' && B.NetClass == 'GND_HV') || (A.NetClass == 'GND_HV' && B.NetClass == 'DGND')")
+)
+
+########################################## SAFETY ISOLATION ###########################################################
+########################################## IEC 60664        ###########################################################
+########################################## BASIC Isolation HV TO EARTH ################################################
+########################################## OUTER LAYERS ###############################################################
+### Voltage DC Bus 400V - OVC II (reduced because of Surge protection) - Pollution degree 3 - Material class IIIb
+### Shock voltage 2.5kV
+### Clearance 1.5mm IEC60664
+### Creepage 6.3mm  IEC60664
+### Rule set to worst case
+
+(rule "safety_HV_to_PEarth_wc_6p3mm_outer"
+  (layer outer)
+  (constraint clearance (min 6.3mm))
+  (condition "((A.NetClass == 'GND_HV') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'PEarth') && (A.NetClass == 'PEarth'))")
+)
+
+########################################## SAFETY ISOLATION ###########################################################
+########################################## IEC 60664        ###########################################################
+########################################## BASIC Isolation HV TO EARTH ################################################
+########################################## INNER LAYERS ###############################################################
+### Voltage DC Bus 400V - OVC II (reduced because of Surge protection) - Pollution degree 1 - Material class IIIb
+### Shock voltage 2.5kV
+### Clearance 1.5mm IEC60664
+### Creepage 1mm  IEC60664
+### Rule set to worst case
+
+(rule "safety_HV_to_PEarth_wc_1p5mm_inner"
+  (layer inner)
+  (constraint clearance (min 1.5mm))
+  (condition "((A.NetClass == 'GND_HV') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'GND_HV') && (A.NetClass == 'PEarth'))")
+)
+
+########################################## SAFETY ISOLATION ###########################################################
+########################################## IEC 60664        ###########################################################
+########################################## BASIC Isolation AC TO EARTH ################################################
+########################################## OUTER LAYERS ###############################################################
+### AC Voltage 250V - OVC II (reduced because of Surge protection) - Pollution degree 3 - Material class IIIb
+### Shock voltage 2.5kV
+### Clearance 1.5mm IEC60664
+### Creepage 4mm  IEC60664
+### Rule set to worst case
+
+(rule "safety_HV_to_PEarth_wc_6p3mm_outer"
+  (layer outer)
+  (constraint clearance (min 6.3mm))
+  (condition "((A.NetClass == 'AC') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'AC') && (A.NetClass == 'PEarth'))")
+)
+
+########################################## SAFETY ISOLATION ###########################################################
+########################################## IEC 60664        ###########################################################
+########################################## BASIC Isolation HV TO EARTH ################################################
+########################################## INNER LAYERS ###############################################################
+### AC Voltage 250V - OVC II (reduced because of Surge protection) - Pollution degree 1 - Material class IIIb
+### Shock voltage 2.5kV
+### Clearance 1.5mm IEC60664
+### Creepage 1mm  IEC60664
+### Rule set to worst case
+
+(rule "safety_AC_to_PEarth_wc_1p5mm_inner"
+  (layer inner)
+  (constraint clearance (min 1.5mm))
+  (condition "((A.NetClass == 'AC') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'AC') && (A.NetClass == 'PEarth'))")
+)
+
+########################################## SAFETY ISOLATION ###########################################################
+########################################## IEC 60664        ###########################################################
+########################################## BASIC Isolation LV TO EARTH ################################################
+########################################## OUTER LAYERS ###############################################################
+### Voltage DC Bus 80V - OVC II (reduced because of Surge protection) - Pollution degree 3 - Material class IIIb
+### Shock voltage 800V
+### Clearance 0.8mm IEC60664
+### Creepage 2.1mm  IEC60664
+### Rule set to worst case
+
+(rule "safety_DGND_to_PEarth_wc_2p1mm_outer"
+  (layer outer)
+  (constraint clearance (min 2.1mm))
+  (condition "((A.NetClass == 'DGND') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'DGND') && (A.NetClass == 'PEarth'))")
+)
+
+(rule "safety_LSW1_to_PEarth_wc_2p1mm_outer"
+  (layer outer)
+  (constraint clearance (min 2.1mm))
+  (condition "((A.NetClass == 'LSW1') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'LSW1') && (A.NetClass == 'PEarth'))")
+)
+
+(rule "safety_LSW2_to_PEarth_wc_2p1mm_outer"
+  (layer outer)
+  (constraint clearance (min 2.1mm))
+  (condition "((A.NetClass == 'LSW2') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'LSW2') && (A.NetClass == 'PEarth'))")
+)
+
+(rule "safety_PV_to_PEarth_wc_2p1mm_outer"
+  (layer outer)
+  (constraint clearance (min 2.1mm))
+  (condition "((A.NetClass == 'PV') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'PV') && (A.NetClass == 'PEarth'))")
+)
+
+########################################## SAFETY ISOLATION ###########################################################
+########################################## IEC 60664        ###########################################################
+########################################## BASIC Isolation LV TO EARTH ################################################
+########################################## INNER LAYERS ###############################################################
+### Voltage DC Bus 80V - OVC II (reduced because of Surge protection) - Pollution degree 1 - Material class IIIb
+### Shock voltage 800V
+### Clearance 0.1mm IEC60664
+### Creepage 0.22mm  IEC60664
+### Rule set to worst case
+
+(rule "safety_LSW1_to_PEarth_wc_0p22mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.22mm))
+  (condition "((A.NetClass == 'LSW1') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'LSW1') && (A.NetClass == 'PEarth'))")
+)
+
+(rule "safety_LSW2_to_PEarth_wc_0p22mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.22mm))
+  (condition "((A.NetClass == 'LSW2') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'LSW2') && (A.NetClass == 'PEarth'))")
+)
+
+(rule "safety_PV_to_PEarth_wc_0p22mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.22mm))
+  (condition "((A.NetClass == 'PV') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'PV') && (A.NetClass == 'PEarth'))")
+)
+
+(rule "safety_DGND_to_PEarth_wc_0p22mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.22mm))
+  (condition "((A.NetClass == 'DGND') && (B.NetClass == 'PEarth')) || ((B.NetClass == 'DGND') && (A.NetClass == 'PEarth'))")
+)
+
+
+#####################################################################################################################
+########################################### HV Functional Isolation #################################################
+########################################### OUTER Layers ###########################################################
+### Voltage DC Bus 400V - OVC II - Pollution degree 3 - Material class IIIb
+### Shock voltage 2.5kV
+### Clearance 1.5mm IEC60664
+### Creepage 6.3mm  IEC60664
+### IPC 2221 B2 trace to trace 2.5mm
+### IPC 2221 A6 pad to pad and pad to trace
+### Rule set according to IPC2221
+
+### EXCEPTION MADE FOR DC BUS MEASUREMENT ZONE
+(rule "iso_HV_to_non_HV_wc_2p5mm_outer"
+  (layer outer)
+  (constraint clearance (min 2.5mm))
+  (condition "((A.NetClass == 'HV' && B.NetClass != 'HV') || (B.NetClass == 'HV' && A.NetClass != 'HV')) && !(A.Type == 'Pad' && B.Type == 'Pad') && !(A.intersectsArea('DC_Bus_measurement') || B.intersectsArea('DC_Bus_measurement'))")
+)
+
+(rule "iso_SN1_to_non_SN1_wc_2p5mm_outer"
+  (layer outer)
+  (constraint clearance (min 2.5mm))
+  (condition "((A.NetClass == 'SN1' && B.NetClass != 'SN1') || (B.NetClass == 'SN1' && A.NetClass != 'SN1')) && !(A.Type == 'Pad' && B.Type == 'Pad')")
+)
+
+(rule "iso_SN2_to_non_SN2_wc_2p5mm_outer"
+  (layer outer)
+  (constraint clearance (min 2.5mm))
+  (condition "((A.NetClass == 'SN2' && B.NetClass != 'SN2') || (B.NetClass == 'SN2' && A.NetClass != 'SN2')) && !(A.Type == 'Pad' && B.Type == 'Pad')")
+)
+
+# Pad to pad clearance rules
+### EXCEPTION MADE FOR DC BUS MEASUREMENT ZONE
+(rule "ipc2221_A6_pad2pad_HV_to_non_HV_1p5mm"
+  (constraint clearance (min 1.5mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Net != B.Net && ((A.NetClass == 'HV' && B.NetClass != 'HV') || (B.NetClass == 'HV' && A.NetClass != 'HV')) && !(A.intersectsArea('DC_Bus_measurement') || B.intersectsArea('DC_Bus_measurement'))")
+)
+
+(rule "ipc2221_A6_pad2pad_SN1_to_non_SN1_1p5mm"
+  (constraint clearance (min 1.5mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Net != B.Net && ((A.NetClass == 'SN1' && B.NetClass != 'SN1') || (B.NetClass == 'SN1' && A.NetClass != 'SN1'))")
+)
+
+(rule "ipc2221_A6_pad2pad_SN2_to_non_SN2_1p5mm"
+  (constraint clearance (min 1.5mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Net != B.Net && ((A.NetClass == 'SN2' && B.NetClass != 'SN2') || (B.NetClass == 'SN2' && A.NetClass != 'SN2'))")
+)
+
+
+######################################### INNER LAYERS ###############################################################
+### Voltage DC Bus 400V - OVC II - Pollution degree 1 - Functional Isolation - Material class IIIb
+### Shock voltage 2.5kV
+### Clearance 1.5mm
+### Creepage 1mm
+### IPC 2221 0.25mm
+### Rule set according to twice IPC for conservatism. 
+
+
+(rule "iso_HV_to_non_HV_wc_0p5mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.5mm))
+  (condition "(A.NetClass == 'HV' && B.NetClass != 'HV') || (B.NetClass == 'HV' && A.NetClass != 'HV')")
+)
+
+(rule "iso_SN1_to_non_SN1_wc_0p5mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.5mm))
+  (condition "(A.NetClass == 'SN1' && B.NetClass != 'SN1') || (B.NetClass == 'SN1' && A.NetClass != 'SN1')")
+)
+
+(rule "iso_SN2_to_non_SN2_wc_0p5mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.5mm))
+  (condition "(A.NetClass == 'SN2' && B.NetClass != 'SN2') || (B.NetClass == 'SN2' && A.NetClass != 'SN2')")
+)
+
+######################################################################################################################
+########################################### LV Functional Isolation ##################################################
+########################################### OUTER Layers ############################################################
+### Worst case Voltage DC Bus 80V - OVC II - Pollution degree 3 - Functional Isolation - Material class IIIb
+### Shock voltage 800V
+### Clearance 0.8mm
+### Creepage 2.1mm
+### IPC 2221 0.6mm
+### Rule set as per IPC2221 because a potential short would not be a danger - 
+### LV zone not accessible without tools, Input fuse protecting from short 
+
+
+#EXCEPTION MADE FOR BOOTSTRAP ZONE ON LS DRIVERS
+(rule "iso_LSW1_to_non_LSW1_wc_0p6mm_outer"
+  (layer outer)
+  (constraint clearance (min 0.6mm))
+  (condition "((A.NetClass == 'LSW1' && B.NetClass != 'LSW1') || (B.NetClass == 'LSW1' && A.NetClass != 'LSW1')) && !(A.intersectsArea('bootstrap_driver_LS') || B.intersectsArea('bootstrap_driver_LS'))")
+)
+
+#EXCEPTION MADE FOR BOOTSTRAP ZONES ON LS DRIVERS
+(rule "iso_LSW2_to_non_LSW2_wc_0p6mm_outer"
+  (layer outer)
+  (constraint clearance (min 0.6mm))
+  (condition "((A.NetClass == 'LSW2' && B.NetClass != 'LSW2') || (B.NetClass == 'LSW2' && A.NetClass != 'LSW2')) && !(A.intersectsArea('bootstrap_driver_LS') || B.intersectsArea('bootstrap_driver_LS'))")
+)
+
+(rule "iso_LSW3_to_non_LSW3_wc_0p6mm_outer"
+  (layer outer)
+  (constraint clearance (min 0.6mm))
+  (condition "((A.NetClass == 'LSW3' && B.NetClass != 'LSW3') || (B.NetClass == 'LSW3' && A.NetClass != 'LSW3'))")
+)
+
+(rule "iso_LSW4_to_non_LSW4_wc_0p6mm_outer"
+  (layer outer)
+  (constraint clearance (min 0.6mm))
+  (condition "((A.NetClass == 'LSW4' && B.NetClass != 'LSW4') || (B.NetClass == 'LSW4' && A.NetClass != 'LSW4'))")
+)
+
+#EXCEPTION MADE FOR LV SHUNT MEASUREMENTS
+(rule "iso_PV_to_non_PV_wc_0p6mm_outer"
+  (layer outer)
+  (constraint clearance (min 0.6mm))
+  (condition "((A.NetClass == 'PV' && B.NetClass != 'PV') || (B.NetClass == 'PV' && A.NetClass != 'PV')) && !(A.intersectsArea('shunt_measurement_LS') || B.intersectsArea('shunt_measurement_LS'))")
+)
+
+######################################### INNER Layers ##############################################################
+### Worst case Voltage DC Bus 80V - OVC II - Pollution degree 1 - Functional Isolation - Material class IIIb
+### Shock voltage 800V
+### Clearance 0.8mm
+### Creepage 0.063mm
+### IPC 2221 0.1mm
+### Rule set according to twice IPC for conservatism. 
+
+(rule "iso_LSW1_to_non_LSW1_wc_0p2mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.2mm))
+  (condition "(A.NetClass == 'LSW1' && B.NetClass != 'LSW1') || (B.NetClass == 'LSW1' && A.NetClass != 'LSW1')")
+)
+
+(rule "iso_LSW2_to_non_LSW2_wc_0p2mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.2mm))
+  (condition "(A.NetClass == 'LSW2' && B.NetClass != 'LSW2') || (B.NetClass == 'LSW2' && A.NetClass != 'LSW2')")
+)
+
+(rule "iso_LSW3_to_non_LSW3_wc_0p2mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.2mm))
+  (condition "((A.NetClass == 'LSW3' && B.NetClass != 'LSW3') || (B.NetClass == 'LSW3' && A.NetClass != 'LSW3'))")
+)
+
+(rule "iso_LSW4_to_non_LSW4_wc_0p2mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.2mm))
+  (condition "((A.NetClass == 'LSW4' && B.NetClass != 'LSW4') || (B.NetClass == 'LSW4' && A.NetClass != 'LSW4'))")
+)
+
+(rule "iso_PV_to_non_PV_wc_0p2mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.2mm))
+  (condition "(A.NetClass == 'PV' && B.NetClass != 'PV') || (B.NetClass == 'PV' && A.NetClass != 'PV')")
+)
+
+
+#######################################################################################################################
+########################################## AC traces ##################################################################
+########################################## OUTER LAYERS ##############################################################
+### Voltage RMS 250V - OVC II - Pollution degree 3 - Functional isolation - Material class IIIb
+### Shock voltage 2.5kV
+### Clearance 1.5mm
+### Creepage 4mmm
+### IPC 2221 2.5mm
+### Rule set according to IPC2221 because a potential short would not be a danger - 
+### AC zone not accessible without tools, Input fuse protecting from short 
+
+### EXCEPTION MADE FOR AC_MEASURMENT ZONE
+(rule "iso_L_to_non_L_wc_2p5mm_outer"
+  (layer outer)
+  (constraint clearance (min 2.5mm))
+  (condition "((A.NetClass == 'L' && B.NetClass != 'L') || (B.NetClass == 'L' && A.NetClass != 'L')) && !(A.intersectsArea('AC_measurement') || B.intersectsArea('AC_measurement'))")
+)
+
+### EXCEPTION MADE FOR AC_MEASURMENT ZONE
+(rule "iso_N_to_non_N_wc_2p5mm_outer"
+  (layer outer)
+  (constraint clearance (min 2.5mm))
+  (condition "((A.NetClass == 'N' && B.NetClass != 'N') || (B.NetClass == 'N' && A.NetClass != 'N')) && !(A.intersectsArea('AC_measurement') || B.intersectsArea('AC_measurement'))")
+)
+
+########################################## INNER LAYERS ###############################################################
+### Voltage RMS 250V - OVC II - Pollution degree 1 - Functional isolation - Material class IIIb
+### Shock voltage 2.5kV
+### Clearance 1.5mm
+### Creepage 1mmm
+### IPC2221 0.25mm
+### Rule set according to twice IPC for conservatism. 
+
+(rule "iso_L_to_non_L_wc_0p5mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.5mm))
+  (condition "(A.NetClass == 'L' && B.NetClass != 'L') || (B.NetClass == 'L' && A.NetClass != 'L')")
+)
+
+(rule "iso_N_to_non_N_wc_0p5mm_inner"
+  (layer inner)
+  (constraint clearance (min 0.5mm))
+  (condition "(A.NetClass == 'N' && B.NetClass != 'N') || (B.NetClass == 'N' && A.NetClass != 'N')")
+)

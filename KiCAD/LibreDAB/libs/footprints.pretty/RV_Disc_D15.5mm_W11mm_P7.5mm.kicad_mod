@@ -1,0 +1,147 @@
+(footprint "RV_Disc_D15.5mm_W11mm_P7.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Varistor, diameter 15.5mm, width 11mm, pitch 7.5mm")
+	(tags "varistor SIOV")
+	(property "Reference" "REF**"
+		(at 3.75 9.85 0)
+		(layer "F.SilkS")
+		(uuid "ad96fcec-fe77-44f5-a4e4-f30f6602d426")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RV_Disc_D15.5mm_W11mm_P7.5mm"
+		(at 3.75 -3.15 0)
+		(layer "F.Fab")
+		(uuid "058756aa-caf4-44f0-93b7-8f90c24a5f60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c93d09b5-d762-4dbb-aaae-88b97377d97a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44182300-6070-4197-b40c-6ff4a90f58ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.75 -2.4)
+		(end 13.25 9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6c43745a-4654-4138-beac-58da3ec68b27")
+	)
+	(fp_line
+		(start -5.75 -2.4)
+		(end -5.75 9.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3206f141-1fce-4164-89cd-f3726fdebef6")
+	)
+	(fp_line
+		(start -5.75 -2.4)
+		(end 13.25 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c295c85-9944-4eac-a4a8-151611550cf9")
+	)
+	(fp_line
+		(start -5.75 9.1)
+		(end 13.25 9.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "258bef7b-f7d0-42ba-9b9a-248891e9c4ef")
+	)
+	(fp_line
+		(start 13.25 -2.4)
+		(end 13.25 9.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4a85eab-0fc9-41f4-b188-88c198cc3ed9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 3.35 0)
+		(layer "F.Fab")
+		(uuid "415a5ae7-3d6a-4bbe-b409-d05b57b313bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a0991a10-cab5-40b8-b7f5-bfcc8abc40ab")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 5.5)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff80b8aa-25b9-4059-ae2a-00e0ac195e05")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D15.5mm_W11mm_P7.5mm.step"
+		(offset
+			(xyz -0.9 0 0)
+		)
+		(scale
+			(xyz 1.22 1 1.3)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
