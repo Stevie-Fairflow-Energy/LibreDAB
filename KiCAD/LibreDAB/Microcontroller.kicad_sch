@@ -6256,7 +6256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:OwnTech_SPINTHT_1"
+		(property "Footprint" "project:OwnTech_SPINTHT_1"
 			(at 114.3 93.98 0)
 			(effects
 				(font
@@ -6733,7 +6733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:OwnTech_SPINTHT_1"
+		(property "Footprint" "project:OwnTech_SPINTHT_1"
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -7046,7 +7046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:OwnTech_SPINTHT_1"
+		(property "Footprint" "project:OwnTech_SPINTHT_1"
 			(at 53.34 30.48 0)
 			(effects
 				(font
@@ -7590,7 +7590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:OwnTech_SPINTHT_1"
+		(property "Footprint" "project:OwnTech_SPINTHT_1"
 			(at 39.37 91.44 0)
 			(effects
 				(font

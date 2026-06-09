@@ -1946,7 +1946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "280c6b66-26fd-46aa-bbcc-f50e143c83d4")
-		(property "Reference" "C403"
+		(property "Reference" "C5"
 			(at 95.25 68.58 0)
 			(effects
 				(font
@@ -2010,15 +2010,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "46d41fec-ebc7-48a2-98f5-fc4e0df77634")
+			(uuid "aa11cff1-456b-4365-994f-b5f7c9c3aa32")
 		)
 		(pin "2"
-			(uuid "77b44bd9-b364-4e42-814c-005976e495e7")
+			(uuid "045c29e4-db40-425f-bd22-83d10c54497f")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "C403")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2033,7 +2033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28711bbb-bcb7-4188-98b1-66d1dd27f5fa")
-		(property "Reference" "C404"
+		(property "Reference" "C7"
 			(at 138.176 116.332 90)
 			(effects
 				(font
@@ -2088,15 +2088,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c405515-82db-4766-8781-07d3c2af3c7f")
+			(uuid "eee824d7-6451-4019-a8b7-c5113b785d35")
 		)
 		(pin "2"
-			(uuid "db94f0c1-a695-4381-aba4-894bf9442c54")
+			(uuid "14aaa783-b7f0-4c33-b3d4-9add7f5bc8a6")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "C404")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2111,7 +2111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "293a87b2-6d6c-4cbb-9150-1af69cbeba21")
-		(property "Reference" "R404"
+		(property "Reference" "R4"
 			(at 138.43 107.696 90)
 			(effects
 				(font
@@ -2166,15 +2166,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9891e0a9-2c24-45da-a951-e5bdb1fef59d")
+			(uuid "13cfdbe8-d10a-4cd4-ae2a-63b045c2bcf4")
 		)
 		(pin "2"
-			(uuid "ad8d0083-dfef-438c-be31-3753063f00b1")
+			(uuid "9e035f34-f804-4a34-91b0-78b447903a79")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "R404")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2189,7 +2189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b61b823-3043-4baf-884b-cb03c8633ad4")
-		(property "Reference" "Rv403"
+		(property "Reference" "Rv5"
 			(at 34.5186 71.2216 0)
 			(effects
 				(font
@@ -2244,15 +2244,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c570608-c4e4-4f16-8c2a-578bcf9d2a46")
+			(uuid "fde1e22b-3b55-46fb-9f99-8843bafb1a03")
 		)
 		(pin "2"
-			(uuid "d7fee2d2-41cc-47ff-8855-9c9df4558816")
+			(uuid "4dc1317e-d45d-41d4-bdd0-96d41efd6b8d")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "Rv403")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "Rv5")
 					(unit 1)
 				)
 			)
@@ -2267,7 +2267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "302933a3-8c4d-420f-b709-855549c5879d")
-		(property "Reference" "C405"
+		(property "Reference" "C8"
 			(at 139.446 72.644 0)
 			(effects
 				(font
@@ -2322,15 +2322,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7bddfa6-80d9-49ea-8615-8c83d4c2772f")
+			(uuid "49dbda6b-5d66-48d8-b346-fd6064a614cd")
 		)
 		(pin "2"
-			(uuid "0ab66701-93ec-4316-bbb6-83d839240255")
+			(uuid "d202f4fd-6a7d-4e88-b724-afff4862deed")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "C405")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2345,7 +2345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3439260f-c8b4-4605-b153-2e9cee7bd670")
-		(property "Reference" "R401"
+		(property "Reference" "R1"
 			(at 103.886 81.534 90)
 			(effects
 				(font
@@ -2400,15 +2400,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b50bcb3-71fb-49d1-8359-a652af34be58")
+			(uuid "736c6e31-6a8a-4627-b4a5-ec092e7b2451")
 		)
 		(pin "2"
-			(uuid "bc57b554-50f7-41de-ab7d-5bda24dd556c")
+			(uuid "2968d871-200d-4a73-8090-95bbc8ae46b7")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "R401")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2423,7 +2423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3477edaa-7feb-40a7-ad6d-a4f4a10e576a")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR07"
 			(at 92.71 81.28 0)
 			(effects
 				(font
@@ -2468,12 +2468,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "115ed86c-a6ee-4167-8b50-850a77ee7d4b")
+			(uuid "1513d006-de8f-4e87-a848-e4ede983253c")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "#PWR0108")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2489,7 +2489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37102620-a15e-4b20-81a7-a93cc0b43fae")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR06"
 			(at 94.488 62.23 90)
 			(effects
 				(font
@@ -2534,12 +2534,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "44fd275d-0a73-432e-b339-b7f834798636")
+			(uuid "2c5c5609-f601-4994-8a8a-02cd0cf31deb")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "#PWR0107")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37f661d4-8c75-48a8-bcec-70096ba9da50")
-		(property "Reference" "R403"
+		(property "Reference" "R3"
 			(at 109.22 103.632 0)
 			(effects
 				(font
@@ -2610,15 +2610,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d023568-4d52-4528-85d1-4dddb228e050")
+			(uuid "d835d125-ced0-468b-b1d6-45fb3aa16501")
 		)
 		(pin "2"
-			(uuid "60a3dbd7-4468-479f-8635-25ae626d9283")
+			(uuid "f910e503-f9cc-4629-9721-778d87cac67b")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "R403")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2633,7 +2633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38afd3b5-37fb-4e1f-828f-bc02b5512f3a")
-		(property "Reference" "C301"
+		(property "Reference" "C6"
 			(at 120.65 103.632 0)
 			(effects
 				(font
@@ -2688,15 +2688,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba1b9ec7-be4b-4a17-bef9-2a8d968b5d6a")
+			(uuid "be8359f3-2aa9-4bf8-ad86-c93a257163bb")
 		)
 		(pin "2"
-			(uuid "7542aab5-b06c-4e76-9187-f1d628e84f0c")
+			(uuid "3fd65831-df44-4263-a8f9-0c8f7777e6e8")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "C301")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2711,7 +2711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6448458b-02f5-4075-8c93-4e0772787bca")
-		(property "Reference" "R402"
+		(property "Reference" "R2"
 			(at 103.886 94.742 90)
 			(effects
 				(font
@@ -2766,15 +2766,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec16d794-7531-435d-8fd5-339d8f12c1ee")
+			(uuid "0016d642-e976-4419-8b23-5c907e612041")
 		)
 		(pin "2"
-			(uuid "124b75f1-862a-4cd4-98b1-e78c2acbc523")
+			(uuid "5f4215f1-98c9-415b-8b60-c6d53f285c45")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "R402")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9840a8a8-a29e-494e-9005-29aa506c9f24")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR05"
 			(at 91.44 107.95 0)
 			(effects
 				(font
@@ -2834,12 +2834,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2f1a8f4-46ed-4c42-8499-2379f44db79b")
+			(uuid "b9e553a5-3616-4449-b47e-0649df902c3a")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "#PWR0105")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2854,7 +2854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a60f8f2a-90b3-4f54-851f-2cf28cb62ea3")
-		(property "Reference" "C401"
+		(property "Reference" "C3"
 			(at 40.894 90.678 0)
 			(effects
 				(font
@@ -2909,15 +2909,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ccd2a7b6-2f0a-4865-a9fb-c20e5c761415")
+			(uuid "5b7bfc2f-8a96-4960-9520-4cdea9eb7df0")
 		)
 		(pin "2"
-			(uuid "458db313-1de9-49da-96ce-3845d2fbf8a8")
+			(uuid "8024077a-09b5-40f2-a966-4f850898d93b")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "C401")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2932,7 +2932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a613dc84-fd4f-4429-91ae-981011739af6")
-		(property "Reference" "Rv404"
+		(property "Reference" "Rv6"
 			(at 34.5186 78.8416 0)
 			(effects
 				(font
@@ -2987,15 +2987,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f74c4471-7254-48fb-bfa6-611f7784370b")
+			(uuid "07dbbe5a-8309-4a1f-8389-fa9337222c5a")
 		)
 		(pin "2"
-			(uuid "b9988812-7fa9-413f-8f33-220f40c61b27")
+			(uuid "2f1460ea-c122-492b-8bfd-cac74c2e49e9")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "Rv404")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "Rv6")
 					(unit 1)
 				)
 			)
@@ -3010,7 +3010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a865b701-4222-4655-8f1c-171d4f71a46d")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR010"
 			(at 135.89 104.14 0)
 			(effects
 				(font
@@ -3055,12 +3055,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb21a24d-ef4d-465c-9c17-1c1500268c06")
+			(uuid "6b6aa88c-42d3-4675-87e8-d2059260bc5e")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "#PWR0101")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3075,7 +3075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9282c71-8ad4-4901-b7a6-41534382e0d6")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR011"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -3120,12 +3120,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c76e583-45bc-4c04-901a-9401a665b6d8")
+			(uuid "25bcf7e4-d289-4fb6-abe2-343528d492bf")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "#PWR0102")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3140,7 +3140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b119fbf7-d8b9-4c64-a299-d93b1b12a891")
-		(property "Reference" "U401"
+		(property "Reference" "U5"
 			(at 58.928 101.6 0)
 			(effects
 				(font
@@ -3193,33 +3193,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "b256604f-e038-45df-a251-ecbffc020165")
+			(uuid "5b1937fb-ce5a-41de-93c6-fdcc25dc6cf2")
 		)
 		(pin "2"
-			(uuid "eb0aa0a1-5afa-4724-8edd-c534b3d17f55")
+			(uuid "58b35cb7-a116-434e-ad1f-3bfe3dae66b3")
 		)
 		(pin "3"
-			(uuid "27bd3f56-8726-48ed-bb2f-5e3123f75524")
+			(uuid "bd6fd102-ed48-43cd-ba4c-c51482356907")
 		)
 		(pin "4"
-			(uuid "491afa02-0623-4b9c-98ea-24b4a2098a12")
+			(uuid "0a2c7f8c-416e-4cc2-9bb0-8a2607ef3983")
 		)
 		(pin "5"
-			(uuid "5e1bc7e2-256d-4696-be56-519b62c49b59")
+			(uuid "0854802f-9166-405a-89d5-8798ef414803")
 		)
 		(pin "6"
-			(uuid "d8a619dc-1b42-4a1f-94de-2de64f5ea0d1")
+			(uuid "30cb7dbd-c53c-4260-a9aa-90abed07ed97")
 		)
 		(pin "7"
-			(uuid "1fc3f762-4c8c-40cf-a0bd-d8257bdd3c33")
+			(uuid "5884ad72-3b69-4880-94a6-791e79d07206")
 		)
 		(pin "8"
-			(uuid "0690f77c-6562-4b45-87de-0e66d03c1c0c")
+			(uuid "6c5435e4-72ad-4587-8a3a-6128c41777d9")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "U401")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3234,7 +3234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b51d308c-e1f8-49c6-b509-a72dac3a6f57")
-		(property "Reference" "Rv405"
+		(property "Reference" "Rv7"
 			(at 34.5186 90.2716 0)
 			(effects
 				(font
@@ -3289,15 +3289,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb6078ad-043a-4439-ba34-1563fcb794e8")
+			(uuid "ff4ce658-d753-47e1-a531-076ffba34153")
 		)
 		(pin "2"
-			(uuid "b801b985-6e1a-422b-a3b1-4a3b16275912")
+			(uuid "f2456e86-0770-4e43-9475-06d9921f3b9f")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "Rv405")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "Rv7")
 					(unit 1)
 				)
 			)
@@ -3312,7 +3312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7cc3c84-43df-4b1d-b36f-c366c22a10cc")
-		(property "Reference" "C402"
+		(property "Reference" "C4"
 			(at 52.07 68.58 0)
 			(effects
 				(font
@@ -3376,15 +3376,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b85b2a1c-cfab-4b88-a6f4-def1e1911c1f")
+			(uuid "47bb376c-8e43-4cfa-beee-dd25b56fd713")
 		)
 		(pin "2"
-			(uuid "2c8dce8b-d8cc-4c56-8fd7-0c65f1c2bb29")
+			(uuid "ca4aac96-b9ad-4404-bc47-b1145e18b3f8")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "C402")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb2ea9c0-a186-4635-b7d2-4d35878a00f5")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR04"
 			(at 60.198 62.23 90)
 			(effects
 				(font
@@ -3445,12 +3445,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef81c651-27c2-40f8-804e-b1b5cc4301c6")
+			(uuid "6eb26bc8-aa62-43bc-95d7-e27c450decfe")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "#PWR0106")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3465,7 +3465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc79acc0-39ca-4cf6-9ac2-a56180d016f6")
-		(property "Reference" "Rv402"
+		(property "Reference" "Rv4"
 			(at 34.5186 63.6016 0)
 			(effects
 				(font
@@ -3520,15 +3520,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3974e478-8715-4a4b-98d4-5ab8be6235d4")
+			(uuid "2b2b88f3-5754-44dd-a275-b595ae45dd37")
 		)
 		(pin "2"
-			(uuid "40f96caf-4eec-476e-9845-ca636e13cc0c")
+			(uuid "71f9631e-52ad-47cf-8f52-9767e9cf31a9")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "Rv402")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "Rv4")
 					(unit 1)
 				)
 			)
@@ -3544,7 +3544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d34e6b4b-cf5c-44b1-8aa8-25e8a5c33616")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR09"
 			(at 137.668 63.5 90)
 			(effects
 				(font
@@ -3589,12 +3589,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce92bf8c-0ba9-40bf-ba64-3ba3af8666ee")
+			(uuid "f605af05-ad4c-4aba-8810-d94870152b94")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "#PWR0103")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3609,7 +3609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9d35b7c-a8d3-41ab-8ac3-413214d49403")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR08"
 			(at 110.49 121.92 0)
 			(effects
 				(font
@@ -3654,12 +3654,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c725130-3fe3-4eb6-9296-47edcfb53691")
+			(uuid "3c936c30-eb81-425e-b471-e1bef49435eb")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "#PWR0104")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3674,7 +3674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e027561e-452a-463c-a27a-90082d86f661")
-		(property "Reference" "U402"
+		(property "Reference" "U6"
 			(at 140.97 82.55 0)
 			(effects
 				(font
@@ -3747,24 +3747,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3065949-89bb-456e-95a4-6fbc5f7a899b")
+			(uuid "a0c5e282-1d75-4962-a101-9a4b99a351be")
 		)
 		(pin "2"
-			(uuid "77563e10-cac9-4a92-a804-83944d3e9efa")
+			(uuid "274a94e3-3113-4cdf-8925-c05f1091724b")
 		)
 		(pin "3"
-			(uuid "386934bf-f3c9-43fa-ad89-b2de706aa89f")
+			(uuid "6e1fe7f9-0d67-4f00-9adc-2fca20b717a5")
 		)
 		(pin "4"
-			(uuid "ad6b6447-956d-4df3-8c67-ffd83a1a1030")
+			(uuid "f6fc8b6a-d68d-4b68-bc85-eef4e406eed2")
 		)
 		(pin "5"
-			(uuid "58468a34-6592-4bf3-adb8-d0205744f70d")
+			(uuid "3e2a7873-b09e-4441-8b16-51346cbb6557")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "U402")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3779,7 +3779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe94821c-cb79-43de-b29a-4850b6a0cfcb")
-		(property "Reference" "Rv401"
+		(property "Reference" "Rv3"
 			(at 34.5186 55.9816 0)
 			(effects
 				(font
@@ -3834,15 +3834,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e459c7d-13b2-4430-9566-c11fb3a0edc7")
+			(uuid "10f6eb66-8e4a-46b3-b399-1c639197cad1")
 		)
 		(pin "2"
-			(uuid "4cc57c47-ee04-471a-bed7-57c87631e275")
+			(uuid "ea24ffd0-7499-489c-98d4-6a1c362aad14")
 		)
 		(instances
-			(project "aluminum_pcb"
-				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/2fdeb885-1239-432c-9b63-201e9100ec9c"
-					(reference "Rv401")
+			(project "LibreDAB"
+				(path "/741fe409-f733-4088-8b5c-1042510db0b9/361c2cca-6888-4386-bbcc-54e5a005596e/0f0f2b6f-66ef-4849-9283-819b99eb5038"
+					(reference "Rv3")
 					(unit 1)
 				)
 			)

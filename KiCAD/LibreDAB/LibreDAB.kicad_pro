@@ -667,11 +667,9 @@
         "GND_HV"
       ],
       "+12V_{SN1}": [
-        "GND_HV",
         "SN1"
       ],
       "+12V_{SN2}": [
-        "GND_HV",
         "SN2"
       ],
       "+3.3V_{DGND}": [
@@ -765,11 +763,9 @@
         "GND_HV"
       ],
       "/PWM Signal Isolators/OUT1_{SN1}": [
-        "GND_HV",
         "SN1"
       ],
       "/PWM Signal Isolators/OUT1_{SN2}": [
-        "GND_HV",
         "SN2"
       ],
       "/PWM Signal Isolators/OUT2_{GNDHV}": [
@@ -779,6 +775,12 @@
         "N"
       ],
       "/Power stage/AC Current sense/Vref": [
+        "DGND"
+      ],
+      "/Power stage/DC Voltage sense/In-": [
+        "GND_HV"
+      ],
+      "/Power stage/DC Voltage sense/V_{DCsense}": [
         "DGND"
       ],
       "/Power stage/Grid Voltage sense/In+": [
@@ -795,6 +797,15 @@
       "/Power stage/HV_{BUS}": [
         "GND_HV",
         "HV"
+      ],
+      "/Power stage/Input voltage sense/In+": [
+        "DGND"
+      ],
+      "/Power stage/Input voltage sense/In-": [
+        "DGND"
+      ],
+      "/Power stage/Input voltage sense/V_{ILowsense}": [
+        "DGND"
       ],
       "/Power stage/LO1": [
         "DGND"
@@ -924,11 +935,9 @@
         "PV"
       ],
       "/SN1": [
-        "GND_HV",
         "SN1"
       ],
       "/SN2": [
-        "GND_HV",
         "SN2"
       ],
       "DGND": [
@@ -1090,6 +1099,12 @@
       "Net-(Q9-G)": [
         "DGND"
       ],
+      "Net-(Rv3-Pad2)": [
+        "GND_HV"
+      ],
+      "Net-(Rv4-Pad2)": [
+        "GND_HV"
+      ],
       "Net-(Rv401-Pad2)": [
         "GND_HV"
       ],
@@ -1097,6 +1112,9 @@
         "GND_HV"
       ],
       "Net-(Rv403-Pad2)": [
+        "GND_HV"
+      ],
+      "Net-(Rv5-Pad2)": [
         "GND_HV"
       ],
       "Net-(Rv501-Pad2)": [
@@ -1122,6 +1140,9 @@
       "Net-(U201-+)": [
         "DGND"
       ],
+      "Net-(U3-+)": [
+        "DGND"
+      ],
       "Net-(U3-HB)": [
         "DGND",
         "LSW1"
@@ -1144,6 +1165,9 @@
       ],
       "Net-(U402--)": [
         "DGND"
+      ],
+      "Net-(U5-VIN)": [
+        "GND_HV"
       ],
       "Net-(U5-VINN)": [
         "N"
@@ -1173,6 +1197,12 @@
         "DGND"
       ],
       "Net-(U502--)": [
+        "DGND"
+      ],
+      "Net-(U6-+)": [
+        "DGND"
+      ],
+      "Net-(U6--)": [
         "DGND"
       ],
       "Net-(U701-+)": [
@@ -1619,20 +1649,12 @@
       "Power stage"
     ],
     [
-      "dbec3990-da67-43cc-b337-37357147c21c",
+      "2e3a4eb4-e720-44cb-b9f0-f85868bbc974",
       "Input voltage sense"
     ],
     [
-      "2fdeb885-1239-432c-9b63-201e9100ec9c",
+      "0f0f2b6f-66ef-4849-9283-819b99eb5038",
       "DC Voltage sense"
-    ],
-    [
-      "72923518-3ea1-4bb5-9736-76d3daab065b",
-      "Grid Voltage sense"
-    ],
-    [
-      "246b2f8b-fd75-4f06-9ef0-fe962c35091f",
-      "AC Current sense"
     ],
     [
       "24e4c348-bd85-449d-9688-086031288b31",
