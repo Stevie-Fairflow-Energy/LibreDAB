@@ -771,10 +771,30 @@
       "/PWM Signal Isolators/OUT2_{GNDHV}": [
         "GND_HV"
       ],
+      "/Power stage/AC Current sense/I_{ACsense}": [
+        "DGND"
+      ],
       "/Power stage/AC Current sense/In+": [
         "N"
       ],
+      "/Power stage/AC Current sense/In-": [
+        "DGND",
+        "N"
+      ],
       "/Power stage/AC Current sense/Vref": [
+        "DGND"
+      ],
+      "/Power stage/AC Current sense1/I_{ACsense}": [
+        "DGND"
+      ],
+      "/Power stage/AC Current sense1/In+": [
+        "N"
+      ],
+      "/Power stage/AC Current sense1/In-": [
+        "GND_HV",
+        "N"
+      ],
+      "/Power stage/AC Current sense1/Vref": [
         "DGND"
       ],
       "/Power stage/DC Voltage sense/In-": [
@@ -1031,6 +1051,12 @@
       "Net-(J8-Pin_1)": [
         "DGND"
       ],
+      "Net-(JP1-A)": [
+        "DGND"
+      ],
+      "Net-(JP2-A)": [
+        "DGND"
+      ],
       "Net-(JP201-A)": [
         "DGND"
       ],
@@ -1137,6 +1163,24 @@
         "GND_HV",
         "HV"
       ],
+      "Net-(U10-VINN)": [
+        "N"
+      ],
+      "Net-(U10-VINP)": [
+        "N"
+      ],
+      "Net-(U10-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U10-VOUTP)": [
+        "DGND"
+      ],
+      "Net-(U11-+)": [
+        "DGND"
+      ],
+      "Net-(U11--)": [
+        "DGND"
+      ],
       "Net-(U201-+)": [
         "DGND"
       ],
@@ -1146,6 +1190,9 @@
       "Net-(U3-HB)": [
         "DGND",
         "LSW1"
+      ],
+      "Net-(U4-+)": [
+        "DGND"
       ],
       "Net-(U4-HB)": [
         "DGND",
@@ -1203,6 +1250,18 @@
         "DGND"
       ],
       "Net-(U6--)": [
+        "DGND"
+      ],
+      "Net-(U7-VINN)": [
+        "N"
+      ],
+      "Net-(U7-VINP)": [
+        "N"
+      ],
+      "Net-(U7-VOUTN)": [
+        "DGND"
+      ],
+      "Net-(U7-VOUTP)": [
         "DGND"
       ],
       "Net-(U701-+)": [
@@ -1270,6 +1329,9 @@
       ],
       "Net-(U806-REF)": [
         "GND_HV"
+      ],
+      "Net-(U9-+)": [
+        "DGND"
       ],
       "Net-(U901A-PA0)": [
         "DGND"
@@ -1655,6 +1717,14 @@
     [
       "0f0f2b6f-66ef-4849-9283-819b99eb5038",
       "DC Voltage sense"
+    ],
+    [
+      "06f70d2d-2329-466e-b627-abd7961374fe",
+      "AC Current sense"
+    ],
+    [
+      "c713112e-a00f-4ad9-b666-b1129069e02c",
+      "AC Current sense1"
     ],
     [
       "24e4c348-bd85-449d-9688-086031288b31",
