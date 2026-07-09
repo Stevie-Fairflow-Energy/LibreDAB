@@ -174,27 +174,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 90)
+			(property "Reference" "H"
+				(at 0 6.35 0)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -219,7 +219,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -228,7 +228,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R resistor"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -237,7 +237,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -246,12 +246,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
 					(stroke
-						(width 0.2032)
+						(width 1.27)
 						(type default)
 					)
 					(fill
@@ -259,11 +259,11 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -271,24 +271,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1009,6 +991,122 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:RLP25FEGMR005"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5mΩ ±1% 3W 2512"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TA-I-Tech-RLP25FEGMR005_C393074.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RLP25FEGMR005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C393074"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "大毅科技"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RLP25FEGMR005_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:SP010N01BGHTO"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1374,6 +1472,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Ipeak = 60 A, bidirectional in short circuit condition\nAiming for ~ 72 mV at full range based on uVerter design\nR = V/I = 72m/60 = 1.2 mOhm\nAim for 1 mOhm resistor\n\nCheck losses: I^2 R = 60^2 * 1m = 3.6 Watts\nAt nominal 35 A: 35^2*1m = 1.225 Watts\n\nFor thermal capacity, use 5 x 5 mOhm in parallel. Total power rating 5 x 3 W = 15 W. \n"
+		(exclude_from_sim no)
+		(at 84.074 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "02de775b-d08f-4458-a179-f13d5c5b252c")
+	)
 	(text "Voltage and Current sense passives"
 		(exclude_from_sim no)
 		(at 85.598 57.404 0)
@@ -1414,6 +1522,26 @@
 		)
 		(uuid "877b819c-0f1a-426c-bff9-b6a6302d936d")
 	)
+	(text "At 80 V maximum voltage, aim for voltage divider to produce 2 V.\n2 / 80 = 0.025 ratio\nFixing top resistor at 1 MOhm\nBottom resistor = 0.025 x 1 Mohm = 25 k\n\n25.5 k is closest value. This will cap the range slightly below 80 V.\n\n1 nF capacitor for minimal low pass filtering."
+		(exclude_from_sim no)
+		(at 79.502 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0e563fb-537a-4604-a0ea-976089c000a1")
+	)
+	(text "Stored energy: 0.5 CV^2\n0.5 * 45u * 80^2 = 0.144 J\nDischarge time constant: RC\n~ 1M * 47u = 45 seconds"
+		(exclude_from_sim no)
+		(at 28.702 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8ab570f-b2ed-4891-8c43-e842334d2490")
+	)
 	(text "Gate driver pins"
 		(exclude_from_sim no)
 		(at 165.608 68.326 0)
@@ -1437,6 +1565,12 @@
 		(uuid "09fb4653-1ae5-4c4e-9104-7e4fbb5c76d9")
 	)
 	(junction
+		(at 76.2 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d9d3f73-b19b-4724-8058-9b2e194c2690")
+	)
+	(junction
 		(at 134.62 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1447,6 +1581,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11a51aa6-0c59-42c1-a648-3dda70609b62")
+	)
+	(junction
+		(at 86.36 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e355aae-328c-44b8-aa04-970c9735f997")
+	)
+	(junction
+		(at 72.39 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22200cee-735f-4de7-9588-e5262facbb14")
 	)
 	(junction
 		(at 127 68.58)
@@ -1479,10 +1625,10 @@
 		(uuid "4a51bc5f-ee07-4381-973d-765a708cacea")
 	)
 	(junction
-		(at 83.82 76.2)
+		(at 90.17 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77d3d24d-8938-40f1-b465-badd18922801")
+		(uuid "52143c19-e825-4731-b231-5a99eb85253d")
 	)
 	(junction
 		(at 134.62 76.2)
@@ -1491,22 +1637,34 @@
 		(uuid "77e58ccd-1b89-4140-b04a-dd29790ce7f7")
 	)
 	(junction
-		(at 90.17 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d217e48-e241-4ba9-8039-5306d204c193")
-	)
-	(junction
 		(at 127 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84ac45f8-898f-434a-ace9-643c90407315")
 	)
 	(junction
+		(at 86.36 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "853a6b33-b634-4302-8536-8c6cbb2b45e2")
+	)
+	(junction
 		(at 175.26 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "893c9336-e26c-4da7-9b41-2434cc921b76")
+	)
+	(junction
+		(at 86.36 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c318bca-f7ee-46ea-aed6-1df660e6b43f")
+	)
+	(junction
+		(at 76.2 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99a0e6a5-7155-4397-82f9-56ad33f7dcb0")
 	)
 	(junction
 		(at 60.96 63.5)
@@ -1527,10 +1685,22 @@
 		(uuid "a894c418-dcda-43db-9082-717bd1111d98")
 	)
 	(junction
+		(at 76.2 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af94f5fa-df6a-40e5-a887-e3737576f7ae")
+	)
+	(junction
 		(at 59.69 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5320540-d98f-42cd-bd75-cdc3fe0fd1e6")
+	)
+	(junction
+		(at 83.82 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8bd381f-c888-4918-8b61-f909a2427552")
 	)
 	(junction
 		(at 134.62 82.55)
@@ -1557,12 +1727,6 @@
 		(uuid "d3f2900e-646d-4d60-aa89-03d3e7a8acd2")
 	)
 	(junction
-		(at 72.39 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e454be15-a609-456d-8513-982dd00f0a85")
-	)
-	(junction
 		(at 72.39 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1573,6 +1737,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecf57178-1d3b-44c2-bc80-987ef42970db")
+	)
+	(junction
+		(at 86.36 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0610173-3e52-4078-9fcf-587bb6e43e22")
+	)
+	(junction
+		(at 76.2 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f87bbed6-57f4-48d5-a0f2-0f437b7ccb47")
 	)
 	(wire
 		(pts
@@ -1606,6 +1782,26 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 93.98) (xy 76.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd1933d-03e5-4fd0-9c07-95547e315d5a")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 90.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2e7875-0eb6-4c57-9111-8f060d78b96c")
+	)
+	(wire
+		(pts
 			(xy 72.39 87.63) (xy 80.01 87.63)
 		)
 		(stroke
@@ -1623,16 +1819,6 @@
 			(type default)
 		)
 		(uuid "1f54fb7f-45b7-4f7c-a6e0-b0f33f8dbb63")
-	)
-	(wire
-		(pts
-			(xy 83.82 76.2) (xy 90.17 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c007f0-8203-4de0-abea-ac7df8d8083e")
 	)
 	(wire
 		(pts
@@ -1696,16 +1882,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 93.98) (xy 77.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4475b3de-adc1-48c8-8823-a320df57ed82")
-	)
-	(wire
-		(pts
 			(xy 46.99 63.5) (xy 60.96 63.5)
 		)
 		(stroke
@@ -1753,6 +1929,16 @@
 			(type default)
 		)
 		(uuid "4d4f5d4a-77f3-4629-9900-4480cfb784a2")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5688757e-cb55-4dad-9be7-d60c59a866e9")
 	)
 	(wire
 		(pts
@@ -1806,6 +1992,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 93.98) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828050a3-b551-4d66-bf82-82b8df156f67")
+	)
+	(wire
+		(pts
 			(xy 218.44 76.2) (xy 218.44 80.01)
 		)
 		(stroke
@@ -1826,6 +2022,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 101.6) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cecb966-4c02-4277-9423-c4c2de84e5fb")
+	)
+	(wire
+		(pts
 			(xy 153.67 82.55) (xy 218.44 82.55)
 		)
 		(stroke
@@ -1833,6 +2039,16 @@
 			(type default)
 		)
 		(uuid "8fdbd8b9-966d-46c9-9e32-a90f720a9b52")
+	)
+	(wire
+		(pts
+			(xy 76.2 93.98) (xy 76.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fcfd7e-b5d3-498c-be4c-4c8d5e9a64e4")
 	)
 	(wire
 		(pts
@@ -1876,13 +2092,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 93.98) (xy 90.17 93.98)
+			(xy 76.2 109.22) (xy 76.2 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b20820ff-8795-4929-a45b-33edd5c03712")
+		(uuid "ab4b5812-7392-4d4f-b578-10c808be709f")
 	)
 	(wire
 		(pts
@@ -1936,6 +2152,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 116.84) (xy 86.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0cf8c5-09d4-440e-b922-aa72a1972904")
+	)
+	(wire
+		(pts
 			(xy 134.62 76.2) (xy 134.62 82.55)
 		)
 		(stroke
@@ -1943,6 +2169,16 @@
 			(type default)
 		)
 		(uuid "c589148a-4d80-48f3-b79c-d25f4f370a0e")
+	)
+	(wire
+		(pts
+			(xy 86.36 101.6) (xy 86.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d4efdc-17f9-4704-bc16-755a1e973f16")
 	)
 	(wire
 		(pts
@@ -1963,6 +2199,16 @@
 			(type default)
 		)
 		(uuid "dd4b0a86-afff-4173-aa4b-4b6280b513f4")
+	)
+	(wire
+		(pts
+			(xy 86.36 109.22) (xy 86.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de55c3ee-1e62-4c09-ad04-b9f994c9feb7")
 	)
 	(wire
 		(pts
@@ -2023,6 +2269,16 @@
 			(type default)
 		)
 		(uuid "f5864bdc-fcc0-44a3-a32f-6daef4523296")
+	)
+	(wire
+		(pts
+			(xy 76.2 116.84) (xy 76.2 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b35e39-5ce4-406d-aff8-4bf39ab26975")
 	)
 	(wire
 		(pts
@@ -2257,6 +2513,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ec0e9d-6ee0-429a-8d91-d4bd8ea024ac")
+		(property "Reference" "H1"
+			(at 127 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3x3.5"
+			(at 127 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916333"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a1e6b40-10ed-4f85-8651-d9ec474bcb54")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:TS30050050-040")
 		(at 34.29 63.5 0)
 		(mirror y)
@@ -2336,6 +2668,161 @@
 			(project ""
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 83.82 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18dba690-36fd-4281-b5f8-219d1df5fd73")
+		(property "Reference" "TP3"
+			(at 80.01 73.3424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 80.01 75.8824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "1Footprints:TestPoint_Pad_D1.0mm"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10487ae8-c9a2-4912-b105-4d3fada5b1e4")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RLP25FEGMR005")
+		(at 81.28 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35a89718-460f-4f17-bb99-d19132b3a2bc")
+		(property "Reference" "R5"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5mΩ ±1% 3W 2512"
+			(at 81.28 106.68 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TA-I-Tech-RLP25FEGMR005_C393074.pdf"
+			(at 78.994 109.093 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RLP25FEGMR005"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393074"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "大毅科技"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5314571c-decd-406c-b045-1830e8825f6f")
+		)
+		(pin "1"
+			(uuid "f87d54b2-c952-4b92-a68e-4baa248356e1")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2567,83 +3054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 80.01 93.98 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70b34060-d1d7-48f3-a039-a744e978aeec")
-		(property "Reference" "R3"
-			(at 79.248 89.154 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5mR"
-			(at 80.01 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C393074"
-			(at 80.01 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "442ce247-d4a7-4f24-a970-69a2c41912a6")
-		)
-		(pin "1"
-			(uuid "ef903db3-1187-42bd-bd5b-12c17418f50a")
-		)
-		(instances
-			(project "LibreDAB"
-				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc_imported:PZ254VS-11-03P-B01")
 		(at 95.25 78.74 0)
 		(unit 1)
@@ -2800,6 +3210,92 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:RLP25FEGMR005")
+		(at 81.28 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87330c9b-12f2-458f-a141-493781cf26fa")
+		(property "Reference" "R3"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5mΩ ±1% 3W 2512"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TA-I-Tech-RLP25FEGMR005_C393074.pdf"
+			(at 78.994 93.853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RLP25FEGMR005"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393074"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "大毅科技"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5306aae-506f-44c6-bc15-fecd4e48f923")
+		)
+		(pin "1"
+			(uuid "292bb88d-c6d2-4246-a238-b7f0e3b0d7bb")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:PZ254VS-11-03P-B01")
 		(at 121.92 76.2 0)
 		(mirror y)
@@ -2886,6 +3382,82 @@
 			(project "LibreDAB"
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 140.97 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a39d7a6-7c8b-4e0b-89e9-5fc471482265")
+		(property "Reference" "H2"
+			(at 143.51 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3x3.5"
+			(at 143.51 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916333"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8abf8a91-64f9-4589-b454-673e7100d5ad")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3250,6 +3822,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 156.21 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6566510-95df-4a62-a03e-cbb958eca31d")
+		(property "Reference" "H3"
+			(at 158.75 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3x3.5"
+			(at 158.75 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916333"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99fee57f-4916-4114-bbbd-63a90cb780ba")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Probe")
 		(at 97.79 93.98 0)
 		(mirror y)
@@ -3382,6 +4030,178 @@
 			(project "LibreDAB"
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RLP25FEGMR005")
+		(at 81.28 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5218a23-ebb0-42eb-9f2b-7970fc0c47f3")
+		(property "Reference" "R4"
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5mΩ ±1% 3W 2512"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TA-I-Tech-RLP25FEGMR005_C393074.pdf"
+			(at 78.994 101.473 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RLP25FEGMR005"
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393074"
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "大毅科技"
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "594eb0e8-686a-4455-b69c-f789cafebb7e")
+		)
+		(pin "1"
+			(uuid "199a57db-71c1-45f3-80ea-b86cf700494e")
+		)
+		(instances
+			(project ""
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RLP25FEGMR005")
+		(at 81.28 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c77825ac-2979-4d92-81c0-cc1320d8b679")
+		(property "Reference" "R6"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5mΩ ±1% 3W 2512"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+			(at 81.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TA-I-Tech-RLP25FEGMR005_C393074.pdf"
+			(at 78.994 116.713 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RLP25FEGMR005"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393074"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "大毅科技"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa54ec44-2c83-45c8-a62f-4c720c186c47")
+		)
+		(pin "1"
+			(uuid "8d2cef17-3f21-4ec9-9568-a0ab92101fca")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3564,46 +4384,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 83.82 76.2 0)
-		(mirror y)
+		(lib_id "lcsc_imported:RLP25FEGMR005")
+		(at 81.28 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e1cb25d3-7757-4614-9693-7668333d5ecd")
-		(property "Reference" "TP3"
-			(at 80.01 73.3424 0)
+		(uuid "dfbd9d39-25e7-47aa-83c3-7ce0daea8c2a")
+		(property "Reference" "R7"
+			(at 81.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
-			(at 80.01 75.8824 0)
+		(property "Value" "5mΩ ±1% 3W 2512"
+			(at 81.28 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:TestPoint_Pad_D1.0mm"
-			(at 78.74 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 76.2 0)
+		(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+			(at 81.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,22 +4418,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 83.82 76.2 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TA-I-Tech-RLP25FEGMR005_C393074.pdf"
+			(at 78.994 124.333 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Description" "RLP25FEGMR005"
+			(at 81.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393074"
+			(at 81.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "大毅科技"
+			(at 81.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b17c9b97-2af3-4d46-965a-d396b652557c")
 		)
 		(pin "1"
-			(uuid "e13ac8d7-1ae6-4b5b-b5cd-c293f6c2e8e9")
+			(uuid "50c254aa-bc1c-405a-b3c2-045af6e01a98")
 		)
 		(instances
 			(project "LibreDAB"
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
-					(reference "TP3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3871,6 +4708,82 @@
 			(project ""
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 170.18 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6cc11e3-566e-4010-923c-ac864b1c7926")
+		(property "Reference" "H4"
+			(at 172.72 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3x3.5"
+			(at 172.72 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916333"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "068f050c-98be-456d-82fc-72dbdfc4a2ed")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7"
+					(reference "H4")
 					(unit 1)
 				)
 			)
