@@ -613,6 +613,26 @@
     [
       "daf77073-b189-4351-8636-4e7a5198e1b7",
       "Root"
+    ],
+    [
+      "b5311c66-b122-4c07-875a-24692e20fcb9",
+      "Gate_Driver"
+    ],
+    [
+      "f3c2518b-d41d-4c2c-ab2c-6739c5137e70",
+      "LV_Bridge"
+    ],
+    [
+      "4fd30d59-056b-431f-91f3-4fa3844312f5",
+      "HV_Bridge"
+    ],
+    [
+      "91d19ca1-a3e3-42a2-9b32-a8cea31c2ff8",
+      "Controller"
+    ],
+    [
+      "de260d1b-d7c2-4799-8423-240da5cb11e9",
+      "Aux_Power_Supplies"
     ]
   ],
   "text_variables": {}

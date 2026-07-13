@@ -6989,7 +6989,7 @@
 	(footprint "1Footprints:FFE_Logo_12x12mm_Silk"
 		(layer "F.Cu")
 		(uuid "d97923b6-d10a-4075-8d3e-7061d1e308a7")
-		(at 203.209616 111)
+		(at 199 111)
 		(property "Reference" "LOGO1"
 			(at -0.79 -6.73 0)
 			(layer "F.SilkS")
