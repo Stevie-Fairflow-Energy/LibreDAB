@@ -5159,6 +5159,56 @@
 				(justify left)
 			)
 		)
+		(pin "MID" bidirectional
+			(at 196.85 30.48 0)
+			(uuid "9a2128be-9cc5-4bd4-92d9-232d6cb2b0cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM-H" input
+			(at 166.37 36.83 180)
+			(uuid "9ed0a12d-6d15-41d2-9f43-b68f1eb0ff27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM-L" input
+			(at 166.37 40.64 180)
+			(uuid "71e5fc07-bc75-4d99-83d0-3ab110913276")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QH-G" output
+			(at 196.85 26.67 0)
+			(uuid "a1899d90-38de-4a4a-86cd-649ab2261d7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QL-G" bidirectional
+			(at 196.85 34.29 0)
+			(uuid "bf917a5c-aa6d-4369-8a68-9ed4f24992bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "LibreDAB"
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
