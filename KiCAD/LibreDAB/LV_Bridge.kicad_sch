@@ -397,6 +397,122 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:1W_3.3Ω_200V_Thick_Film_Resistor_±400ppm/℃_±5%_2512_Chip_Resistor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.3Ω ±5% 1W 2512"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C55115149.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1VXVl1XEgNWVQEDRwBXU1MEElRaVFwAQgdfVFZQR1gxVlNeRFhbUVxTTlBYXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWVVBQRk8GEwkK"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HRC2512J3R3 LNTN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C55115149"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HWA CHN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1W_3.3Ω_200V_Thick_Film_Resistor_±400ppm/℃_±5%_2512_Chip_Resistor_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:1nF_(102)_±10%_50V"
 			(pin_names
 				(hide yes)
@@ -991,6 +1107,122 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:RES 10kΩ ±1% 125mW 0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10kΩ ±1% 0805"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C2907219_R0805"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0805F1002TS_C2907219.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FRC0805F1002TS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2907219"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "FOJAN(富捷)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES 10kΩ ±1% 125mW 0805_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:RLP25FEGMR005"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1484,7 +1716,7 @@
 	)
 	(text "Gate driver pins"
 		(exclude_from_sim no)
-		(at 175.768 68.326 0)
+		(at 184.912 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1559,13 +1791,19 @@
 		(uuid "01a843b7-b101-4bae-b0de-d678bf3b2d10")
 	)
 	(junction
+		(at 212.09 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "079ce8e6-e3c2-45ab-a873-e2933b574083")
+	)
+	(junction
 		(at 96.52 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b30b2a6-fc38-4503-9aab-214c343dffae")
 	)
 	(junction
-		(at 144.78 82.55)
+		(at 158.75 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ed2aae1-b950-4f11-95f1-d1e4d0370cea")
@@ -1575,6 +1813,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d561ec8-0d35-4259-b3c5-69ecdabb49d9")
+	)
+	(junction
+		(at 212.09 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e5bc231-b67a-45fc-840c-82b22c357cbc")
 	)
 	(junction
 		(at 82.55 76.2)
@@ -1595,7 +1839,7 @@
 		(uuid "36ad8002-6ad5-4365-88b6-2771758c6b93")
 	)
 	(junction
-		(at 144.78 76.2)
+		(at 158.75 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4410d65b-2417-4c41-8aee-03204c2ac9d2")
@@ -1611,6 +1855,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4897880c-21b2-4842-8811-5a32d1a1f7da")
+	)
+	(junction
+		(at 158.75 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50428b96-4d4c-4a4b-8f78-e7064ee90ab7")
 	)
 	(junction
 		(at 96.52 109.22)
@@ -1631,28 +1881,22 @@
 		(uuid "52feaaca-925e-44fd-99da-f96b109c1e7a")
 	)
 	(junction
-		(at 185.42 88.9)
+		(at 195.58 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c7b6a7f-caa7-40c7-841e-e9bda16f691b")
 	)
 	(junction
-		(at 193.04 76.2)
+		(at 220.98 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "609be270-91b9-46c8-b698-9de37e1380b3")
 	)
 	(junction
-		(at 208.28 80.01)
+		(at 236.22 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62f8f8a7-01d3-466a-a079-0bd1994cd3b6")
-	)
-	(junction
-		(at 137.16 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c5dd37a-99ad-445e-a77d-4fdce0972ec8")
 	)
 	(junction
 		(at 86.36 109.22)
@@ -1661,16 +1905,22 @@
 		(uuid "6d49e25c-60ad-46d2-9aed-f529a22d4373")
 	)
 	(junction
-		(at 185.42 68.58)
+		(at 137.16 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d890828-61cb-4f96-bb7b-2794047b1f93")
+		(uuid "715f57aa-3edf-4735-8688-6d50b7f882c6")
 	)
 	(junction
-		(at 163.83 82.55)
+		(at 177.8 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "758b489b-8b3e-4dbc-8425-eec74bd61964")
+	)
+	(junction
+		(at 195.58 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75b49c4f-7091-4a48-b5d4-d07e550a91af")
 	)
 	(junction
 		(at 100.33 93.98)
@@ -1709,10 +1959,22 @@
 		(uuid "ad63bc64-a6dd-4ec8-a99a-4ef795945cd5")
 	)
 	(junction
-		(at 144.78 63.5)
+		(at 212.09 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bcd2ca86-0517-4fb7-93f0-f45dadcd0e08")
+		(uuid "b1eabf02-119b-4c22-8353-aa335ecc5bbc")
+	)
+	(junction
+		(at 151.13 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4c86635-1a94-46e2-8834-65ccc395d447")
+	)
+	(junction
+		(at 212.09 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b78ad8b0-502e-4922-b4c7-c9c73a01667f")
 	)
 	(junction
 		(at 57.15 93.98)
@@ -1721,10 +1983,16 @@
 		(uuid "c0c3f13d-5074-4572-a11a-fa09a5df334e")
 	)
 	(junction
-		(at 144.78 93.98)
+		(at 151.13 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ddf181a1-579d-4251-aedd-758498e70e9d")
+		(uuid "c2309f5c-094d-448a-a91f-d66e3667ccc3")
+	)
+	(junction
+		(at 158.75 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d40f3da2-be06-4727-bb73-5f172a80c997")
 	)
 	(junction
 		(at 82.55 63.5)
@@ -1739,10 +2007,22 @@
 		(uuid "eeb31264-4237-4dd2-b63c-4bbaa3ff53f3")
 	)
 	(junction
-		(at 193.04 80.01)
+		(at 151.13 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f20b6d3a-f3b3-4e69-8113-d0b94ab944cb")
+	)
+	(junction
+		(at 220.98 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4388428-869c-47aa-87c3-6f347025b68d")
+	)
+	(junction
+		(at 151.13 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fecfe3b5-eb7a-4988-b229-a65372ca0538")
 	)
 	(junction
 		(at 93.98 76.2)
@@ -1762,7 +2042,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 82.55) (xy 228.6 87.63)
+			(xy 252.73 82.55) (xy 252.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1792,6 +2072,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 99.06) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a52000-846a-49ed-b6aa-31ab7b1c1d48")
+	)
+	(wire
+		(pts
 			(xy 93.98 76.2) (xy 100.33 76.2)
 		)
 		(stroke
@@ -1802,17 +2092,27 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 68.58) (xy 185.42 73.66)
+			(xy 212.09 73.66) (xy 212.09 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17531802-0b6a-4895-b44a-a89b9d45763d")
+		(uuid "17582faf-8ac4-4a63-9084-8c73bf09587b")
 	)
 	(wire
 		(pts
-			(xy 193.04 80.01) (xy 193.04 83.82)
+			(xy 140.97 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a93d0ea-e7b4-4ce9-933b-9d8a8cf16add")
+	)
+	(wire
+		(pts
+			(xy 220.98 80.01) (xy 220.98 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1829,6 +2129,16 @@
 			(type default)
 		)
 		(uuid "281acfa2-3cfa-4325-9de0-dd35a7a38c53")
+	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bce0f44-a3e5-40b9-96ed-22142413ef28")
 	)
 	(wire
 		(pts
@@ -1852,6 +2162,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 88.9) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a6b160-3465-47fc-a3a4-8b819d81bbd3")
+	)
+	(wire
+		(pts
 			(xy 82.55 87.63) (xy 82.55 93.98)
 		)
 		(stroke
@@ -1862,13 +2182,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 144.78 82.55)
+			(xy 158.75 76.2) (xy 158.75 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "43e25b1b-160b-473c-8302-d64f3eea114d")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a47e1e-5030-48da-b912-3b60d5ae449c")
 	)
 	(wire
 		(pts
@@ -1912,7 +2242,27 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 193.04 80.01)
+			(xy 195.58 63.5) (xy 199.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f8ba36c-6b10-4851-b7ac-2bedef421fcd")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6680b7be-d0ac-4e91-99a5-bdc0646e0933")
+	)
+	(wire
+		(pts
+			(xy 220.98 76.2) (xy 220.98 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 80.01) (xy 208.28 80.01)
+			(xy 220.98 80.01) (xy 236.22 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +2302,27 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 76.2) (xy 228.6 80.01)
+			(xy 220.98 99.06) (xy 220.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e3707b-7d9a-4651-b699-e3bb0ca36f9b")
+	)
+	(wire
+		(pts
+			(xy 151.13 73.66) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754418f3-0f66-42fc-986a-4027bc15b771")
+	)
+	(wire
+		(pts
+			(xy 252.73 76.2) (xy 252.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +2332,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 93.98) (xy 144.78 93.98)
+			(xy 137.16 63.5) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d09a2b-0107-4d95-b21b-98461960c35b")
+	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 93.98) (xy 193.04 93.98)
+			(xy 158.75 99.06) (xy 212.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1992,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 144.78 83.82)
+			(xy 158.75 82.55) (xy 158.75 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2022,7 +2402,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 63.5) (xy 144.78 63.5)
+			(xy 82.55 58.42) (xy 158.75 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2032,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 144.78 73.66)
+			(xy 158.75 76.2) (xy 158.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2072,13 +2452,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 78.74) (xy 185.42 88.9)
+			(xy 195.58 78.74) (xy 195.58 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9bd6a765-6463-4d41-a3a7-9210e8fd5968")
+	)
+	(wire
+		(pts
+			(xy 195.58 63.5) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1be25f-5435-4083-a112-a444b8407e1b")
 	)
 	(wire
 		(pts
@@ -2092,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 163.83 82.55)
+			(xy 158.75 82.55) (xy 177.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2122,6 +2512,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 76.2) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21f9c53-61a4-4a75-b685-0aea0b0de311")
+	)
+	(wire
+		(pts
 			(xy 71.12 63.5) (xy 82.55 63.5)
 		)
 		(stroke
@@ -2129,6 +2529,16 @@
 			(type default)
 		)
 		(uuid "b50dbcc3-d1a3-41f3-90be-953f2d386ca5")
+	)
+	(wire
+		(pts
+			(xy 213.36 88.9) (xy 212.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8821568-4d56-4711-ae8f-d436f55fc532")
 	)
 	(wire
 		(pts
@@ -2182,6 +2592,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 99.06) (xy 220.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb01ae88-d94c-4769-9b31-3a6dfcb87145")
+	)
+	(wire
+		(pts
 			(xy 137.16 78.74) (xy 137.16 88.9)
 		)
 		(stroke
@@ -2202,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 76.2) (xy 193.04 76.2)
+			(xy 195.58 76.2) (xy 212.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +2632,37 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 73.66) (xy 193.04 76.2)
+			(xy 209.55 63.5) (xy 212.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2827ac7-5f32-49b4-aea7-7f51fda68184")
+	)
+	(wire
+		(pts
+			(xy 212.09 76.2) (xy 220.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a42a3d-d60f-4d5e-9f0e-436db23cb56b")
+	)
+	(wire
+		(pts
+			(xy 158.75 99.06) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48e159d-b0b2-4c4b-87dd-fe50561fea6a")
+	)
+	(wire
+		(pts
+			(xy 220.98 68.58) (xy 220.98 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2222,13 +2672,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 144.78 76.2)
+			(xy 137.16 76.2) (xy 151.13 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea2ccded-9f60-40d6-b52d-a666ef513053")
+	)
+	(wire
+		(pts
+			(xy 212.09 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea798f4e-9c06-428c-80d5-517724cf7ce1")
 	)
 	(wire
 		(pts
@@ -2242,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 80.01) (xy 228.6 80.01)
+			(xy 236.22 80.01) (xy 252.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2712,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 82.55) (xy 228.6 82.55)
+			(xy 212.09 63.5) (xy 213.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7dc03f0-2bbb-4568-9df6-50b2d126a671")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 252.73 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 63.5) (xy 193.04 63.5)
+			(xy 158.75 58.42) (xy 220.98 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2280,19 +2750,9 @@
 		)
 		(uuid "fe2f294e-43cc-417f-96b7-17b70745ea76")
 	)
-	(wire
-		(pts
-			(xy 137.16 73.66) (xy 137.16 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fee81aa6-e169-482a-af88-5e5c6159c924")
-	)
 	(symbol
 		(lib_id "lcsc_imported:TS30050050-040")
-		(at 233.68 87.63 0)
+		(at 257.81 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2300,7 +2760,7 @@
 		(dnp no)
 		(uuid "0022ef0a-e46b-4015-91fa-f910ebe47e2c")
 		(property "Reference" "J4"
-			(at 237.49 86.3599 0)
+			(at 261.62 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2769,7 @@
 			)
 		)
 		(property "Value" "TS30050050-040"
-			(at 237.49 88.8999 0)
+			(at 261.62 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2778,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C51018168_SMD_L5_0-W5_0_CON1_5X5_SMD"
-			(at 233.68 97.79 0)
+			(at 257.81 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2787,7 @@
 			)
 		)
 		(property "Datasheet" "None"
-			(at 231.394 87.503 0)
+			(at 255.524 87.503 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2796,7 @@
 			)
 		)
 		(property "Description" "TS30050050-040"
-			(at 233.68 87.63 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2805,7 @@
 			)
 		)
 		(property "LCSC" "C51018168"
-			(at 233.68 87.63 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2814,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN(兴飞)"
-			(at 233.68 87.63 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2836,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 185.42 68.58 0)
+		(at 195.58 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2386,7 +2846,7 @@
 		(fields_autoplaced yes)
 		(uuid "01ba4534-69ac-4c71-b3ff-cdb91c182029")
 		(property "Reference" "TP9"
-			(at 181.61 65.7224 0)
+			(at 191.77 60.6424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2855,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 181.61 68.2624 0)
+			(at 191.77 63.1824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2865,7 @@
 			)
 		)
 		(property "Footprint" "1Footprints:TestPoint_Pad_D1.0mm"
-			(at 180.34 68.58 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 68.58 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2883,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 185.42 68.58 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2905,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 163.83 82.55 0)
+		(at 177.8 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2455,7 +2915,7 @@
 		(fields_autoplaced yes)
 		(uuid "06821e77-0995-4a99-8446-8d4d00fee0bc")
 		(property "Reference" "TP6"
-			(at 160.02 79.6924 0)
+			(at 173.99 79.6924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2924,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 160.02 82.2324 0)
+			(at 173.99 82.2324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2934,7 @@
 			)
 		)
 		(property "Footprint" "1Footprints:TestPoint_Pad_D1.0mm"
-			(at 158.75 82.55 0)
+			(at 172.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 82.55 0)
+			(at 172.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2952,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 163.83 82.55 0)
+			(at 177.8 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,6 +3203,93 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:RES 10kΩ ±1% 125mW 0805")
+		(at 151.13 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25769b95-ccb0-485f-92a4-0fae5be6b11c")
+		(property "Reference" "R14"
+			(at 145.288 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ ±1% 0805"
+			(at 140.97 69.342 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2907219_R0805"
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0805F1002TS_C2907219.pdf"
+			(at 151.257 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FRC0805F1002TS"
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907219"
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc8f5566-ee4b-4bf3-8e61-9ffe21d80879")
+		)
+		(pin "1"
+			(uuid "1bb8df30-1b85-45e8-82ec-10fb896be5a5")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:RLP25FEGMR005")
 		(at 91.44 109.22 0)
 		(unit 1)
@@ -2916,8 +3463,94 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:1W_3.3Ω_200V_Thick_Film_Resistor_±400ppm/℃_±5%_2512_Chip_Resistor")
+		(at 146.05 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "598e121c-cfc6-4e9b-9176-7f082550281b")
+		(property "Reference" "R13"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3Ω ±5% 1W 2512"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+			(at 146.05 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55115149.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1VXVl1XEgNWVQEDRwBXU1MEElRaVFwAQgdfVFZQR1gxVlNeRFhbUVxTTlBYXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWVVBQRk8GEwkK"
+			(at 143.764 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HRC2512J3R3 LNTN"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55115149"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HWA CHN"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7a9252a-be97-4613-a04a-068be410e32d")
+		)
+		(pin "2"
+			(uuid "4357b16e-c7f4-4e4f-9419-cc7f8e8dad9c")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 137.16 68.58 0)
+		(at 137.16 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2927,7 +3560,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ca0b5ce-ef59-4bf8-ae95-498274f33e5e")
 		(property "Reference" "TP7"
-			(at 133.35 65.7224 0)
+			(at 133.35 60.6424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +3569,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 133.35 68.2624 0)
+			(at 133.35 63.1824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +3579,7 @@
 			)
 		)
 		(property "Footprint" "1Footprints:TestPoint_Pad_D1.0mm"
-			(at 132.08 68.58 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +3588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 68.58 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +3597,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 137.16 68.58 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3619,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 208.28 80.01 0)
+		(at 236.22 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2996,7 +3629,7 @@
 		(fields_autoplaced yes)
 		(uuid "65230d0d-99a6-4eb9-9333-80694fbeaffb")
 		(property "Reference" "TP5"
-			(at 204.47 77.1524 0)
+			(at 232.41 77.1524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +3638,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 204.47 79.6924 0)
+			(at 232.41 79.6924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3648,7 @@
 			)
 		)
 		(property "Footprint" "1Footprints:TestPoint_Pad_D1.0mm"
-			(at 203.2 80.01 0)
+			(at 231.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 80.01 0)
+			(at 231.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3666,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 208.28 80.01 0)
+			(at 236.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,6 +3681,92 @@
 			(project "LibreDAB"
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:1W_3.3Ω_200V_Thick_Film_Resistor_±400ppm/℃_±5%_2512_Chip_Resistor")
+		(at 146.05 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66bf61ab-470a-46ac-a2be-29f03cee380b")
+		(property "Reference" "R12"
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3Ω ±5% 1W 2512"
+			(at 146.05 60.96 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55115149.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1VXVl1XEgNWVQEDRwBXU1MEElRaVFwAQgdfVFZQR1gxVlNeRFhbUVxTTlBYXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWVVBQRk8GEwkK"
+			(at 143.764 63.373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HRC2512J3R3 LNTN"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55115149"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HWA CHN"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1593c6a-d10d-4015-a8c4-df4814eb4d3a")
+		)
+		(pin "2"
+			(uuid "1942e773-b2a2-4af8-af15-ea3cf0025580")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3296,6 +4015,179 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:1W_3.3Ω_200V_Thick_Film_Resistor_±400ppm/℃_±5%_2512_Chip_Resistor")
+		(at 204.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2e3131-4816-4fa7-b47d-515fcec36425")
+		(property "Reference" "R8"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3Ω ±5% 1W 2512"
+			(at 204.47 60.96 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55115149.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1VXVl1XEgNWVQEDRwBXU1MEElRaVFwAQgdfVFZQR1gxVlNeRFhbUVxTTlBYXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWVVBQRk8GEwkK"
+			(at 202.184 63.373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HRC2512J3R3 LNTN"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55115149"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HWA CHN"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77f82707-6db5-43f2-8c6b-a2bd26c72e3f")
+		)
+		(pin "2"
+			(uuid "132e03bf-acef-46d0-88a5-e9d75505f331")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RES 10kΩ ±1% 125mW 0805")
+		(at 212.09 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90bbbac6-02d3-41d4-b524-7ff13f9e9477")
+		(property "Reference" "R11"
+			(at 214.376 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ ±1% 0805"
+			(at 214.63 95.504 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2907219_R0805"
+			(at 201.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0805F1002TS_C2907219.pdf"
+			(at 212.217 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FRC0805F1002TS"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907219"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02d5d911-a424-40b0-be28-636347b5fe2f")
+		)
+		(pin "1"
+			(uuid "7ccdd715-aeb3-484d-8e74-f0dd66bf2c85")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:PZ254VS-11-03P-B01")
 		(at 132.08 76.2 0)
 		(mirror y)
@@ -3465,7 +4357,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:SP010N01BGHTO")
-		(at 193.04 88.9 0)
+		(at 220.98 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3474,7 +4366,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c947aab-3d2f-4881-9ea2-c4e94e8b68d7")
 		(property "Reference" "Q4"
-			(at 198.12 87.6299 0)
+			(at 226.06 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +4375,7 @@
 			)
 		)
 		(property "Value" "SP010N01BGHTO"
-			(at 198.12 90.1699 0)
+			(at 226.06 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +4384,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C22385350_TOLL-8_L10_4-W9_9-P1_20-LS11_7-BL_2"
-			(at 193.04 99.06 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +4393,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404191548_Siliup-SP010N01BGHTO_C22385350.pdf"
-			(at 190.754 88.773 0)
+			(at 218.694 88.773 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +4402,7 @@
 			)
 		)
 		(property "Description" "SP010N01BGHTO"
-			(at 193.04 88.9 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +4411,7 @@
 			)
 		)
 		(property "LCSC" "C22385350"
-			(at 193.04 88.9 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +4420,7 @@
 			)
 		)
 		(property "Manufacturer" "Siliup(矽普)"
-			(at 193.04 88.9 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +4448,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:SP010N01BGHTO")
-		(at 144.78 68.58 0)
+		(at 158.75 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3565,7 +4457,7 @@
 		(fields_autoplaced yes)
 		(uuid "a335e564-10b7-477d-8d60-3f491ecacc47")
 		(property "Reference" "Q1"
-			(at 149.86 67.3099 0)
+			(at 163.83 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +4466,7 @@
 			)
 		)
 		(property "Value" "SP010N01BGHTO"
-			(at 149.86 69.8499 0)
+			(at 163.83 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +4475,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C22385350_TOLL-8_L10_4-W9_9-P1_20-LS11_7-BL_2"
-			(at 144.78 78.74 0)
+			(at 158.75 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +4484,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404191548_Siliup-SP010N01BGHTO_C22385350.pdf"
-			(at 142.494 68.453 0)
+			(at 156.464 63.373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +4493,7 @@
 			)
 		)
 		(property "Description" "SP010N01BGHTO"
-			(at 144.78 68.58 0)
+			(at 158.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +4502,7 @@
 			)
 		)
 		(property "LCSC" "C22385350"
-			(at 144.78 68.58 0)
+			(at 158.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +4511,7 @@
 			)
 		)
 		(property "Manufacturer" "Siliup(矽普)"
-			(at 144.78 68.58 0)
+			(at 158.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,8 +4538,95 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:RES 10kΩ ±1% 125mW 0805")
+		(at 212.09 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a644823d-92d5-46dd-87f3-3a5cd98f9b9b")
+		(property "Reference" "R10"
+			(at 206.248 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ ±1% 0805"
+			(at 201.93 69.342 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2907219_R0805"
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0805F1002TS_C2907219.pdf"
+			(at 212.217 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FRC0805F1002TS"
+			(at 212.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907219"
+			(at 212.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 212.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de286828-beab-4e7a-9e49-2e824f937c89")
+		)
+		(pin "1"
+			(uuid "038d3d10-b671-4203-9d28-428e7a1a8824")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:PZ254VS-11-03P-B01")
-		(at 180.34 76.2 0)
+		(at 190.5 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3656,7 +4635,7 @@
 		(dnp no)
 		(uuid "aaaa02fb-68c7-4d38-b8b2-dbf45ad2cc7f")
 		(property "Reference" "J7"
-			(at 176.53 74.9299 0)
+			(at 186.69 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +4644,7 @@
 			)
 		)
 		(property "Value" "PZ254VS-11-03P-B01"
-			(at 176.53 77.4699 0)
+			(at 186.69 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +4654,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C41432921_HDR-SMD_3P-P2_54-V-M-LS4_8_R2"
-			(at 180.34 86.36 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +4663,7 @@
 			)
 		)
 		(property "Datasheet" "None"
-			(at 182.626 76.073 0)
+			(at 192.786 76.073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +4672,7 @@
 			)
 		)
 		(property "Description" "PZ254VS-11-03P-B01"
-			(at 180.34 76.2 0)
+			(at 190.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +4681,7 @@
 			)
 		)
 		(property "LCSC" "C41432921"
-			(at 180.34 76.2 0)
+			(at 190.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +4690,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN(兴飞)"
-			(at 180.34 76.2 0)
+			(at 190.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +4718,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:TS30050050-040")
-		(at 233.68 76.2 0)
+		(at 257.81 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3747,7 +4726,7 @@
 		(dnp no)
 		(uuid "b42f50b6-325b-4297-8526-58d5b6374302")
 		(property "Reference" "J3"
-			(at 237.49 74.9299 0)
+			(at 261.62 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +4735,7 @@
 			)
 		)
 		(property "Value" "TS30050050-040"
-			(at 237.49 77.4699 0)
+			(at 261.62 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +4744,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C51018168_SMD_L5_0-W5_0_CON1_5X5_SMD"
-			(at 233.68 86.36 0)
+			(at 257.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +4753,7 @@
 			)
 		)
 		(property "Datasheet" "None"
-			(at 231.394 76.073 0)
+			(at 255.524 76.073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +4762,7 @@
 			)
 		)
 		(property "Description" "TS30050050-040"
-			(at 233.68 76.2 0)
+			(at 257.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +4771,7 @@
 			)
 		)
 		(property "LCSC" "C51018168"
-			(at 233.68 76.2 0)
+			(at 257.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +4780,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN(兴飞)"
-			(at 233.68 76.2 0)
+			(at 257.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,6 +5015,93 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:RES 10kΩ ±1% 125mW 0805")
+		(at 151.13 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c26257c6-60f7-497b-a02e-c1983f0c985f")
+		(property "Reference" "R15"
+			(at 145.288 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ ±1% 0805"
+			(at 140.97 94.742 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2907219_R0805"
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0805F1002TS_C2907219.pdf"
+			(at 151.257 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FRC0805F1002TS"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907219"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11a7f937-39cd-47ac-8c21-992b640bd607")
+		)
+		(pin "1"
+			(uuid "d19a750d-4293-4a25-aba7-196b4b675dcb")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:RLP25FEGMR005")
 		(at 91.44 101.6 0)
 		(unit 1)
@@ -4209,7 +5275,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:SP010N01BGHTO")
-		(at 144.78 88.9 0)
+		(at 158.75 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4218,7 +5284,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccd0a812-eb41-42c4-baac-29b6ba4eb884")
 		(property "Reference" "Q2"
-			(at 149.86 87.6299 0)
+			(at 163.83 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +5293,7 @@
 			)
 		)
 		(property "Value" "SP010N01BGHTO"
-			(at 149.86 90.1699 0)
+			(at 163.83 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +5302,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C22385350_TOLL-8_L10_4-W9_9-P1_20-LS11_7-BL_2"
-			(at 144.78 99.06 0)
+			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +5311,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404191548_Siliup-SP010N01BGHTO_C22385350.pdf"
-			(at 142.494 88.773 0)
+			(at 156.464 88.773 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +5320,7 @@
 			)
 		)
 		(property "Description" "SP010N01BGHTO"
-			(at 144.78 88.9 0)
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +5329,7 @@
 			)
 		)
 		(property "LCSC" "C22385350"
-			(at 144.78 88.9 0)
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +5338,7 @@
 			)
 		)
 		(property "Manufacturer" "Siliup(矽普)"
-			(at 144.78 88.9 0)
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +5857,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:SP010N01BGHTO")
-		(at 193.04 68.58 0)
+		(at 220.98 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4800,7 +5866,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebbef3f8-d265-441e-859a-6c04ad7e7192")
 		(property "Reference" "Q3"
-			(at 198.12 67.3099 0)
+			(at 226.06 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +5875,7 @@
 			)
 		)
 		(property "Value" "SP010N01BGHTO"
-			(at 198.12 69.8499 0)
+			(at 226.06 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +5884,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C22385350_TOLL-8_L10_4-W9_9-P1_20-LS11_7-BL_2"
-			(at 193.04 78.74 0)
+			(at 220.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404191548_Siliup-SP010N01BGHTO_C22385350.pdf"
-			(at 190.754 68.453 0)
+			(at 218.694 63.373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +5902,7 @@
 			)
 		)
 		(property "Description" "SP010N01BGHTO"
-			(at 193.04 68.58 0)
+			(at 220.98 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +5911,7 @@
 			)
 		)
 		(property "LCSC" "C22385350"
-			(at 193.04 68.58 0)
+			(at 220.98 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +5920,7 @@
 			)
 		)
 		(property "Manufacturer" "Siliup(矽普)"
-			(at 193.04 68.58 0)
+			(at 220.98 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,8 +6034,94 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:1W_3.3Ω_200V_Thick_Film_Resistor_±400ppm/℃_±5%_2512_Chip_Resistor")
+		(at 204.47 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efe9b0a9-c77d-401e-b688-519ad0a2e07b")
+		(property "Reference" "R9"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3Ω ±5% 1W 2512"
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+			(at 204.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55115149.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1VXVl1XEgNWVQEDRwBXU1MEElRaVFwAQgdfVFZQR1gxVlNeRFhbUVxTTlBYXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWVVBQRk8GEwkK"
+			(at 202.184 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HRC2512J3R3 LNTN"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55115149"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HWA CHN"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1876ed2f-623e-4d2c-9ce4-2e812e74b600")
+		)
+		(pin "2"
+			(uuid "afac77e9-b10e-4c7b-82ad-ef47fbb66c6e")
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 185.42 88.9 0)
+		(at 195.58 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4979,7 +6131,7 @@
 		(fields_autoplaced yes)
 		(uuid "f17bb745-a2b3-429f-8191-e62e38aecf83")
 		(property "Reference" "TP10"
-			(at 181.61 86.0424 0)
+			(at 191.77 86.0424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +6140,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 181.61 88.5824 0)
+			(at 191.77 88.5824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +6150,7 @@
 			)
 		)
 		(property "Footprint" "1Footprints:TestPoint_Pad_D1.0mm"
-			(at 180.34 88.9 0)
+			(at 190.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +6159,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 88.9 0)
+			(at 190.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +6168,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 185.42 88.9 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +6273,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b5311c66-b122-4c07-875a-24692e20fcb9")
-		(property "Sheetname" "Gate_Driver"
+		(property "Sheetname" "Gate_Driver1"
 			(at 166.37 18.3384 0)
 			(effects
 				(font
@@ -5213,6 +6365,118 @@
 			(project "LibreDAB"
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 19.05)
+		(size 30.48 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8c4e1d5-c720-4c36-bf5f-b4f0ce234f2f")
+		(property "Sheetname" "Gate_Driver2"
+			(at 213.36 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gate_Driver.kicad_sch"
+			(at 213.36 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+12V" input
+			(at 213.36 25.4 180)
+			(uuid "0ab63fa3-c68a-4f64-b3be-8ccb6bea1645")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "0 V" input
+			(at 213.36 31.75 180)
+			(uuid "135c227d-aec8-4e58-b1e8-3e60df4fc099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MID" bidirectional
+			(at 243.84 30.48 0)
+			(uuid "a8d02206-b7fe-4789-9c33-f334478c9f5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM-H" input
+			(at 213.36 36.83 180)
+			(uuid "a34a9186-f17a-4fbb-b3fc-ba7ea0707ee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM-L" input
+			(at 213.36 40.64 180)
+			(uuid "24009985-6e82-491f-9d8c-373891535984")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QH-G" output
+			(at 243.84 26.67 0)
+			(uuid "05a861e6-973a-4db7-976b-d0f98ea475ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QL-G" bidirectional
+			(at 243.84 34.29 0)
+			(uuid "29856dcc-0cdd-4d5e-b927-65fffd3ff771")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LibreDAB"
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(page "7")
 				)
 			)
 		)

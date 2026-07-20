@@ -92,6 +92,264 @@
 	(net 12 "unconnected-(H2-Pad1)")
 	(net 13 "unconnected-(H3-Pad1)")
 	(net 14 "unconnected-(H4-Pad1)")
+	(net 15 "/LV_Bridge/Gate_Driver/0 V")
+	(net 16 "/LV_Bridge/Gate_Driver/+12V")
+	(net 17 "Net-(U1-HB)")
+	(net 18 "/LV_Bridge/Gate_Driver/MID")
+	(net 19 "/LV_Bridge/Gate_Driver/QL-G")
+	(net 20 "/LV_Bridge/Gate_Driver/QH-G")
+	(net 21 "unconnected-(U1-EP-Pad9)")
+	(net 22 "/LV_Bridge/Gate_Driver/PWM-H")
+	(net 23 "/LV_Bridge/Gate_Driver/PWM-L")
+	(net 24 "Net-(J6-Pad1)")
+	(net 25 "Net-(J6-Pad3)")
+	(net 26 "Net-(J7-Pad1)")
+	(net 27 "Net-(J7-Pad3)")
+	(footprint "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+		(layer "F.Cu")
+		(uuid "076a867b-6855-48e1-89fa-d348348c40d9")
+		(at 56.64 65)
+		(property "Reference" "R8"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "fde7f51e-3e8d-4d95-b577-6e0f51fe07c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "3.3Ω ±5% 1W 2512"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "6e9665ba-c481-443d-9ad1-e3950cabcbf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55115149.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1VXVl1XEgNWVQEDRwBXU1MEElRaVFwAQgdfVFZQR1gxVlNeRFhbUVxTTlBYXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWVVBQRk8GEwkK"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "035f2458-f7c4-4f5b-b6c0-071ca0226481")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "HRC2512J3R3 LNTN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd81ae41-e9c5-48b1-9ceb-6cff4e4966e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C393074"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f848c5db-9e53-44ae-9583-16d70396e4ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C55115149"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60460833-86e2-4140-bd74-5515fa6f9c93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "HWA CHN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cc08cfd-4571-4e79-8c53-ef4000231a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/8b2e3131-4816-4fa7-b47d-515fcec36425")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.69 -2.03)
+			(end -4.69 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5eb235a1-922b-46f5-84ad-ee06faa8489c")
+		)
+		(fp_line
+			(start -4.69 2.03)
+			(end -1.77 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "851ec3ff-ef78-4828-9774-4fbfb000e2ed")
+		)
+		(fp_line
+			(start -1.89 -2.03)
+			(end -4.69 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "076eb090-e6df-4afb-8894-1536c5dbfb43")
+		)
+		(fp_line
+			(start 1.89 2.16)
+			(end 4.69 2.16)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6eeaf418-2540-4360-9495-f6835bdb6847")
+		)
+		(fp_line
+			(start 4.69 -2.03)
+			(end 1.77 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9185f417-f7e0-46cc-a967-66fe5f86bd44")
+		)
+		(fp_line
+			(start 4.69 2.16)
+			(end 4.69 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39086533-83de-47aa-9a40-e42dd88dbc76")
+		)
+		(fp_circle
+			(center -3.2 1.6)
+			(end -3.17 1.6)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c61615f1-d719-4a71-81c0-152b3849bc03")
+		)
+		(fp_line
+			(start -3.2 -1.6)
+			(end 3.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fcc873bd-28e4-429a-9625-4e4480adbb36")
+		)
+		(fp_line
+			(start -3.2 1.6)
+			(end -3.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d37bb32a-6bfa-41fb-91a2-aca55d363087")
+		)
+		(fp_line
+			(start 3.2 -1.6)
+			(end 3.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bcaf280a-de4f-4b4a-8563-3c89c8abc3d2")
+		)
+		(fp_line
+			(start 3.2 1.6)
+			(end -3.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7b47bcf4-e0a8-4354-b654-f8cdc939c602")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "114623ff-45c8-48bf-98b1-948ad24aa17f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.1 0)
+			(size 2.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 26 "Net-(J7-Pad1)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "70191d0b-ef98-415f-86b1-fd1327cd9e88")
+		)
+		(pad "2" smd rect
+			(at 3.1 0)
+			(size 2.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "Net-(Q3-G)")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "6e32f7f5-4b4a-4d1c-99d4-12584c98d098")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C393074.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "lcsc_footprints:C51018168_SMD_L5_0-W5_0_CON1_5X5_SMD"
 		(layer "F.Cu")
 		(uuid "0a224016-c0d0-431b-9c59-311252648471")
@@ -180,7 +438,6 @@
 				)
 			)
 		)
-		(path "/b42f50b6-325b-4297-8526-58d5b6374302")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr through_hole)
@@ -435,7 +692,6 @@
 				)
 			)
 		)
-		(path "/a335e564-10b7-477d-8d60-3f491ecacc47")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -674,7 +930,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/65230d0d-99a6-4eb9-9333-80694fbeaffb")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -710,6 +965,496 @@
 			(uuid "65f7127c-7b0e-44ae-8852-1a12e5acd028")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "lcsc_footprints:C2907219_R0805"
+		(layer "F.Cu")
+		(uuid "2476c41f-ba06-40ad-8e7b-6b8b74beddea")
+		(at 203 100.5)
+		(property "Reference" "R11"
+			(at 4 0 0)
+			(layer "F.SilkS")
+			(uuid "a1c60639-0916-49af-8a63-afe6e5d9860f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10kΩ ±1% 0805"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "d1e68028-8745-4798-ae68-00deed77123a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0805F1002TS_C2907219.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6edf611b-c76a-4e11-9205-97acd859233e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "FRC0805F1002TS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "757a77b5-10d3-4c77-ac9c-e8bf94fcf58b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2907219"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "548b41ef-17c9-4433-85ff-144a81edd8ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2907219"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ada45887-96d4-4393-b722-69c0a0a801d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a3c8ab3-c2b3-4df1-818a-668ccbf715cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/90bbbac6-02d3-41d4-b524-7ff13f9e9477")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.76 -0.92)
+			(end -0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "22703740-f72c-4f8e-b44d-864029f19934")
+		)
+		(fp_line
+			(start -1.76 0.92)
+			(end -1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a0266d93-c2b4-4b7f-be65-2967b1a877af")
+		)
+		(fp_line
+			(start -0.48 0.92)
+			(end -1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9f7875e8-c1e0-48c2-868e-1071a4f2d84f")
+		)
+		(fp_line
+			(start 0.48 0.92)
+			(end 1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d6ffe99a-706a-41b5-b427-6df6a71ee7a0")
+		)
+		(fp_line
+			(start 1.76 -0.92)
+			(end 0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c154c75b-6308-44f3-8626-7aa2c97bb8c2")
+		)
+		(fp_line
+			(start 1.76 0.92)
+			(end 1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75e8fc3b-6418-439f-ba41-203b99e570af")
+		)
+		(fp_circle
+			(center -1 0.64)
+			(end -0.97 0.64)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "8fcc2825-27d7-48cc-8a23-dce94cb1b4d4")
+		)
+		(fp_line
+			(start -1 -0.64)
+			(end 1 -0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff73d83f-0e0a-4572-ae21-6f753c5ee20f")
+		)
+		(fp_line
+			(start -1 0.64)
+			(end -1 -0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c0ace1b6-2f12-415f-8291-a7d079837168")
+		)
+		(fp_line
+			(start 1 -0.64)
+			(end 1 0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0d1058e2-3ad5-4b22-9ca3-97a6ea6f8183")
+		)
+		(fp_line
+			(start 1 0.64)
+			(end -1 0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3b50d9d-33ba-4f61-a25c-fe3672a5c088")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cb84ee21-d008-4f46-8e06-e3d6c5b7aba5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.133 1.377)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "Net-(Q4-G)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "149a73c6-e43f-4a5b-aea2-b3049ead5483")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.133 1.377)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "Net-(Q2-S)")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "2a6d901f-1734-47a8-bdb4-10aa69e17294")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2907219.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lcsc_footprints:C2907219_R0805"
+		(layer "F.Cu")
+		(uuid "2ae7a483-06a5-4ae2-9ad3-d7ddd3004d15")
+		(at 203 72.5)
+		(property "Reference" "R10"
+			(at 4 0 0)
+			(layer "F.SilkS")
+			(uuid "0f431247-3fd3-4933-86c2-6460e999be8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10kΩ ±1% 0805"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "9784fcd0-76a7-48e8-b60a-772f881c87ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0805F1002TS_C2907219.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ebda684-b0f6-4cea-93da-73d1a0dcf58b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "FRC0805F1002TS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1742e54e-648c-4c29-8518-98d6c274cecf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2907219"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95d751a2-60df-439f-97da-93d3dc9572ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2907219"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b869bf6-50c1-40b8-aafc-df67302cb98f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa030146-ddff-4088-a194-27c382ae59b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/a644823d-92d5-46dd-87f3-3a5cd98f9b9b")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.76 -0.92)
+			(end -0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5f006639-3158-40d5-8e34-d1272a499f42")
+		)
+		(fp_line
+			(start -1.76 0.92)
+			(end -1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ecb7d9ac-014e-4c90-98ca-c84bd24522ac")
+		)
+		(fp_line
+			(start -0.48 0.92)
+			(end -1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "605bd111-cfb2-4b96-a494-9611da3f925a")
+		)
+		(fp_line
+			(start 0.48 0.92)
+			(end 1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5426030e-f81e-4dd2-85a2-9e924cecec99")
+		)
+		(fp_line
+			(start 1.76 -0.92)
+			(end 0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a9d30751-ac3a-4a45-ae45-5184ea62717e")
+		)
+		(fp_line
+			(start 1.76 0.92)
+			(end 1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58e1ba94-d5f6-4668-bb02-657d13dcb0e6")
+		)
+		(fp_circle
+			(center -1 0.64)
+			(end -0.97 0.64)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "44d508ee-1958-4f69-8431-b92285f68dda")
+		)
+		(fp_line
+			(start -1 -0.64)
+			(end 1 -0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a1274da5-7a70-4f95-9ade-ee21d6cdfc22")
+		)
+		(fp_line
+			(start -1 0.64)
+			(end -1 -0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "598c6858-e6c7-4a26-9c28-0dfc724d90c2")
+		)
+		(fp_line
+			(start 1 -0.64)
+			(end 1 0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dfde1b7a-0056-4535-8c3e-2cde88a56630")
+		)
+		(fp_line
+			(start 1 0.64)
+			(end -1 0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea1c8da9-a04f-4a48-97d5-caef02edaca4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "00442109-9d04-4ed5-893c-2e85d6c09662")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.133 1.377)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "Net-(Q3-G)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "1b66d2bc-c4e8-45b5-9682-3a8b9384465e")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.133 1.377)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "Net-(Q3-S)")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "130c120c-dc46-425b-b8dc-51e7d3cf4c73")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2907219.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "1Footprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -765,7 +1510,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/18dba690-36fd-4281-b5f8-219d1df5fd73")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -890,7 +1634,6 @@
 				)
 			)
 		)
-		(path "/90e68d1a-2502-4f5b-b29f-2ec136e95b07")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -1066,6 +1809,251 @@
 			)
 		)
 	)
+	(footprint "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+		(layer "F.Cu")
+		(uuid "31e8f487-df61-4f3c-8f75-b6d296cbbeb0")
+		(at 56.64 70.44)
+		(property "Reference" "R9"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "53a0c756-4515-4e0e-bbc7-b3288d938b2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "3.3Ω ±5% 1W 2512"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "aa31cc62-d7cd-4203-9ec5-b503137f3eff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55115149.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1VXVl1XEgNWVQEDRwBXU1MEElRaVFwAQgdfVFZQR1gxVlNeRFhbUVxTTlBYXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWVVBQRk8GEwkK"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4434ae17-7d4c-41fa-807e-642ad3016059")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "HRC2512J3R3 LNTN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e2ba15a-8800-43b4-80de-fbe10c8e3ec3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C393074"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eefe2fa9-5e92-4916-8007-a8274f4361bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C55115149"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7988bca-14b8-4dd1-ba44-cdcb58b79673")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "HWA CHN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "370c6262-91fa-4b02-b3a0-87ac6f29cf95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/efe9b0a9-c77d-401e-b688-519ad0a2e07b")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.69 -2.03)
+			(end -4.69 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c6cdc0d6-73ec-4700-a451-989d7a252e66")
+		)
+		(fp_line
+			(start -4.69 2.03)
+			(end -1.77 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b2d1ad70-960c-4938-969f-adb73b26494a")
+		)
+		(fp_line
+			(start -1.89 -2.03)
+			(end -4.69 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "28e755ba-d5bb-4d7e-8455-a7778034416f")
+		)
+		(fp_line
+			(start 1.89 2.16)
+			(end 4.69 2.16)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce7a2c12-bca3-4c17-8298-243cbbb937cb")
+		)
+		(fp_line
+			(start 4.69 -2.03)
+			(end 1.77 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc999fa3-0439-4931-907c-42c706d3ab3a")
+		)
+		(fp_line
+			(start 4.69 2.16)
+			(end 4.69 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "49ee524b-b48f-4aa4-b35c-d0b8186fa616")
+		)
+		(fp_circle
+			(center -3.2 1.6)
+			(end -3.17 1.6)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4d663189-1b2f-4083-a46a-f47da6502c05")
+		)
+		(fp_line
+			(start -3.2 -1.6)
+			(end 3.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "65b07551-6080-4cab-b28e-bf22cdccbb93")
+		)
+		(fp_line
+			(start -3.2 1.6)
+			(end -3.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "29873286-2576-44a2-934b-a5ea62694c7d")
+		)
+		(fp_line
+			(start 3.2 -1.6)
+			(end 3.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d896ad5b-dc2e-44ec-b3fa-7474b847152f")
+		)
+		(fp_line
+			(start 3.2 1.6)
+			(end -3.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "27973e63-ad7c-41a4-96cc-97e042ad34c6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fb620975-3307-490f-a8bd-7f377ea86416")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.1 0)
+			(size 2.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 27 "Net-(J7-Pad3)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "19475f5b-e699-4b4a-b8ef-65fb8fdc4df3")
+		)
+		(pad "2" smd rect
+			(at 3.1 0)
+			(size 2.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "Net-(Q4-G)")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "d05407bc-ea3d-4685-ac07-1796e39ceedb")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C393074.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "1Footprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "3f422d74-fc6a-40e1-9600-8c307992f9c5")
@@ -1120,7 +2108,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/e487a219-c437-41d1-b3b8-f9b48543f92b")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -1245,7 +2232,6 @@
 				)
 			)
 		)
-		(path "/9c947aab-3d2f-4881-9ea2-c4e94e8b68d7")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -1484,7 +2470,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/f17bb745-a2b3-429f-8191-e62e38aecf83")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -1520,6 +2505,496 @@
 			(uuid "16722ef2-d200-4eda-a6e4-7fbd1024bdbf")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "lcsc_footprints:C2907219_R0805"
+		(layer "F.Cu")
+		(uuid "4d5d8809-c3ba-4e7c-b866-d2bc34227c98")
+		(at 188.5 72.5)
+		(property "Reference" "R14"
+			(at 4 0 0)
+			(layer "F.SilkS")
+			(uuid "07783213-e097-428b-9b26-ccec243e8657")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10kΩ ±1% 0805"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "5d8f57d3-1304-4633-a92c-74a80462f545")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0805F1002TS_C2907219.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bba35602-9a41-4f57-b686-1473284ad343")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "FRC0805F1002TS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5cada43-db15-4794-b2fb-cd84852e261c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2907219"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be1754f4-125a-4b4f-b228-9ebb58579c6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2907219"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fa6a359-6db1-44a0-a3ad-ecadf40f7138")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b548079-f392-4c5b-9930-d55db6475328")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/25769b95-ccb0-485f-92a4-0fae5be6b11c")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.76 -0.92)
+			(end -0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f711b8a0-b118-4eee-84dd-5de586a814b8")
+		)
+		(fp_line
+			(start -1.76 0.92)
+			(end -1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "73b1be0f-0e0d-4b5d-8f9a-cdeeaea97d40")
+		)
+		(fp_line
+			(start -0.48 0.92)
+			(end -1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "51b737df-cb00-4857-ab0a-0873bf3eccbe")
+		)
+		(fp_line
+			(start 0.48 0.92)
+			(end 1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aaa67e07-3cdf-49c6-8308-8c2314a323fb")
+		)
+		(fp_line
+			(start 1.76 -0.92)
+			(end 0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ac7f127a-62d5-4976-94c6-0b418396948a")
+		)
+		(fp_line
+			(start 1.76 0.92)
+			(end 1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0e6f409e-f2d8-4359-be4c-198d0bc66c1f")
+		)
+		(fp_circle
+			(center -1 0.64)
+			(end -0.97 0.64)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "bed24864-5004-4432-b082-38d3ab46990f")
+		)
+		(fp_line
+			(start -1 -0.64)
+			(end 1 -0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "51c8c82d-1427-4fb6-b9ad-a02fee6cea30")
+		)
+		(fp_line
+			(start -1 0.64)
+			(end -1 -0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "249093bc-7054-4daa-bf0c-d0173b0821e1")
+		)
+		(fp_line
+			(start 1 -0.64)
+			(end 1 0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e96e5429-762a-4430-a35d-fee4b75a359c")
+		)
+		(fp_line
+			(start 1 0.64)
+			(end -1 0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "78df016f-9021-4d90-bf3c-19a4d2c52b7e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1f69f549-60d6-4840-9537-31db435ec969")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.133 1.377)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "Net-(Q1-G)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "9597bc9e-ac99-4f24-ba1d-45c6a811ea00")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.133 1.377)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "Net-(Q1-S)")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "771fac09-fd8f-4369-bf8d-b2af10fa5191")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2907219.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+		(layer "F.Cu")
+		(uuid "4ec28ca5-6abf-4efd-8e43-5ed7f3f64065")
+		(at 56.64 75.88)
+		(property "Reference" "R12"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "ccd6971b-91df-43fe-9dce-0ebc8632a6c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "3.3Ω ±5% 1W 2512"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "fad71e8a-d1b7-4693-924b-6f2d74fd85d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55115149.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1VXVl1XEgNWVQEDRwBXU1MEElRaVFwAQgdfVFZQR1gxVlNeRFhbUVxTTlBYXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWVVBQRk8GEwkK"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5362b65e-af4f-42fc-a673-ab0d48e8c8bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "HRC2512J3R3 LNTN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19aa1387-dd8f-4c99-836c-193aac59b883")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C393074"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d9d2e7c-b345-46fa-807c-3c74847e46ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C55115149"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5081bc24-98b7-41eb-8167-e135c31ee212")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "HWA CHN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d71be229-3ad7-4d9e-a9e1-21267b7b1c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/66bf61ab-470a-46ac-a2be-29f03cee380b")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.69 -2.03)
+			(end -4.69 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1cd6552e-073e-4e11-bb3a-bca7a30f7c45")
+		)
+		(fp_line
+			(start -4.69 2.03)
+			(end -1.77 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6ee76940-1bda-4fcb-90f8-286708055010")
+		)
+		(fp_line
+			(start -1.89 -2.03)
+			(end -4.69 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "59bb755f-796d-4772-a1c2-2248eaf1714b")
+		)
+		(fp_line
+			(start 1.89 2.16)
+			(end 4.69 2.16)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "67f5b7ca-2add-40cd-818a-9a5e20afad68")
+		)
+		(fp_line
+			(start 4.69 -2.03)
+			(end 1.77 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a16806a6-d910-4970-9343-e50e74a1eb8a")
+		)
+		(fp_line
+			(start 4.69 2.16)
+			(end 4.69 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7c626fd1-b4b0-4143-bc8d-d19145099662")
+		)
+		(fp_circle
+			(center -3.2 1.6)
+			(end -3.17 1.6)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "82515830-a15a-410f-a01a-f9bd1e97a12c")
+		)
+		(fp_line
+			(start -3.2 -1.6)
+			(end 3.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eaceaff7-7bd8-4d54-96b8-6c5562cc5945")
+		)
+		(fp_line
+			(start -3.2 1.6)
+			(end -3.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "32723ce7-3626-4cb6-a9d0-b4ea65de42fc")
+		)
+		(fp_line
+			(start 3.2 -1.6)
+			(end 3.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ba88e86-e498-4c99-99bf-a8d7ae55b1ed")
+		)
+		(fp_line
+			(start 3.2 1.6)
+			(end -3.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ee1adde1-83c6-46e4-b6e4-bf3a6c6e49dc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d5a20ea6-8c08-468b-ba68-12e087f0b46a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.1 0)
+			(size 2.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 24 "Net-(J6-Pad1)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "27adcda5-6ccd-477b-9cce-9673ba38d1e9")
+		)
+		(pad "2" smd rect
+			(at 3.1 0)
+			(size 2.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "Net-(Q1-G)")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "3208b231-b5ce-4e2c-82b4-d9205c49a72a")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C393074.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "1Footprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -1575,7 +3050,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/06821e77-0995-4a99-8446-8d4d00fee0bc")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -1700,7 +3174,6 @@
 				)
 			)
 		)
-		(path "/87330c9b-12f2-458f-a141-493781cf26fa")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -1857,6 +3330,292 @@
 			)
 		)
 	)
+	(footprint "lcsc_footprints:C46635839_HDR-SMD_3P-P2_54-V-F-LS4_7-6779753103411-RC"
+		(layer "F.Cu")
+		(uuid "564f2aae-2777-4e2c-b6ef-e2037a5d6486")
+		(at 43.5 89.505)
+		(property "Reference" "J8"
+			(at 0 -5.65 0)
+			(layer "F.SilkS")
+			(uuid "eed5837d-054e-4e58-8423-40db7d2bb519")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1x3 Socket header"
+			(at 0 5.65 0)
+			(layer "F.Fab")
+			(uuid "eaab2740-00a1-4fc2-b83f-a5b3814ab878")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_hanxia-HX-PM2-54-1x3P-TP-H8-5-YQ_C46635839.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b2d94ec-b201-45da-a271-a6723a1928ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "HX PM2.54-1X3P TP H8.5-YQ"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12152fcc-7afb-471e-ae94-c92757156bd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C46635839"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a2c9f5a-1d8e-45ad-95d4-fdb85c95826b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C46635839"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8471ff13-b3a1-4a86-8432-d1d169fdc399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8441e0ed-ddd7-48c6-8ddf-df2b30a7c5fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9/ac93b745-29d4-4c72-b6e2-762945c33e4b")
+		(sheetname "/LV_Bridge/Gate_Driver/")
+		(sheetfile "Gate_Driver.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.81 -1.27)
+			(end -3.81 1.27)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b5ecdd10-50e8-457f-b93c-e5ddd0f25aa9")
+		)
+		(fp_line
+			(start -3.81 -1.27)
+			(end -3.22 -1.27)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e48f59b-90d3-4ea3-923a-36a1443cbdf3")
+		)
+		(fp_line
+			(start -3.81 1.27)
+			(end -0.68 1.27)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e1043653-3df4-454a-9063-12582242e092")
+		)
+		(fp_line
+			(start -1.86 -1.27)
+			(end 1.86 -1.27)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "36b12dca-142f-47c3-9ec8-b05ee09b91ed")
+		)
+		(fp_line
+			(start 0.68 1.27)
+			(end 3.81 1.27)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a0ee14e8-d391-473b-a72b-18c94e3167c4")
+		)
+		(fp_line
+			(start 3.81 -1.27)
+			(end 3.22 -1.27)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "96c3b6ca-fbe7-4e2c-9509-a1f0f13aecb1")
+		)
+		(fp_line
+			(start 3.81 1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "abd72e68-795f-4f0e-8ab9-33047b8a8390")
+		)
+		(fp_circle
+			(center -3.81 -2.1)
+			(end -3.78 -2.1)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "145f1b4e-e283-4f8c-86d2-d65c00843829")
+		)
+		(fp_circle
+			(center -3.43 -1.78)
+			(end -3.3 -1.78)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "eeb6fb54-8fb8-4581-b446-3113dffffbc0")
+		)
+		(fp_circle
+			(center -3.43 -1.78)
+			(end -3.3 -1.78)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "5b33b081-1658-4421-800e-6c7a7dae77a8")
+		)
+		(fp_line
+			(start -3.81 -1.25)
+			(end 3.81 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2901c7b9-4164-4d65-9b97-4c7a26683ef0")
+		)
+		(fp_line
+			(start -3.81 1.25)
+			(end -3.81 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "63d482c6-9e4d-4ff6-b12d-ca260db40290")
+		)
+		(fp_line
+			(start 3.81 -1.25)
+			(end 3.81 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "90d883af-c360-4ea1-8125-e50f16068197")
+		)
+		(fp_line
+			(start 3.81 1.25)
+			(end -3.81 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2c1acf50-a51a-40ef-a0a6-7182f22ce611")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "12f53877-bb73-4a60-8683-a1f73bbaa0f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.54 -1.65)
+			(size 0.9 2.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 20 "/LV_Bridge/Gate_Driver/QH-G")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "09df7fc2-f912-409f-96a2-38fa12aef04b")
+		)
+		(pad "2" smd rect
+			(at 0 1.65)
+			(size 0.9 2.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 18 "/LV_Bridge/Gate_Driver/MID")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "36866bc7-d2a2-496d-abb8-d425aa54a595")
+		)
+		(pad "3" smd rect
+			(at 2.54 -1.65)
+			(size 0.9 2.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 19 "/LV_Bridge/Gate_Driver/QL-G")
+			(pinfunction "3")
+			(pintype "unspecified")
+			(uuid "2c658d2d-1b26-4ddc-8d0e-6aa5e85671b8")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C46635839.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "lcsc_footprints:C22385350_TOLL-8_L10_4-W9_9-P1_20-LS11_7-BL_2"
 		(layer "F.Cu")
 		(uuid "5e3584e0-157a-4675-bb60-c53591f5c065")
@@ -1945,7 +3704,6 @@
 				)
 			)
 		)
-		(path "/ebbef3f8-d265-441e-859a-6c04ad7e7192")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -2219,7 +3977,6 @@
 				)
 			)
 		)
-		(path "/ecb9ea0e-f359-4199-9b95-391bfe7d6636")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -2484,7 +4241,6 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/9a39d7a6-7c8b-4e0b-89e9-5fc471482265")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(fp_circle
@@ -2890,7 +4646,6 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/b6566510-95df-4a62-a03e-cbb958eca31d")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(fp_circle
@@ -3320,7 +5075,6 @@
 				)
 			)
 		)
-		(path "/c5218a23-ebb0-42eb-9f2b-7970fc0c47f3")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -3541,7 +5295,6 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/10ec0e9d-6ee0-429a-8d91-d4bd8ea024ac")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(fp_circle
@@ -3971,7 +5724,6 @@
 				)
 			)
 		)
-		(path "/35a89718-460f-4f17-bb99-d19132b3a2bc")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -4216,7 +5968,6 @@
 				)
 			)
 		)
-		(path "/aaaa02fb-68c7-4d38-b8b2-dbf45ad2cc7f")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -4446,7 +6197,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/5ca0b5ce-ef59-4bf8-ae95-498274f33e5e")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -4571,7 +6321,6 @@
 				)
 			)
 		)
-		(path "/dfbd9d39-25e7-47aa-83c3-7ce0daea8c2a")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -4817,7 +6566,6 @@
 				)
 			)
 		)
-		(path "/e2a2c49a-c489-48a1-9077-daf8bb791930")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -5063,7 +6811,6 @@
 				)
 			)
 		)
-		(path "/4b75ded2-4a7e-4cfb-8921-8164c4c4cc14")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -5308,7 +7055,6 @@
 				)
 			)
 		)
-		(path "/dc46aee1-4624-43d1-9605-c420294e8e9e")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr through_hole)
@@ -5539,7 +7285,6 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/e6cc11e3-566e-4010-923c-ac864b1c7926")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(fp_circle
@@ -5935,7 +7680,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/b6874657-6546-461f-9535-002011f1b150")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -5971,6 +7715,295 @@
 			(uuid "6d5ea3c2-e527-432c-bb4f-667656a54ebb")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "lcsc_footprints:C3861036_C0805"
+		(layer "F.Cu")
+		(uuid "b5123255-7108-4786-b2c9-bf63af0682a8")
+		(at 60.42 94.38)
+		(property "Reference" "C4"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "b3a094f0-e840-4e9c-a2c2-2c99c1a828e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4.7uF 50V X7S 0805"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "8c58b9ca-a890-49d4-ace2-2297ffe78563")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308111526_Murata-Electronics-GRT21BC71H475KE13L_C3861036.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac90329e-4449-44c7-bf0a-08f5d4c5f296")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "GRT21BC71H475KE13L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb787d34-6968-4354-aa59-16e2dca5b558")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C3861036"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eec7aac0-7cce-4cc6-b105-4edaf87fb9c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3861036"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6140da1-329b-4c9b-840c-1261d6f276b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85b3d317-1787-409d-9a92-3a576333618e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9/a4ddcb99-c7a1-4c85-8f8f-3adcdff15245")
+		(sheetname "/LV_Bridge/Gate_Driver/")
+		(sheetfile "Gate_Driver.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.96 0.75)
+			(end -1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5b219c40-3e65-4c61-bd45-9fa71ed86057")
+		)
+		(fp_line
+			(start -1.81 -0.9)
+			(end -0.4 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "840ddf7e-0254-4d32-851f-60ef648315ad")
+		)
+		(fp_line
+			(start -0.4 0.9)
+			(end -1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fdeac357-7acc-4ae8-aee1-807d3dd27023")
+		)
+		(fp_line
+			(start 0.4 0.9)
+			(end 1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f7af6bb8-5bd2-4878-b9b6-e673cb223943")
+		)
+		(fp_line
+			(start 1.81 -0.9)
+			(end 0.4 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2da7f8f-91cc-4798-bab8-72a8226a6e16")
+		)
+		(fp_line
+			(start 1.96 0.75)
+			(end 1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "def1dff8-3809-42f5-8db5-ffd06ddb695c")
+		)
+		(fp_arc
+			(start -1.96 -0.75)
+			(mid -1.916066 -0.856066)
+			(end -1.81 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c057ab1a-b587-4aee-926f-4d26858d6a0a")
+		)
+		(fp_arc
+			(start -1.81 0.9)
+			(mid -1.916066 0.856066)
+			(end -1.96 0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e2a63472-da4e-4ee9-b60e-36f8a4b5629f")
+		)
+		(fp_arc
+			(start 1.81 -0.9)
+			(mid 1.916066 -0.856066)
+			(end 1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "233c0d68-4614-41ca-a9ea-059374f2b095")
+		)
+		(fp_arc
+			(start 1.96 0.75)
+			(mid 1.916066 0.856066)
+			(end 1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4bfdcc69-4fcb-4a0f-82ed-67b8299a4ba2")
+		)
+		(fp_circle
+			(center -1 0.63)
+			(end -0.97 0.63)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "40494917-c563-4ecf-8afb-7a5efbe7d3a2")
+		)
+		(fp_line
+			(start -1 -0.62)
+			(end 1 -0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7872a165-cf7a-4f40-bb0b-b7078d1ff8b3")
+		)
+		(fp_line
+			(start -1 0.62)
+			(end -1 -0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5efe02dc-bcaa-4193-9f30-6cea5c681f52")
+		)
+		(fp_line
+			(start 1 -0.62)
+			(end 1 0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc40ad5a-05e6-4011-a520-25a07d007847")
+		)
+		(fp_line
+			(start 1 0.62)
+			(end -1 0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4873b003-b103-4909-a7e5-035c8c60c78f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "156323fa-d428-4a43-bf68-eb08fcfbdb5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.41 1.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 16 "/LV_Bridge/Gate_Driver/+12V")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "7917832b-e4bb-41a8-898d-53466d45762d")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.41 1.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 15 "/LV_Bridge/Gate_Driver/0 V")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "e66bdf85-c9d1-490f-b90b-c3e6c8aeefaa")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3861036.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "lcsc_footprints:C51018168_SMD_L5_0-W5_0_CON1_5X5_SMD"
 		(layer "F.Cu")
@@ -6060,7 +8093,6 @@
 				)
 			)
 		)
-		(path "/130b5ca5-13af-46ed-ad42-7baeb695652f")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr through_hole)
@@ -6315,7 +8347,6 @@
 				)
 			)
 		)
-		(path "/e5d7b7d8-47ad-410d-8cb8-e2679de9e8fa")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -6637,7 +8668,6 @@
 				)
 			)
 		)
-		(path "/0022ef0a-e46b-4015-91fa-f910ebe47e2c")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr through_hole)
@@ -6858,7 +8888,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/f48e187d-a907-4b4f-b3d4-bd7dc795bcb6")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -6949,7 +8978,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/01ba4534-69ac-4c71-b3ff-cdb91c182029")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -6985,6 +9013,295 @@
 			(uuid "e3b97e7c-91cc-4ade-ba19-39c13849a2e5")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "lcsc_footprints:C5182461_C0805"
+		(layer "F.Cu")
+		(uuid "d3697fcd-9873-45bc-aefd-2424f4545aef")
+		(at 60.42 97.33)
+		(property "Reference" "C5"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "1867d8c9-f2c1-4545-9516-2317832e3715")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100nF 250V X7R 0805"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "ecc114ec-1506-418f-9470-4eeada259584")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211281000_YAGEO-CC0805KKX7RYBB104_C5182461.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f769577f-676a-43a2-bc69-16486b2eb180")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "CC0805KKX7RYBB104"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da8fa7fa-fbc6-48b5-9d1c-a91f3b48f559")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C5182461"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1020ef2c-6938-4647-b906-1f0692d765f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5182461"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6afa2c06-85a0-4f20-9a00-31388b240681")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e51658f-6475-47b8-9bfe-01809ea61543")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9/5685b85f-77d5-4fd9-99f3-f8a44e13ae98")
+		(sheetname "/LV_Bridge/Gate_Driver/")
+		(sheetfile "Gate_Driver.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.96 0.75)
+			(end -1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7afb9d53-b13d-4694-9488-37612d6c6204")
+		)
+		(fp_line
+			(start -1.81 -0.9)
+			(end -0.4 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce3a33c9-4c6e-4387-8e55-6980191d7bd2")
+		)
+		(fp_line
+			(start -0.4 0.9)
+			(end -1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "af160c13-a119-492a-819b-6d6e3a56e358")
+		)
+		(fp_line
+			(start 0.4 0.9)
+			(end 1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4228fff8-0ddd-4c18-9903-18d4d2327943")
+		)
+		(fp_line
+			(start 1.81 -0.9)
+			(end 0.4 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "faf19f38-6944-4fa3-9761-2c5bf3da8bc4")
+		)
+		(fp_line
+			(start 1.96 0.75)
+			(end 1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "15b9bd67-6856-48d7-984f-49a264beae5b")
+		)
+		(fp_arc
+			(start -1.96 -0.75)
+			(mid -1.916066 -0.856066)
+			(end -1.81 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9aa64405-6111-42e1-9c8f-9bfe800780ba")
+		)
+		(fp_arc
+			(start -1.81 0.9)
+			(mid -1.916066 0.856066)
+			(end -1.96 0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ce0f576-2eee-454d-a39d-ba59883c544a")
+		)
+		(fp_arc
+			(start 1.81 -0.9)
+			(mid 1.916066 -0.856066)
+			(end 1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6ecec6f4-1f23-459f-b748-6ad76d6b7e71")
+		)
+		(fp_arc
+			(start 1.96 0.75)
+			(mid 1.916066 0.856066)
+			(end 1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a41e1e2-34c7-4c3c-b82c-9a1b2f9f005d")
+		)
+		(fp_circle
+			(center -1 0.63)
+			(end -0.97 0.63)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "14ab5b45-a5dc-4ee8-8312-a0fa54620910")
+		)
+		(fp_line
+			(start -1 -0.62)
+			(end 1 -0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "479bb448-faa0-4a24-a582-ebf37f330e5a")
+		)
+		(fp_line
+			(start -1 0.62)
+			(end -1 -0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "13fe5a43-613e-4c62-9873-ec74f5a7b77b")
+		)
+		(fp_line
+			(start 1 -0.62)
+			(end 1 0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bcd3842c-752d-4dea-bcc1-eceb5cd15b69")
+		)
+		(fp_line
+			(start 1 0.62)
+			(end -1 0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7c968b16-3294-4b98-ba95-70c00bba7201")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d4aaba0b-4a2d-4d42-a133-90430909d2f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.41 1.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 17 "Net-(U1-HB)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "5f61bb23-cc57-4f6f-935e-28b9627fdabd")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.41 1.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 18 "/LV_Bridge/Gate_Driver/MID")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "a04f69be-9c0a-445e-a324-f547d0eb7eb1")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C5182461.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "1Footprints:FFE_Logo_12x12mm_Silk"
 		(layer "F.Cu")
@@ -7038,7 +9355,6 @@
 				)
 			)
 		)
-		(path "/86cda225-786e-4f20-8b8b-a81855810adf")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr board_only exclude_from_pos_files)
@@ -7387,6 +9703,251 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "lcsc_footprints:C2907219_R0805"
+		(layer "F.Cu")
+		(uuid "dff2fdeb-8815-4be4-a908-5c9b04213339")
+		(at 188.5 100.5)
+		(property "Reference" "R15"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "5305129c-e23b-4d44-9020-80e4c581152f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10kΩ ±1% 0805"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "a22acb16-f477-4cd0-b345-2e3caf11e873")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0805F1002TS_C2907219.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e9b6b2d-afd6-4482-90a5-523cdcce9317")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "FRC0805F1002TS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d47d8ec6-4db9-47c8-9b24-f3b04375c281")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2907219"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9a5cfc4-8d9c-40d6-b3e8-7de6ee669a05")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2907219"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cf53647-6b45-4cf0-9eec-4da67b3dbedf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93771650-4dd1-42c5-bb33-dce4a65b8b67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/c26257c6-60f7-497b-a02e-c1983f0c985f")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.76 -0.92)
+			(end -0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fb7fc525-477e-4116-a399-c1d95ae2ce63")
+		)
+		(fp_line
+			(start -1.76 0.92)
+			(end -1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "00de89fc-89a6-4f8b-88d7-3f449f1c8fe9")
+		)
+		(fp_line
+			(start -0.48 0.92)
+			(end -1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c94f7019-a774-4745-bc10-a025a6cd544a")
+		)
+		(fp_line
+			(start 0.48 0.92)
+			(end 1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9719c99-44a1-4883-8eb9-d509b0dd3070")
+		)
+		(fp_line
+			(start 1.76 -0.92)
+			(end 0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "44f915a4-f88b-4856-9b11-5dad274c4ee5")
+		)
+		(fp_line
+			(start 1.76 0.92)
+			(end 1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "16049ada-f623-42f4-9645-c4444e5a451e")
+		)
+		(fp_circle
+			(center -1 0.64)
+			(end -0.97 0.64)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "fe676c1f-9574-41ba-b480-e096cb8b704d")
+		)
+		(fp_line
+			(start -1 -0.64)
+			(end 1 -0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6eb73b80-14f2-47fa-b608-1565e7b4220d")
+		)
+		(fp_line
+			(start -1 0.64)
+			(end -1 -0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e24ede5-b876-4649-8585-67495e7fdca1")
+		)
+		(fp_line
+			(start 1 -0.64)
+			(end 1 0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "39bda6dd-d798-4a7b-ac08-9af0efcfb471")
+		)
+		(fp_line
+			(start 1 0.64)
+			(end -1 0.64)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4f0e2490-e9de-47bc-a6e0-ebd61329d1b3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dbe52eb4-34a9-4222-acfc-2e848bb169ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.133 1.377)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 7 "Net-(Q2-G)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "697540f2-b677-47ce-9396-7209840ecf5e")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.133 1.377)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "Net-(Q2-S)")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "d196d7d0-607a-4a15-82ec-6ef73afadf36")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2907219.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "lcsc_footprints:C41432921_HDR-SMD_3P-P2_54-V-M-LS4_8_R2"
 		(layer "F.Cu")
 		(uuid "e5656f36-7eb7-4cda-983f-d71d5a7b602f")
@@ -7475,7 +10036,6 @@
 				)
 			)
 		)
-		(path "/7a22b3b9-88c0-44d3-9bd6-eabd4a70ff1f")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -7653,6 +10213,604 @@
 	)
 	(footprint "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
 		(layer "F.Cu")
+		(uuid "e77a6cbc-f449-4afb-92dd-4969a957c498")
+		(at 56.64 81.32)
+		(property "Reference" "R13"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "b8a7286c-a608-4369-8cd3-83e4e02e83cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "3.3Ω ±5% 1W 2512"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "d1cc5f1c-c8f3-4824-a5bb-1ed2133b9278")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55115149.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=Q1VXVl1XEgNWVQEDRwBXU1MEElRaVFwAQgdfVFZQR1gxVlNeRFhbUVxTTlBYXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWVVBQRk8GEwkK"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "601a1fa2-bcc2-483f-85d4-92134ecc060b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "HRC2512J3R3 LNTN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f8c4bc9-6f6b-4007-8668-f1f3e3db924b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C393074"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc7064e5-6aa7-4ef4-9935-9bb2a64cf911")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C55115149"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bac7089-afae-46b8-be67-0e933eece388")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "HWA CHN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60b0d517-203d-440e-a864-1c8cf8e8e36e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/598e121c-cfc6-4e9b-9176-7f082550281b")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.69 -2.03)
+			(end -4.69 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e110bc6-04d3-4df5-9ce9-3b13cd7a8eb1")
+		)
+		(fp_line
+			(start -4.69 2.03)
+			(end -1.77 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c08d37d0-39d1-40c2-8465-7735e6597983")
+		)
+		(fp_line
+			(start -1.89 -2.03)
+			(end -4.69 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75f06725-b9d2-44a5-be7b-dad33f544950")
+		)
+		(fp_line
+			(start 1.89 2.16)
+			(end 4.69 2.16)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aeba8a48-4ca8-43a6-80f0-4e26ab23996b")
+		)
+		(fp_line
+			(start 4.69 -2.03)
+			(end 1.77 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f170b1b5-e9f0-4650-beab-6c57e678730c")
+		)
+		(fp_line
+			(start 4.69 2.16)
+			(end 4.69 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ee687530-63cb-40d6-a713-2f32bd659b9d")
+		)
+		(fp_circle
+			(center -3.2 1.6)
+			(end -3.17 1.6)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d0061b7a-f013-41aa-81b0-e32840e844a3")
+		)
+		(fp_line
+			(start -3.2 -1.6)
+			(end 3.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d5615125-7838-447f-bc8d-cc0b8c9c7d59")
+		)
+		(fp_line
+			(start -3.2 1.6)
+			(end -3.2 -1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f80b9513-5b46-423a-abbf-1fbad84cbd0f")
+		)
+		(fp_line
+			(start 3.2 -1.6)
+			(end 3.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c11265fa-e2f8-4e47-ac4c-376bec68f181")
+		)
+		(fp_line
+			(start 3.2 1.6)
+			(end -3.2 1.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2a780781-5634-40e6-ae23-d35b3267541e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cb41f34b-a064-4c49-97c2-c156f55346d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.1 0)
+			(size 2.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 25 "Net-(J6-Pad3)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "4331aac5-c62c-4f50-8eab-db948cbcb070")
+		)
+		(pad "2" smd rect
+			(at 3.1 0)
+			(size 2.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 7 "Net-(Q2-G)")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "92211a9f-779a-48ca-bf11-3557aed73b87")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C393074.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lcsc_footprints:C141980_SOIC-8_L4_9-W3_9-P1_27-LS6_0-BL-EP"
+		(layer "F.Cu")
+		(uuid "e80f012a-bf04-4dd1-8f05-0718ec3d2dec")
+		(at 54.785 97.0955)
+		(property "Reference" "U1"
+			(at 0 -6.721 0)
+			(layer "F.SilkS")
+			(uuid "3ce2621d-56f8-491f-9b76-5ff07c516841")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "UCC27211DDAR"
+			(at 0 6.721 0)
+			(layer "F.Fab")
+			(uuid "11d84d3d-fc84-429b-b367-4273a45c6b04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1808280155_Texas-Instruments-UCC27211DDAR_C141980.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e7c5731-a4ba-4cae-9ba4-bd3de58a5dab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "UCC27211DDAR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7170d70-1489-4c23-a0b6-507bab05e26c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C141980"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78f67207-2440-47ca-910d-04945fb0219b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C141980"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b89b006-ee58-40c7-aaf2-e9a74dbee529")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7120ec85-a877-4f04-a8eb-d86c406558f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9/fc7405e2-49fc-4d90-a3a9-10c99937222a")
+		(sheetname "/LV_Bridge/Gate_Driver/")
+		(sheetfile "Gate_Driver.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.53 -1.52)
+			(end 2.53 -1.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "568cd6b0-7830-4f3a-8296-2508e0f54d0b")
+		)
+		(fp_line
+			(start -2.53 1.52)
+			(end -2.53 -1.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef3dac21-5108-463a-b405-d182aa6bc7bb")
+		)
+		(fp_line
+			(start 2.53 -1.52)
+			(end 2.53 1.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "880f6400-a4b9-4815-bb9c-8d9c87b0ef3a")
+		)
+		(fp_line
+			(start 2.53 1.52)
+			(end -2.53 1.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6c34576f-5d29-4edd-bbb3-5183f96e237b")
+		)
+		(fp_circle
+			(center -2.66 2.72)
+			(end -2.51 2.72)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "7298b48a-2fe3-4b3a-bbfd-856abdeee3ec")
+		)
+		(fp_circle
+			(center -2.45 3)
+			(end -2.42 3)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d3a0a11d-1194-4579-acfe-981de9fe5ab4")
+		)
+		(fp_circle
+			(center -2.03 1.02)
+			(end -1.88 1.02)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "0a0a8d0b-6f37-4b41-81d9-dd26728a50c6")
+		)
+		(fp_circle
+			(center -1.9 3.4)
+			(end -1.75 3.4)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "0984e741-3eda-440a-a1c3-fcd503cb0967")
+		)
+		(fp_line
+			(start -2.45 -1.95)
+			(end 2.45 -1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "49d407dc-35fe-4716-9522-d1111172d015")
+		)
+		(fp_line
+			(start -2.45 1.95)
+			(end -2.45 -1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "67ed45cc-3882-445f-84ad-2f787188cb12")
+		)
+		(fp_line
+			(start 2.45 -1.95)
+			(end 2.45 1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f2d73fe0-ba5d-488b-9a4f-e3fcae5c7bd6")
+		)
+		(fp_line
+			(start 2.45 1.95)
+			(end -2.45 1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "584e67e8-bd17-47b3-acef-ad0a33e856bf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f286ccd5-1598-42eb-8995-14d7f07e38e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" thru_hole circle
+			(at -0.5 -0.5)
+			(size 0.61 0.61)
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ba33435f-b2b0-4049-9b87-9a80d8b0a116")
+		)
+		(pad "" thru_hole circle
+			(at -0.5 0.5)
+			(size 0.61 0.61)
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "710e90bb-0d28-4298-8d14-2d6c1d07cd0c")
+		)
+		(pad "" thru_hole circle
+			(at 0.5 -0.5)
+			(size 0.61 0.61)
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "43c1b9c7-fd72-4bed-b56d-6965056db80c")
+		)
+		(pad "" thru_hole circle
+			(at 0.5 0.5)
+			(size 0.61 0.61)
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "58764dde-1c3c-4062-9cf2-35b25a086cf1")
+		)
+		(pad "1" smd oval
+			(at -1.9 2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 16 "/LV_Bridge/Gate_Driver/+12V")
+			(pinfunction "VDD")
+			(pintype "unspecified")
+			(uuid "0dccf4a7-2dde-4d42-b880-25e029f2923c")
+		)
+		(pad "2" smd oval
+			(at -0.63 2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 17 "Net-(U1-HB)")
+			(pinfunction "HB")
+			(pintype "unspecified")
+			(uuid "bb9bd2d9-a3fe-4c2f-a80c-2f802bfcdc26")
+		)
+		(pad "3" smd oval
+			(at 0.63 2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 20 "/LV_Bridge/Gate_Driver/QH-G")
+			(pinfunction "HO")
+			(pintype "unspecified")
+			(uuid "9da77d30-ea06-4c5e-ace9-b73e6bdf2fea")
+		)
+		(pad "4" smd oval
+			(at 1.9 2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 18 "/LV_Bridge/Gate_Driver/MID")
+			(pinfunction "HS")
+			(pintype "unspecified")
+			(uuid "f8483a82-cec5-4d81-9b73-0ffc1ffe57eb")
+		)
+		(pad "5" smd oval
+			(at 1.9 -2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 22 "/LV_Bridge/Gate_Driver/PWM-H")
+			(pinfunction "HI")
+			(pintype "unspecified")
+			(uuid "52cdc4ee-fac3-4086-8ba3-8e2e1bb988f4")
+		)
+		(pad "6" smd oval
+			(at 0.63 -2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 23 "/LV_Bridge/Gate_Driver/PWM-L")
+			(pinfunction "LI")
+			(pintype "unspecified")
+			(uuid "d27a033f-a52c-486f-bf6d-b2a5d1fb63f5")
+		)
+		(pad "7" smd oval
+			(at -0.63 -2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 15 "/LV_Bridge/Gate_Driver/0 V")
+			(pinfunction "VSS")
+			(pintype "unspecified")
+			(uuid "57981295-ccf6-430f-bca3-cdf92b240054")
+		)
+		(pad "8" smd oval
+			(at -1.9 -2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 19 "/LV_Bridge/Gate_Driver/QL-G")
+			(pinfunction "LO")
+			(pintype "unspecified")
+			(uuid "91b75f9e-98c3-42c5-836a-6bf3f493fe61")
+		)
+		(pad "9" smd rect
+			(at 0 0)
+			(size 3.098 2.41)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 21 "unconnected-(U1-EP-Pad9)")
+			(pinfunction "EP")
+			(pintype "unspecified")
+			(uuid "ce201f2e-74d5-43d0-9028-9fe87e4e3c4e")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C141980.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
+		(layer "F.Cu")
 		(uuid "ebc8bb3b-17ef-4e1f-bcca-64c91558622a")
 		(at 170.9 110.32)
 		(property "Reference" "R6"
@@ -7739,7 +10897,6 @@
 				)
 			)
 		)
-		(path "/c77825ac-2979-4d92-81c0-cc1320d8b679")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -7984,7 +11141,6 @@
 				)
 			)
 		)
-		(path "/ccd0a812-eb41-42c4-baac-29b6ba4eb884")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr smd)
@@ -8223,7 +11379,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/b9f31e15-9251-4e96-b8c5-81fe051df90e")
 		(sheetname "/")
 		(sheetfile "LibreDAB.kicad_sch")
 		(attr exclude_from_pos_files)

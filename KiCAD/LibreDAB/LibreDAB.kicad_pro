@@ -616,7 +616,7 @@
     ],
     [
       "b5311c66-b122-4c07-875a-24692e20fcb9",
-      "Gate_Driver"
+      "Gate_Driver1"
     ],
     [
       "f3c2518b-d41d-4c2c-ab2c-6739c5137e70",
@@ -633,6 +633,10 @@
     [
       "de260d1b-d7c2-4799-8423-240da5cb11e9",
       "Aux_Power_Supplies"
+    ],
+    [
+      "f8c4e1d5-c720-4c36-bf5f-b4f0ce234f2f",
+      "Gate_Driver2"
     ]
   ],
   "text_variables": {}
