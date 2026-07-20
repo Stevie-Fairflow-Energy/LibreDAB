@@ -81,38 +81,44 @@
 	(net 1 "Net-(Q1-D)")
 	(net 2 "Net-(C1-Pad2)")
 	(net 3 "Net-(C2-Pad2)")
-	(net 4 "Net-(Q3-S)")
-	(net 5 "Net-(Q1-S)")
-	(net 6 "Net-(Q2-S)")
-	(net 7 "Net-(Q2-G)")
-	(net 8 "Net-(Q1-G)")
-	(net 9 "Net-(Q4-G)")
-	(net 10 "Net-(Q3-G)")
-	(net 11 "unconnected-(H1-Pad1)")
-	(net 12 "unconnected-(H2-Pad1)")
-	(net 13 "unconnected-(H3-Pad1)")
-	(net 14 "unconnected-(H4-Pad1)")
-	(net 15 "/LV_Bridge/Gate_Driver/0 V")
-	(net 16 "/LV_Bridge/Gate_Driver/+12V")
-	(net 17 "Net-(U1-HB)")
-	(net 18 "/LV_Bridge/Gate_Driver/MID")
-	(net 19 "/LV_Bridge/Gate_Driver/QL-G")
-	(net 20 "/LV_Bridge/Gate_Driver/QH-G")
-	(net 21 "unconnected-(U1-EP-Pad9)")
-	(net 22 "/LV_Bridge/Gate_Driver/PWM-H")
-	(net 23 "/LV_Bridge/Gate_Driver/PWM-L")
-	(net 24 "Net-(J6-Pad1)")
-	(net 25 "Net-(J6-Pad3)")
-	(net 26 "Net-(J7-Pad1)")
-	(net 27 "Net-(J7-Pad3)")
+	(net 4 "Net-(Q2-S)")
+	(net 5 "Net-(Q2-G)")
+	(net 6 "Net-(Q1-G)")
+	(net 7 "Net-(Q4-G)")
+	(net 8 "Net-(Q3-G)")
+	(net 9 "unconnected-(H1-Pad1)")
+	(net 10 "unconnected-(H2-Pad1)")
+	(net 11 "unconnected-(H3-Pad1)")
+	(net 12 "unconnected-(H4-Pad1)")
+	(net 13 "Net-(U1-HB)")
+	(net 14 "unconnected-(U1-EP-Pad9)")
+	(net 15 "/LV_Bridge/Gate_Driver2/0 V")
+	(net 16 "/LV_Bridge/Gate_Driver2/+12V")
+	(net 17 "/LV_Bridge/Gate_Driver1/+12V")
+	(net 18 "/LV_Bridge/Gate_Driver1/0 V")
+	(net 19 "/LV_Bridge/Gate_Driver1/MID")
+	(net 20 "Net-(U2-HB)")
+	(net 21 "/LV_Bridge/Gate_Driver1/QH-G")
+	(net 22 "/LV_Bridge/Gate_Driver1/QL-G")
+	(net 23 "/LV_Bridge/Gate_Driver1/PWM-H")
+	(net 24 "/LV_Bridge/Gate_Driver1/PWM-L")
+	(net 25 "unconnected-(U2-EP-Pad9)")
+	(net 26 "/LV_Bridge/Gate_Driver2/PWM-H")
+	(net 27 "/LV_Bridge/Gate_Driver2/PWM-L")
+	(net 28 "/LV_Bridge/LSW1")
+	(net 29 "/LV_Bridge/LSW2")
+	(net 30 "/LV_Bridge/HO2")
+	(net 31 "/LV_Bridge/LO2")
+	(net 32 "/LV_Bridge/HO1")
+	(net 33 "/LV_Bridge/LO1")
 	(footprint "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
 		(layer "F.Cu")
 		(uuid "076a867b-6855-48e1-89fa-d348348c40d9")
-		(at 56.64 65)
+		(at 199 79)
 		(property "Reference" "R8"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "fde7f51e-3e8d-4d95-b577-6e0f51fe07c3")
+			(uuid "9d9c2d69-6799-4b7f-9fd5-cdd24ed6a3aa")
 			(effects
 				(font
 					(size 1 1)
@@ -123,7 +129,7 @@
 		(property "Value" "3.3Ω ±5% 1W 2512"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "6e9665ba-c481-443d-9ad1-e3950cabcbf5")
+			(uuid "08e1f15a-08c3-4242-a5fe-c6cfb5c47f01")
 			(effects
 				(font
 					(size 1 1)
@@ -135,7 +141,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "035f2458-f7c4-4f5b-b6c0-071ca0226481")
+			(uuid "2583b48a-55c4-4a2a-b941-794b420bd5fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,19 +153,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd81ae41-e9c5-48b1-9ceb-6cff4e4966e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C393074"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f848c5db-9e53-44ae-9583-16d70396e4ea")
+			(uuid "278aa4c7-e134-4540-8663-25065d3c15fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,7 +317,6 @@
 			(at -3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 26 "Net-(J7-Pad1)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "70191d0b-ef98-415f-86b1-fd1327cd9e88")
@@ -332,7 +325,7 @@
 			(at 3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 10 "Net-(Q3-G)")
+			(net 8 "Net-(Q3-G)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "6e32f7f5-4b4a-4d1c-99d4-12584c98d098")
@@ -357,7 +350,7 @@
 		(property "Reference" "J3"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "926630a4-1a5e-4df9-a0a2-9dac04f6d466")
+			(uuid "c5183878-8ca3-41a8-a177-76ed76c9a2c9")
 			(effects
 				(font
 					(size 1 1)
@@ -368,7 +361,7 @@
 		(property "Value" "TS30050050-040"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "31d5331b-1cb0-466f-ba8d-8e9ed85b0b91")
+			(uuid "afb419ed-94e1-4a14-ab3f-5db6b559b643")
 			(effects
 				(font
 					(size 1 1)
@@ -380,7 +373,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fca73677-8087-4ce6-bd31-7f2f9fc2c651")
+			(uuid "d97fb47c-cb46-430a-8ac8-0cf64b208182")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,19 +385,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b1f7d03-f9b3-425f-bfb8-0d9904f883b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C51018168"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf624449-d003-455d-9f4c-46e17434e979")
+			(uuid "6853fd78-338c-4f09-8963-e5a0c0992de0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -438,8 +419,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b42f50b6-325b-4297-8526-58d5b6374302")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.05 -3.05)
@@ -597,7 +579,7 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 4 "Net-(Q3-S)")
+			(net 29 "/LV_Bridge/LSW2")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "d3e6c09d-39ba-451c-b2d7-1dba878413ee")
@@ -611,7 +593,7 @@
 		(property "Reference" "Q1"
 			(at -4.68 -6.65 0)
 			(layer "F.SilkS")
-			(uuid "e5f609ed-15b5-4bcc-83e7-0b1cba4c6e3c")
+			(uuid "1accf9cf-6d19-49ff-9b45-194df26241b8")
 			(effects
 				(font
 					(size 1 1)
@@ -622,7 +604,7 @@
 		(property "Value" "SP010N01BGHTO"
 			(at 0 7.65 0)
 			(layer "F.Fab")
-			(uuid "df45096d-975e-4922-80e4-ac26c37d47c0")
+			(uuid "1b233019-8f0f-41e2-869d-333ff14f5567")
 			(effects
 				(font
 					(size 1 1)
@@ -634,7 +616,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d11ebdc-d4ec-4ee0-b7e3-caf710afd9b5")
+			(uuid "b534fe07-1769-4d59-8d11-67f3db759e92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,19 +628,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e385346-e438-4f58-a9df-6dbdf7d88b48")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C22385350"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41021ed0-fd22-4772-85b9-60e9b0196d18")
+			(uuid "d9127b76-d5bb-4996-98e1-75c44c13759c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,8 +662,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/a335e564-10b7-477d-8d60-3f491ecacc47")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.28 0.76)
@@ -812,7 +783,7 @@
 			(at -2.4 3.65)
 			(size 0.9 2.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 8 "Net-(Q1-G)")
+			(net 6 "Net-(Q1-G)")
 			(pinfunction "G")
 			(pintype "unspecified")
 			(uuid "5452a3df-0d22-4fd9-9577-502354d0ec45")
@@ -821,7 +792,7 @@
 			(at 2.4 3.65)
 			(size 0.005 0.005)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 5 "Net-(Q1-S)")
+			(net 28 "/LV_Bridge/LSW1")
 			(pinfunction "S")
 			(pintype "unspecified")
 			(thermal_bridge_angle 90)
@@ -886,7 +857,7 @@
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "11020483-ae56-489b-8c0d-b3afdbd7f94b")
+			(uuid "d94f7daf-39df-47b8-8921-96e051d9ff89")
 			(effects
 				(font
 					(size 1 1)
@@ -897,7 +868,7 @@
 		(property "Value" "TestPoint_Probe"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "63b99007-016a-488b-81f5-46c1c47eb97a")
+			(uuid "e3d6976e-6d4a-4901-8cec-b2ac660de1a8")
 			(effects
 				(font
 					(size 1 1)
@@ -909,7 +880,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e79cdffc-cf70-4f47-b24f-4290b46612bb")
+			(uuid "4c5dc3da-5a1f-44e9-a37f-f9ef680ae3a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +892,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a16035f-3b5c-445c-a5d8-7153718d787f")
+			(uuid "03db0273-7c75-4f2b-9559-7bd9e2b1a6f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,8 +901,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/65230d0d-99a6-4eb9-9333-80694fbeaffb")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -959,7 +931,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net 4 "Net-(Q3-S)")
+			(net 29 "/LV_Bridge/LSW2")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "65f7127c-7b0e-44ae-8852-1a12e5acd028")
@@ -973,7 +945,7 @@
 		(property "Reference" "R11"
 			(at 4 0 0)
 			(layer "F.SilkS")
-			(uuid "a1c60639-0916-49af-8a63-afe6e5d9860f")
+			(uuid "ea4510e5-bb42-414d-b3c1-d4c85c29e5d9")
 			(effects
 				(font
 					(size 1 1)
@@ -984,7 +956,7 @@
 		(property "Value" "10kΩ ±1% 0805"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "d1e68028-8745-4798-ae68-00deed77123a")
+			(uuid "a6499b9c-a08c-438a-a928-6d245d40008c")
 			(effects
 				(font
 					(size 1 1)
@@ -996,7 +968,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6edf611b-c76a-4e11-9205-97acd859233e")
+			(uuid "74e5b00d-ba31-4e3c-9568-8823a50f7d90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,19 +980,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "757a77b5-10d3-4c77-ac9c-e8bf94fcf58b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C2907219"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "548b41ef-17c9-4433-85ff-144a81edd8ea")
+			(uuid "5e0809db-c8d1-400e-9919-0ca45b06eadd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,7 +1144,7 @@
 			(at -1 0)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 9 "Net-(Q4-G)")
+			(net 7 "Net-(Q4-G)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "149a73c6-e43f-4a5b-aea2-b3049ead5483")
@@ -1193,7 +1153,7 @@
 			(at 1 0)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "2a6d901f-1734-47a8-bdb4-10aa69e17294")
@@ -1218,7 +1178,7 @@
 		(property "Reference" "R10"
 			(at 4 0 0)
 			(layer "F.SilkS")
-			(uuid "0f431247-3fd3-4933-86c2-6460e999be8d")
+			(uuid "cd0a0f07-d4c7-42b3-bf1d-91e29848ad90")
 			(effects
 				(font
 					(size 1 1)
@@ -1229,7 +1189,7 @@
 		(property "Value" "10kΩ ±1% 0805"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "9784fcd0-76a7-48e8-b60a-772f881c87ba")
+			(uuid "6427951f-7eac-4351-9448-4af172a2ca8f")
 			(effects
 				(font
 					(size 1 1)
@@ -1241,7 +1201,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ebda684-b0f6-4cea-93da-73d1a0dcf58b")
+			(uuid "a8404bb4-b3a9-442a-807e-109da6df6fe8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,19 +1213,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1742e54e-648c-4c29-8518-98d6c274cecf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C2907219"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95d751a2-60df-439f-97da-93d3dc9572ab")
+			(uuid "d89e80bf-2621-461f-bc2a-30ab84356ab9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1377,7 @@
 			(at -1 0)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 10 "Net-(Q3-G)")
+			(net 8 "Net-(Q3-G)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "1b66d2bc-c4e8-45b5-9682-3a8b9384465e")
@@ -1438,7 +1386,7 @@
 			(at 1 0)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 4 "Net-(Q3-S)")
+			(net 29 "/LV_Bridge/LSW2")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "130c120c-dc46-425b-b8dc-51e7d3cf4c73")
@@ -1510,8 +1458,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/18dba690-36fd-4281-b5f8-219d1df5fd73")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -1546,269 +1495,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "lcsc_footprints:C41432921_HDR-SMD_3P-P2_54-V-M-LS4_8_R2"
-		(layer "F.Cu")
-		(uuid "2ee97866-8fe5-4789-a511-69ffd6673dfe")
-		(at 187.34 77.54 -90)
-		(property "Reference" "J6"
-			(at 0 3 180)
-			(layer "F.SilkS")
-			(uuid "c8b0971b-8a1c-4499-bed6-eaff061ffecd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "PZ254VS-11-03P-B01"
-			(at 0 5.585 90)
-			(layer "F.Fab")
-			(uuid "0db95ba2-a0c6-4e49-a5b3-1f7d495a3dd0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "None"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d596f68e-a671-4e70-88d7-609b48d33cf7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "PZ254VS-11-03P-B01"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b90d5ffc-94bb-437c-8e1e-b513539dd9b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C41432921"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f7fdc587-1de0-44c1-baf8-d945c2f3666f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C41432921"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c722921b-e710-487a-8960-e91ec3b7815a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "XFCN(兴飞)"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b227327-72fb-42fd-b938-556cb7950c56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 3.81 1.27)
-			(end 3.28 1.27)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "19bdd07a-c0d3-4b80-98de-a72fe3fc63d3")
-		)
-		(fp_line
-			(start -3.81 1.25)
-			(end -3.81 -1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9135b44f-6ca1-4dc6-97eb-98ecb9d18c14")
-		)
-		(fp_line
-			(start -3.28 1.25)
-			(end -3.81 1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "26785430-7bea-4c92-a27c-3d9835d86b81")
-		)
-		(fp_line
-			(start 1.8 1.25)
-			(end -1.8 1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "df51d8b3-3f3f-41c5-a856-daeed3bd6a74")
-		)
-		(fp_line
-			(start 0.74 -1.23)
-			(end 3.81 -1.23)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5011fdb0-3ca1-47bd-94c5-b48bf543d763")
-		)
-		(fp_line
-			(start -3.81 -1.25)
-			(end -0.74 -1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a0ee0a79-112b-4cba-8880-c3510f0539d8")
-		)
-		(fp_line
-			(start 3.81 -1.25)
-			(end 3.81 1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "415f58f6-ff47-4ac7-8486-ea1f7c0e79a0")
-		)
-		(fp_circle
-			(center -3.81 2.4)
-			(end -3.78 2.4)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "d0b75c83-7b0c-4e0b-b03a-868cf51cc848")
-		)
-		(fp_line
-			(start -3.81 1.25)
-			(end -3.81 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "063f22cf-f933-472d-b90e-bd12c902926c")
-		)
-		(fp_line
-			(start 3.81 1.25)
-			(end -3.81 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9f178320-322e-4389-9658-0618bb4e14f3")
-		)
-		(fp_line
-			(start -3.81 -1.25)
-			(end 3.81 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a54aebc2-273b-4605-8f64-49eb844d07ae")
-		)
-		(fp_line
-			(start 3.81 -1.25)
-			(end 3.81 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b9424f6d-15dc-4090-a1dd-2838bb94ff1f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "7a279b2d-a157-480e-abaf-9a55a898fe4b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -2.54 1.58 90)
-			(size 1.02 3.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 8 "Net-(Q1-G)")
-			(pinfunction "1")
-			(pintype "unspecified")
-			(uuid "75404de6-3ee3-413a-bf03-ef58a14da833")
-		)
-		(pad "2" smd rect
-			(at 0 -1.58 90)
-			(size 1.02 3.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 5 "Net-(Q1-S)")
-			(pinfunction "2")
-			(pintype "unspecified")
-			(uuid "61ab296b-b0bd-4de1-9b2c-63894a9d2c6d")
-		)
-		(pad "3" smd rect
-			(at 2.54 1.58 90)
-			(size 1.02 3.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 7 "Net-(Q2-G)")
-			(pinfunction "3")
-			(pintype "unspecified")
-			(uuid "4207410f-d71b-4941-9855-d2784b65a6c7")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C41432921.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "lcsc_footprints:C393074_RES-SMD_L6_4-W3_2-1"
 		(layer "F.Cu")
 		(uuid "31e8f487-df61-4f3c-8f75-b6d296cbbeb0")
@@ -1816,7 +1502,7 @@
 		(property "Reference" "R9"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "53a0c756-4515-4e0e-bbc7-b3288d938b2e")
+			(uuid "aabfc0ab-98cc-4640-8171-b79b1f972e51")
 			(effects
 				(font
 					(size 1 1)
@@ -1827,7 +1513,7 @@
 		(property "Value" "3.3Ω ±5% 1W 2512"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "aa31cc62-d7cd-4203-9ec5-b503137f3eff")
+			(uuid "0335640b-bc39-4b7c-82e2-2f65a9293e89")
 			(effects
 				(font
 					(size 1 1)
@@ -1839,7 +1525,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4434ae17-7d4c-41fa-807e-642ad3016059")
+			(uuid "961b74b2-25dd-4f8e-93d7-08a82588a3a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,19 +1537,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e2ba15a-8800-43b4-80de-fbe10c8e3ec3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C393074"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eefe2fa9-5e92-4916-8007-a8274f4361bb")
+			(uuid "adcb87d7-f107-4d2d-b629-4a07b1a3cc34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +1701,6 @@
 			(at -3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 27 "Net-(J7-Pad3)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "19475f5b-e699-4b4a-b8ef-65fb8fdc4df3")
@@ -2036,13 +1709,289 @@
 			(at 3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 9 "Net-(Q4-G)")
+			(net 7 "Net-(Q4-G)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "d05407bc-ea3d-4685-ac07-1796e39ceedb")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C393074.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "lcsc_footprints:C5182461_C0805"
+		(layer "F.Cu")
+		(uuid "36475947-fed0-4425-9115-7cbea4aca7c3")
+		(at 87.735 54.5145)
+		(property "Reference" "C6"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "36607931-bd7c-4ccb-ae24-5737e4aa71c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100nF 250V X7R 0805"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "f79136a5-a2f7-47dc-a9f0-6642c0ba53dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211281000_YAGEO-CC0805KKX7RYBB104_C5182461.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc015f3a-fa24-42cb-babc-1e671be56df5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "CC0805KKX7RYBB104"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaee1cca-cb19-40d7-a6e8-047d57df0340")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5182461"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f56a1a62-6d92-4ad8-be86-703996c97f50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29f720a5-3695-49d9-9328-5244fa17dad2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/f8c4e1d5-c720-4c36-bf5f-b4f0ce234f2f/5685b85f-77d5-4fd9-99f3-f8a44e13ae98")
+		(sheetname "/LV_Bridge/Gate_Driver2/")
+		(sheetfile "Gate_Driver.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.96 0.75)
+			(end -1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "72a9d99f-912d-4c2f-9f89-2fad820011a3")
+		)
+		(fp_line
+			(start -1.81 -0.9)
+			(end -0.4 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3b845b4b-8bff-437e-88fb-df9234f2cac2")
+		)
+		(fp_line
+			(start -0.4 0.9)
+			(end -1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "80a8b7ca-78e6-40b7-9291-74f48fef388d")
+		)
+		(fp_line
+			(start 0.4 0.9)
+			(end 1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "19ad4967-6da6-43e2-9ee0-26579cc58f3c")
+		)
+		(fp_line
+			(start 1.81 -0.9)
+			(end 0.4 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d516dd7f-4a7d-45cf-836b-e105657681db")
+		)
+		(fp_line
+			(start 1.96 0.75)
+			(end 1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3c3849a2-83bb-4498-8dee-06b625cbfe72")
+		)
+		(fp_arc
+			(start -1.96 -0.75)
+			(mid -1.916066 -0.856066)
+			(end -1.81 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2eeca560-108d-446f-aeb2-fa07a7e66a41")
+		)
+		(fp_arc
+			(start -1.81 0.9)
+			(mid -1.916066 0.856066)
+			(end -1.96 0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a493215f-c6e2-4042-9172-50887f72dbb7")
+		)
+		(fp_arc
+			(start 1.81 -0.9)
+			(mid 1.916066 -0.856066)
+			(end 1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bff34a51-d72b-4f6e-a758-6fdb07993e7e")
+		)
+		(fp_arc
+			(start 1.96 0.75)
+			(mid 1.916066 0.856066)
+			(end 1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a933137a-ebda-4226-b8b8-d0cd805026fd")
+		)
+		(fp_circle
+			(center -1 0.63)
+			(end -0.97 0.63)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2267cda2-4b62-4531-9879-ce0c5b10eeeb")
+		)
+		(fp_line
+			(start -1 -0.62)
+			(end 1 -0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "22654c48-67f1-4c9c-98ef-8d300e523e89")
+		)
+		(fp_line
+			(start -1 0.62)
+			(end -1 -0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ed442752-4ca9-4896-9c0f-7c5d7ea0feae")
+		)
+		(fp_line
+			(start 1 -0.62)
+			(end 1 0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "898ac9f0-ba41-4989-9452-1bd8579dc080")
+		)
+		(fp_line
+			(start 1 0.62)
+			(end -1 0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "00c2c96b-8357-45a0-adca-13ea53693ca8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4552c3c2-4e5a-4f42-bfc0-bf112c035355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.41 1.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 20 "Net-(U2-HB)")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "ecd148d7-ee0e-4c0c-91a6-7bcf0d1f5759")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.41 1.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "780f9217-fd7c-4fce-b757-2967720ed128")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C5182461.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2064,7 +2013,7 @@
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a135b99d-88f4-4432-851f-b3fad4e77265")
+			(uuid "fc9adc27-93e0-4cc9-8e28-a68da1c127c0")
 			(effects
 				(font
 					(size 1 1)
@@ -2075,7 +2024,7 @@
 		(property "Value" "TestPoint_Probe"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "ad5f3fa3-6376-4a3a-8923-213805e0a7be")
+			(uuid "5c8ae4c9-1d28-4843-adec-007b98fafa5b")
 			(effects
 				(font
 					(size 1 1)
@@ -2087,7 +2036,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "017477de-483f-48a0-b0de-62565947bde9")
+			(uuid "79cacb96-a464-4449-bc70-45aaa67197a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2048,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c95a264-671d-4a89-b81f-42f93049bc4f")
+			(uuid "5577dcfb-8949-48d1-8058-7f729b7c569a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,8 +2057,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/e487a219-c437-41d1-b3b8-f9b48543f92b")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -2137,7 +2087,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net 7 "Net-(Q2-G)")
+			(net 33 "/LV_Bridge/LO1")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "d87ece80-0d67-49a5-ae84-30b50971998c")
@@ -2151,7 +2101,7 @@
 		(property "Reference" "Q4"
 			(at -4.68 -7.65 0)
 			(layer "F.SilkS")
-			(uuid "7ec6798c-d56c-4af7-9620-e66e9e7b0c3e")
+			(uuid "5e429e50-7c7d-4ace-8402-f5ef1b300ff1")
 			(effects
 				(font
 					(size 1 1)
@@ -2162,7 +2112,7 @@
 		(property "Value" "SP010N01BGHTO"
 			(at 0 7.65 0)
 			(layer "F.Fab")
-			(uuid "9856d2fe-4919-46a0-901b-c6de0e707227")
+			(uuid "4c42101f-b8c8-4b83-9d09-b6e49fe42cc7")
 			(effects
 				(font
 					(size 1 1)
@@ -2174,7 +2124,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7073f17d-6424-4d2c-b5de-0d3ea1b818da")
+			(uuid "7d083944-9657-4c1a-baef-c34dd1ccfddc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,19 +2136,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f00481e-3734-499c-9666-f8b453802597")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C22385350"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d1078750-7387-485f-b897-9627185b6008")
+			(uuid "cf22535b-b2b0-4dd3-b5f2-18ff8eef9b2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,8 +2170,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/9c947aab-3d2f-4881-9ea2-c4e94e8b68d7")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.28 0.76)
@@ -2352,7 +2291,7 @@
 			(at -2.4 3.65)
 			(size 0.9 2.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 9 "Net-(Q4-G)")
+			(net 7 "Net-(Q4-G)")
 			(pinfunction "G")
 			(pintype "unspecified")
 			(uuid "1b16d83f-e1b9-4fec-aace-aa8331029acb")
@@ -2361,7 +2300,7 @@
 			(at 2.4 3.65)
 			(size 0.005 0.005)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "S")
 			(pintype "unspecified")
 			(thermal_bridge_angle 90)
@@ -2398,7 +2337,7 @@
 			(at 1.82 -3.65)
 			(size 10 8.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 4 "Net-(Q3-S)")
+			(net 29 "/LV_Bridge/LSW2")
 			(pinfunction "D")
 			(pintype "unspecified")
 			(uuid "6856d0aa-6e7f-4c45-84ce-00d5f6310f48")
@@ -2426,7 +2365,7 @@
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "91ff2edf-5407-46df-ba61-dadd122d9b3f")
+			(uuid "409496df-716e-4622-b81e-8d9b5c02a9d5")
 			(effects
 				(font
 					(size 1 1)
@@ -2437,7 +2376,7 @@
 		(property "Value" "TestPoint_Probe"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "8b4cc9be-67ab-437d-b90a-a9c5242fcf6f")
+			(uuid "7ea0b118-42fa-4d13-a438-674bc05cef23")
 			(effects
 				(font
 					(size 1 1)
@@ -2449,7 +2388,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "922cf188-dfb1-48b5-8a80-a1e4f2de2eb7")
+			(uuid "06105ea9-1b9d-403c-992f-6d88de3dbeb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2400,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed94505c-5d89-423c-a482-85026ccbbb02")
+			(uuid "7169fecd-299e-4468-9051-3c6fdb4d1791")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,8 +2409,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/f17bb745-a2b3-429f-8191-e62e38aecf83")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -2499,7 +2439,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net 9 "Net-(Q4-G)")
+			(net 31 "/LV_Bridge/LO2")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "16722ef2-d200-4eda-a6e4-7fbd1024bdbf")
@@ -2513,7 +2453,7 @@
 		(property "Reference" "R14"
 			(at 4 0 0)
 			(layer "F.SilkS")
-			(uuid "07783213-e097-428b-9b26-ccec243e8657")
+			(uuid "ce187b0d-c5a6-4733-8622-3a362100ced6")
 			(effects
 				(font
 					(size 1 1)
@@ -2524,7 +2464,7 @@
 		(property "Value" "10kΩ ±1% 0805"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "5d8f57d3-1304-4633-a92c-74a80462f545")
+			(uuid "dd4bd867-1d3e-4e1e-94f6-a10cde7d1d1e")
 			(effects
 				(font
 					(size 1 1)
@@ -2536,7 +2476,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bba35602-9a41-4f57-b686-1473284ad343")
+			(uuid "639b752a-70e2-4c24-aa19-e8b826ddf6cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,19 +2488,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5cada43-db15-4794-b2fb-cd84852e261c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C2907219"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be1754f4-125a-4b4f-b228-9ebb58579c6f")
+			(uuid "998f8e76-8147-4acf-b29c-b78bcc785eb8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +2652,7 @@
 			(at -1 0)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 8 "Net-(Q1-G)")
+			(net 6 "Net-(Q1-G)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "9597bc9e-ac99-4f24-ba1d-45c6a811ea00")
@@ -2733,7 +2661,7 @@
 			(at 1 0)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 5 "Net-(Q1-S)")
+			(net 28 "/LV_Bridge/LSW1")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "771fac09-fd8f-4369-bf8d-b2af10fa5191")
@@ -2758,7 +2686,7 @@
 		(property "Reference" "R12"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "ccd6971b-91df-43fe-9dce-0ebc8632a6c2")
+			(uuid "63c402a7-99ef-46b1-8ab7-e99eb79ee6ec")
 			(effects
 				(font
 					(size 1 1)
@@ -2769,7 +2697,7 @@
 		(property "Value" "3.3Ω ±5% 1W 2512"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "fad71e8a-d1b7-4693-924b-6f2d74fd85d5")
+			(uuid "f40d6b08-8340-4755-a26e-dd5a45063cb3")
 			(effects
 				(font
 					(size 1 1)
@@ -2781,7 +2709,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5362b65e-af4f-42fc-a673-ab0d48e8c8bf")
+			(uuid "e7a3d351-62c1-4d57-9485-d66371d68342")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,19 +2721,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19aa1387-dd8f-4c99-836c-193aac59b883")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C393074"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d9d2e7c-b345-46fa-807c-3c74847e46ad")
+			(uuid "692a1348-8c4e-40db-81ed-de0ab247cdf7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +2885,6 @@
 			(at -3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 24 "Net-(J6-Pad1)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "27adcda5-6ccd-477b-9cce-9673ba38d1e9")
@@ -2978,7 +2893,7 @@
 			(at 3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 8 "Net-(Q1-G)")
+			(net 6 "Net-(Q1-G)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "3208b231-b5ce-4e2c-82b4-d9205c49a72a")
@@ -3006,7 +2921,7 @@
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e214113d-d3e5-4a8c-b632-c0d04bb6550b")
+			(uuid "ecacd3f1-4146-44e0-8a1f-92eb772c80ff")
 			(effects
 				(font
 					(size 1 1)
@@ -3017,7 +2932,7 @@
 		(property "Value" "TestPoint_Probe"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "55853c91-3bc0-4244-adc7-0938484cffc4")
+			(uuid "3379c72b-e573-4823-9230-6f00e2f48672")
 			(effects
 				(font
 					(size 1 1)
@@ -3029,7 +2944,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20017ae6-283d-4257-b241-9a0d10300a5d")
+			(uuid "19390e80-6d36-4159-a5af-5c2dcd3a22ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +2956,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df0bb625-9062-4edb-878c-48be6f1a3700")
+			(uuid "6c110121-387d-44a9-a233-91792086623f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,8 +2965,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/06821e77-0995-4a99-8446-8d4d00fee0bc")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -3079,7 +2995,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net 5 "Net-(Q1-S)")
+			(net 28 "/LV_Bridge/LSW1")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "6343223f-79f2-45ab-8903-b471e7ac2acb")
@@ -3093,7 +3009,7 @@
 		(property "Reference" "R3"
 			(at -5.9 0 0)
 			(layer "F.SilkS")
-			(uuid "d28290f7-1814-42d5-a60a-a2934742fbe6")
+			(uuid "02f7dd29-d3e8-4409-b023-c164423a39c6")
 			(effects
 				(font
 					(size 1 1)
@@ -3104,7 +3020,7 @@
 		(property "Value" "5mΩ ±1% 3W 2512"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "80661727-f0f7-495a-901a-af003ee5402d")
+			(uuid "5079bab9-230f-4787-b4d4-bf6342e706f5")
 			(effects
 				(font
 					(size 1 1)
@@ -3116,7 +3032,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2377c9e4-ebd1-4125-a926-5b6a4a2526eb")
+			(uuid "4c3499b5-bb0d-4ba3-843b-edc30a124b75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,19 +3044,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84aa8c95-1508-40c9-9275-e79ad07f8963")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C393074"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c542f725-3e0b-4d58-9bd8-c7f5b39f5ec6")
+			(uuid "763db1b6-9991-4ec8-842b-336a43e1210f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,8 +3078,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/87330c9b-12f2-458f-a141-493781cf26fa")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.69 -2.03)
@@ -3312,7 +3217,7 @@
 			(at 3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "8cf80e93-8d09-44c3-9888-5276ecc3d503")
@@ -3418,8 +3323,7 @@
 				)
 			)
 		)
-		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9/ac93b745-29d4-4c72-b6e2-762945c33e4b")
-		(sheetname "/LV_Bridge/Gate_Driver/")
+		(sheetname "/LV_Bridge/Gate_Driver1/")
 		(sheetfile "Gate_Driver.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3580,7 +3484,7 @@
 			(at -2.54 -1.65)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 20 "/LV_Bridge/Gate_Driver/QH-G")
+			(net 21 "/LV_Bridge/Gate_Driver1/QH-G")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "09df7fc2-f912-409f-96a2-38fa12aef04b")
@@ -3589,7 +3493,7 @@
 			(at 0 1.65)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 18 "/LV_Bridge/Gate_Driver/MID")
+			(net 19 "/LV_Bridge/Gate_Driver1/MID")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "36866bc7-d2a2-496d-abb8-d425aa54a595")
@@ -3598,7 +3502,7 @@
 			(at 2.54 -1.65)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 19 "/LV_Bridge/Gate_Driver/QL-G")
+			(net 22 "/LV_Bridge/Gate_Driver1/QL-G")
 			(pinfunction "3")
 			(pintype "unspecified")
 			(uuid "2c658d2d-1b26-4ddc-8d0e-6aa5e85671b8")
@@ -3623,7 +3527,7 @@
 		(property "Reference" "Q3"
 			(at -4.68 -7.050039 0)
 			(layer "F.SilkS")
-			(uuid "b29094ed-21ef-43c9-9dd4-bff4b0e8d83b")
+			(uuid "f49b22c8-f619-44dd-a2b5-0facd0310ffa")
 			(effects
 				(font
 					(size 1 1)
@@ -3634,7 +3538,7 @@
 		(property "Value" "SP010N01BGHTO"
 			(at 0 7.65 0)
 			(layer "F.Fab")
-			(uuid "1bc74766-019c-49a6-8c47-26bb889df175")
+			(uuid "a0733302-20d8-4827-b94c-32627a3832c2")
 			(effects
 				(font
 					(size 1 1)
@@ -3646,7 +3550,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d275e32e-6205-49f2-8486-bda580c4a6e5")
+			(uuid "93d94511-2e23-4eae-8483-7ffe28613888")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,19 +3562,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33f4b170-e5e5-4b7e-a1fc-371fb43e0d11")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C22385350"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3432ef77-afd1-4c42-a9dd-c4d30ada37a3")
+			(uuid "bf46435f-d1ed-499c-bfd3-03b2728d11b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,8 +3596,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/ebbef3f8-d265-441e-859a-6c04ad7e7192")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.28 0.76)
@@ -3824,7 +3717,7 @@
 			(at -2.4 3.65)
 			(size 0.9 2.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 10 "Net-(Q3-G)")
+			(net 8 "Net-(Q3-G)")
 			(pinfunction "G")
 			(pintype "unspecified")
 			(uuid "76985375-b9c5-4a63-8c39-f1048c013de3")
@@ -3833,7 +3726,7 @@
 			(at 2.4 3.65)
 			(size 0.005 0.005)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 4 "Net-(Q3-S)")
+			(net 29 "/LV_Bridge/LSW2")
 			(pinfunction "S")
 			(pintype "unspecified")
 			(thermal_bridge_angle 90)
@@ -3896,7 +3789,7 @@
 		(property "Reference" "C2"
 			(at 2 2 180)
 			(layer "F.SilkS")
-			(uuid "52986202-1db7-445a-82af-b58b24537ae6")
+			(uuid "bebdcabc-3318-43ce-81d3-7a09fcfdafee")
 			(effects
 				(font
 					(size 1 1)
@@ -3907,7 +3800,7 @@
 		(property "Value" "1nF (102) ±10% 50V"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "b9c0e163-9714-465f-beb2-be9c8448b90a")
+			(uuid "058e9e3b-45b6-4bd0-9b5a-ef92e81d33e3")
 			(effects
 				(font
 					(size 1 1)
@@ -3919,7 +3812,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "213b162b-1186-4515-945b-eb05ff73605b")
+			(uuid "62947677-1950-4d18-be26-1bb2e7125c26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,19 +3824,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f24a1c6-de69-4827-a102-e0125d21b96a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C46653"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f94e30fd-2b82-4d0c-beec-8cb74c9b9663")
+			(uuid "95d53c6d-7caa-4687-96a7-3861236e82e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,8 +3858,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/ecb9ea0e-f359-4199-9b95-391bfe7d6636")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.81 -0.9)
@@ -4184,7 +4066,7 @@
 		(property "Reference" "H2"
 			(at 0 -4.327 0)
 			(layer "F.SilkS")
-			(uuid "ddc19a10-70ce-4710-95ac-bbd2425577ca")
+			(uuid "c24354a2-e961-4486-944c-f327885e7a50")
 			(effects
 				(font
 					(size 1 1)
@@ -4195,7 +4077,7 @@
 		(property "Value" "M3x3.5"
 			(at 0 4.327 0)
 			(layer "F.Fab")
-			(uuid "c549588d-fc65-4ffd-8faf-f54dbb655c15")
+			(uuid "6df90b9b-6c8a-4917-bf46-ded89bf7087a")
 			(effects
 				(font
 					(size 1 1)
@@ -4207,7 +4089,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "90db3453-2bff-46a3-9d98-8289b57b369e")
+			(uuid "80485e32-2efd-4a0c-8f56-6d76fd3f947e")
 			(effects
 				(font
 					(size 1 1)
@@ -4219,7 +4101,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "208077f2-35d6-4381-9d67-57ee33fff5ea")
+			(uuid "99c4ec5a-cb28-493b-84ef-adf0069ea2d7")
 			(effects
 				(font
 					(size 1 1)
@@ -4241,8 +4123,9 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/9a39d7a6-7c8b-4e0b-89e9-5fc471482265")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 3.5 0)
@@ -4404,7 +4287,7 @@
 			(at -2.102 -1.65)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 12 "unconnected-(H2-Pad1)")
+			(net 10 "unconnected-(H2-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -4446,7 +4329,7 @@
 			(at -1.65 2.102)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 12 "unconnected-(H2-Pad1)")
+			(net 10 "unconnected-(H2-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -4489,7 +4372,7 @@
 			(at 1.65 -2.102)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 12 "unconnected-(H2-Pad1)")
+			(net 10 "unconnected-(H2-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -4531,7 +4414,7 @@
 			(at 2.102 1.65)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 12 "unconnected-(H2-Pad1)")
+			(net 10 "unconnected-(H2-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -4589,7 +4472,7 @@
 		(property "Reference" "H3"
 			(at 0 -4.327 0)
 			(layer "F.SilkS")
-			(uuid "599d0825-9114-414f-943d-5e6ecc19c840")
+			(uuid "d9b75034-3bfb-4a27-8c7e-c5aa09957e55")
 			(effects
 				(font
 					(size 1 1)
@@ -4600,7 +4483,7 @@
 		(property "Value" "M3x3.5"
 			(at 0 4.327 0)
 			(layer "F.Fab")
-			(uuid "d127ed1c-150b-44a7-bfca-93cf08ff8ae6")
+			(uuid "d9c900fc-4ff7-4181-9daa-730ddb81b5fd")
 			(effects
 				(font
 					(size 1 1)
@@ -4612,7 +4495,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e31ec922-ded9-4084-952c-9b038157be59")
+			(uuid "645b11a2-680d-4d36-891b-ad1a66df3df8")
 			(effects
 				(font
 					(size 1 1)
@@ -4624,7 +4507,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7319a034-9a65-472b-ae81-682cb43b9a73")
+			(uuid "9caa67e6-d98a-41ca-b2f1-46a9ab08ae1f")
 			(effects
 				(font
 					(size 1 1)
@@ -4646,8 +4529,9 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b6566510-95df-4a62-a03e-cbb958eca31d")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 3.5 0)
@@ -4809,7 +4693,7 @@
 			(at -2.102 -1.65)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 13 "unconnected-(H3-Pad1)")
+			(net 11 "unconnected-(H3-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -4851,7 +4735,7 @@
 			(at -1.65 2.102)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 13 "unconnected-(H3-Pad1)")
+			(net 11 "unconnected-(H3-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -4894,7 +4778,7 @@
 			(at 1.65 -2.102)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 13 "unconnected-(H3-Pad1)")
+			(net 11 "unconnected-(H3-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -4936,7 +4820,7 @@
 			(at 2.102 1.65)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 13 "unconnected-(H3-Pad1)")
+			(net 11 "unconnected-(H3-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -4994,7 +4878,7 @@
 		(property "Reference" "R4"
 			(at -5.9 -0.44 0)
 			(layer "F.SilkS")
-			(uuid "f42c40ae-1ccd-430a-81a4-fede49cef5f1")
+			(uuid "3eb0d25a-8659-4e69-9dc0-cb686c283f04")
 			(effects
 				(font
 					(size 1 1)
@@ -5005,7 +4889,7 @@
 		(property "Value" "5mΩ ±1% 3W 2512"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "13a384cd-f54e-4d62-b130-d971e11d8762")
+			(uuid "9b44e714-695b-4540-b637-4f76297915e3")
 			(effects
 				(font
 					(size 1 1)
@@ -5017,7 +4901,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7eb981b5-f9e7-4104-a4b7-7f6d60559409")
+			(uuid "ae87c11c-51e0-4c41-8468-7bf4e5a19d08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,19 +4913,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8fd751d5-073a-4244-9572-15f7c5062fb2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C393074"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc9c43bd-da40-4cb7-98d6-6433b5032190")
+			(uuid "54df1d44-a40b-4bc2-bd79-f662382fc4e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,8 +4947,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/c5218a23-ebb0-42eb-9f2b-7970fc0c47f3")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.69 -2.03)
@@ -5213,7 +5086,7 @@
 			(at 3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "815e0d3f-98b1-4400-a925-e1196cc81e32")
@@ -5238,7 +5111,7 @@
 		(property "Reference" "H1"
 			(at 0 -4.327 0)
 			(layer "F.SilkS")
-			(uuid "38f009b1-2757-4770-a732-b701d6fe5239")
+			(uuid "704dcf8b-417e-4ab2-b914-cddc4df9884e")
 			(effects
 				(font
 					(size 1 1)
@@ -5249,7 +5122,7 @@
 		(property "Value" "M3x3.5"
 			(at 0 4.327 0)
 			(layer "F.Fab")
-			(uuid "36420a0b-7868-473c-b50c-b203362905e8")
+			(uuid "5e7545c6-18c7-4bba-baca-c0f8d69dfe42")
 			(effects
 				(font
 					(size 1 1)
@@ -5261,7 +5134,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f6ff02e-68a8-4332-b7d2-5683dfa42852")
+			(uuid "0a9ea348-bf92-4580-99d4-3f22e32590d2")
 			(effects
 				(font
 					(size 1 1)
@@ -5273,7 +5146,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e995b26-022a-456a-b98c-a855092b93bb")
+			(uuid "76f18d58-1074-47bd-8b02-e1b9148dbafe")
 			(effects
 				(font
 					(size 1 1)
@@ -5295,8 +5168,9 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/10ec0e9d-6ee0-429a-8d91-d4bd8ea024ac")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 3.5 0)
@@ -5458,7 +5332,7 @@
 			(at -2.102 -1.65)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 11 "unconnected-(H1-Pad1)")
+			(net 9 "unconnected-(H1-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -5500,7 +5374,7 @@
 			(at -1.65 2.102)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 11 "unconnected-(H1-Pad1)")
+			(net 9 "unconnected-(H1-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -5543,7 +5417,7 @@
 			(at 1.65 -2.102)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 11 "unconnected-(H1-Pad1)")
+			(net 9 "unconnected-(H1-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -5585,7 +5459,7 @@
 			(at 2.102 1.65)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 11 "unconnected-(H1-Pad1)")
+			(net 9 "unconnected-(H1-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -5643,7 +5517,7 @@
 		(property "Reference" "R5"
 			(at -5.9 -0.38 0)
 			(layer "F.SilkS")
-			(uuid "460c7ea9-d4a7-497d-b87a-e31da29d1472")
+			(uuid "5a1fe1a4-0982-4d7d-9684-451756bed03c")
 			(effects
 				(font
 					(size 1 1)
@@ -5654,7 +5528,7 @@
 		(property "Value" "5mΩ ±1% 3W 2512"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "42939c75-6fed-41e1-9169-9fdcce1b3643")
+			(uuid "82eb3406-b775-4c7d-8eef-f902c7cd5836")
 			(effects
 				(font
 					(size 1 1)
@@ -5666,7 +5540,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2857222-42e2-40bc-8333-66a51461aa11")
+			(uuid "c288fe3a-57ee-419d-9a07-ef7f3498eff9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,19 +5552,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a6d507f-939c-4337-857c-a5a5824f00ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C393074"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7150a83d-3827-446c-bdc9-4d87aec99a7f")
+			(uuid "95bf4759-89b7-46e9-8b61-b6e4db4d097c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,8 +5586,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/35a89718-460f-4f17-bb99-d19132b3a2bc")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.69 -2.03)
@@ -5862,276 +5725,13 @@
 			(at 3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "761a87a2-1686-4ef6-9540-9b1944a2ede3")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C393074.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "lcsc_footprints:C41432921_HDR-SMD_3P-P2_54-V-M-LS4_8_R2"
-		(layer "F.Cu")
-		(uuid "7ef21eb5-08bd-4be0-8b4f-979804f91191")
-		(at 201.42 77.5 -90)
-		(property "Reference" "J7"
-			(at 0 2.58 180)
-			(layer "F.SilkS")
-			(uuid "60f5d7d1-5dea-4eff-9e06-86e7109c7b44")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "PZ254VS-11-03P-B01"
-			(at 0 5.585 90)
-			(layer "F.Fab")
-			(uuid "e3ae92f8-ff7f-4a4e-b24b-63dab1fca7c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "None"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d96e3ac0-b1e5-4f08-8b55-fc3cef62e928")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "PZ254VS-11-03P-B01"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b01747c-f6c1-43c7-afb8-b0a351499d38")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C41432921"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3ce55474-6c41-42c8-805a-1ab2ac19a516")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C41432921"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30fb797e-9062-40ed-b0ff-6c1dd97edbc0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "XFCN(兴飞)"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0b2d722-bb5c-4678-abd0-eb7bc82ae12f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 3.81 1.27)
-			(end 3.28 1.27)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1541e268-dd3e-423f-bcfb-097b4cfec755")
-		)
-		(fp_line
-			(start -3.81 1.25)
-			(end -3.81 -1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3e1f5835-a711-4555-8c97-fd437429e017")
-		)
-		(fp_line
-			(start -3.28 1.25)
-			(end -3.81 1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3c9e7405-2bfe-456f-bd5a-aa9da9a5a40e")
-		)
-		(fp_line
-			(start 1.8 1.25)
-			(end -1.8 1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e74e4a5f-7d02-4f33-bcac-803bd87c3235")
-		)
-		(fp_line
-			(start 0.74 -1.23)
-			(end 3.81 -1.23)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a5c3ed90-5890-418b-abb4-67d9db6e4e33")
-		)
-		(fp_line
-			(start -3.81 -1.25)
-			(end -0.74 -1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4067bcb3-5bf6-40dc-90b3-1dedc4e761dc")
-		)
-		(fp_line
-			(start 3.81 -1.25)
-			(end 3.81 1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "be4256d0-a838-46bd-a01c-25213aab13e5")
-		)
-		(fp_circle
-			(center -3.81 2.4)
-			(end -3.78 2.4)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "890e9e09-9732-4883-9641-defa610d631c")
-		)
-		(fp_line
-			(start -3.81 1.25)
-			(end -3.81 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "237e6198-51eb-4883-877a-4f823481df2d")
-		)
-		(fp_line
-			(start 3.81 1.25)
-			(end -3.81 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1c2fe5f2-e289-4202-af63-c9b01d62d254")
-		)
-		(fp_line
-			(start -3.81 -1.25)
-			(end 3.81 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4ae44d7d-476e-403a-b325-21d64276a3ea")
-		)
-		(fp_line
-			(start 3.81 -1.25)
-			(end 3.81 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "79a4dfcb-0a51-4bed-92a1-bd0ca6fe126c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "ef74670f-95ad-4ab8-8a8d-4c4706c7a789")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -2.54 1.58 90)
-			(size 1.02 3.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 10 "Net-(Q3-G)")
-			(pinfunction "1")
-			(pintype "unspecified")
-			(uuid "b6a4e70c-c5c0-4fe3-b2ce-bc72c64d01f4")
-		)
-		(pad "2" smd rect
-			(at 0 -1.58 90)
-			(size 1.02 3.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 4 "Net-(Q3-S)")
-			(pinfunction "2")
-			(pintype "unspecified")
-			(uuid "b7b6a0f5-8ac0-4441-b547-d1c534384add")
-		)
-		(pad "3" smd rect
-			(at 2.54 1.58 90)
-			(size 1.02 3.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 9 "Net-(Q4-G)")
-			(pinfunction "3")
-			(pintype "unspecified")
-			(uuid "294a6bfb-1407-4a2e-8721-42600536f5d4")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C41432921.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6153,7 +5753,7 @@
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0adf9870-d896-457d-b144-ac4c7e50b5f3")
+			(uuid "b39f04c9-f4df-400c-90a7-d21c2c374d67")
 			(effects
 				(font
 					(size 1 1)
@@ -6164,7 +5764,7 @@
 		(property "Value" "TestPoint_Probe"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "3c9f09d9-7abf-4467-bc69-adfdd60fa22c")
+			(uuid "c798fd47-566d-46a5-9ea0-301cf903f9bf")
 			(effects
 				(font
 					(size 1 1)
@@ -6176,7 +5776,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b454808d-a8f4-4863-ac07-5f1b085eac40")
+			(uuid "5ea18054-844f-4503-87a8-f4061e1d263a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +5788,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdcb9203-5d22-437f-8a86-fd3f12921d22")
+			(uuid "8f0a106f-4d35-4d34-bfa0-024adca491a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,8 +5797,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/5ca0b5ce-ef59-4bf8-ae95-498274f33e5e")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -6226,7 +5827,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net 8 "Net-(Q1-G)")
+			(net 32 "/LV_Bridge/HO1")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "80320909-e368-4923-89f5-6fd63fe1af4e")
@@ -6240,7 +5841,7 @@
 		(property "Reference" "R7"
 			(at -5.9 -0.26 0)
 			(layer "F.SilkS")
-			(uuid "313d0d65-d5c7-4428-8613-8cfb1a62a913")
+			(uuid "68ea6443-e417-42e8-bc98-300a517658a4")
 			(effects
 				(font
 					(size 1 1)
@@ -6251,7 +5852,7 @@
 		(property "Value" "5mΩ ±1% 3W 2512"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "ddde2e5e-e074-4fab-8a66-96f348da884b")
+			(uuid "b1a65a12-d166-4bf6-8875-778c06f748fb")
 			(effects
 				(font
 					(size 1 1)
@@ -6263,7 +5864,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "285c5c73-1094-4752-a0e7-19fff3278f81")
+			(uuid "3d32bf00-9cda-4776-ab30-c9d6269dfff6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,19 +5876,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65820d4e-03f3-494e-a5c0-bc14d60d151c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C393074"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d8db467-49c5-4cf4-8ff7-e58e63465c57")
+			(uuid "c3ababba-0721-4bbb-9856-ba8962d8696c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,8 +5910,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/dfbd9d39-25e7-47aa-83c3-7ce0daea8c2a")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.69 -2.03)
@@ -6459,7 +6049,7 @@
 			(at 3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "4a1fad59-df20-4114-9d98-c50e67191510")
@@ -6485,7 +6075,7 @@
 		(property "Reference" "R1"
 			(at -1 -2 180)
 			(layer "F.SilkS")
-			(uuid "b972803a-a3c7-465a-841e-5efb91c2f89d")
+			(uuid "63f27b56-c86b-415d-a2e5-ec422ee026d1")
 			(effects
 				(font
 					(size 1 1)
@@ -6496,7 +6086,7 @@
 		(property "Value" "1MΩ (1004) ±1%"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "749f126d-2628-4070-a611-1e50a5393d5f")
+			(uuid "91b90f0c-375a-4215-aa7e-1fd1f69ff6c4")
 			(effects
 				(font
 					(size 1 1)
@@ -6508,7 +6098,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3562af54-3db5-413b-afbd-2b6867b1a07a")
+			(uuid "cc6f8d91-529c-4de4-bbaa-75cade4684a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,19 +6110,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "410d75b8-c9cb-4822-ba32-6832e62fdaeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C17514"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d34af3ad-848a-4396-b1f1-9fb747fd1971")
+			(uuid "d651bb9c-3d5b-46bf-8756-06c2c0f31025")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6566,8 +6144,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/e2a2c49a-c489-48a1-9077-daf8bb791930")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.76 0.92)
@@ -6730,7 +6309,7 @@
 		(property "Reference" "R2"
 			(at -2.5 1.5 180)
 			(layer "F.SilkS")
-			(uuid "398bef27-7ff4-4b5d-8099-9ec9f2321fa2")
+			(uuid "1fef1443-38e2-48e7-a6ce-f1fac0a5c3d8")
 			(effects
 				(font
 					(size 1 1)
@@ -6741,7 +6320,7 @@
 		(property "Value" "25.5KΩ (2552) ±1%"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "d16f7208-d67b-458e-85c3-a2e552918fad")
+			(uuid "f6da2fdc-7223-4a08-8d2a-b3f60dc5bf59")
 			(effects
 				(font
 					(size 1 1)
@@ -6753,7 +6332,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1da60499-d4b6-4f1e-9ea8-06217246395d")
+			(uuid "45657a06-4044-4fd0-abf7-d6ab0fb4102a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,19 +6344,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cc35307-7e0b-4bf6-b2a1-38e92563f3fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C46670"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9828bb7-3e5a-4857-9aa1-ae6c57c86b4e")
+			(uuid "410f20bc-cf00-47bb-9d32-e67679d020fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,8 +6378,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/4b75ded2-4a7e-4cfb-8921-8164c4c4cc14")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.76 0.92)
@@ -6974,7 +6542,7 @@
 		(property "Reference" "J2"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "e39da07a-ccd9-423c-a890-413694edd42d")
+			(uuid "01d1aae2-b4b2-4c2b-9a98-882346915a1c")
 			(effects
 				(font
 					(size 1 1)
@@ -6985,7 +6553,7 @@
 		(property "Value" "TS30050050-040"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "7e505e73-f5ed-439b-b358-ed56a51415d8")
+			(uuid "b0f15643-bda1-4edc-ab58-248f20cf3a02")
 			(effects
 				(font
 					(size 1 1)
@@ -6997,7 +6565,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d6517c0-3080-448c-9b54-b75ccd13b5f5")
+			(uuid "a1cf683d-bd22-4903-be2e-669fe59271a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,19 +6577,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b86c8756-e0e6-4918-b8d5-0edddaf787cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C51018168"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d83267b-762c-41cf-aa0f-35d44c95e655")
+			(uuid "efdf959d-da7d-4c3f-9855-6d8c5aed3870")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,8 +6611,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/dc46aee1-4624-43d1-9605-c420294e8e9e")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.05 -3.05)
@@ -7228,7 +6785,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.327 0)
 			(layer "F.SilkS")
-			(uuid "7f931c23-c635-482b-9d59-edad3a82be40")
+			(uuid "f4f0137a-b239-459f-a629-bde3ca91f6ee")
 			(effects
 				(font
 					(size 1 1)
@@ -7239,7 +6796,7 @@
 		(property "Value" "M3x3.5"
 			(at 0 4.327 0)
 			(layer "F.Fab")
-			(uuid "94fa10a6-9ff3-4927-bc49-79e5cc74245d")
+			(uuid "76c5e532-3f05-4205-b5a5-08a453427c61")
 			(effects
 				(font
 					(size 1 1)
@@ -7251,7 +6808,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bcc52c7-d148-4f98-a98c-1c6635218666")
+			(uuid "01426e07-2190-45e8-bc76-30d631817df6")
 			(effects
 				(font
 					(size 1 1)
@@ -7263,7 +6820,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc364adb-362e-44fd-804e-b25cdb461250")
+			(uuid "f08087a9-151c-40b7-93a4-468c0e41be63")
 			(effects
 				(font
 					(size 1 1)
@@ -7285,8 +6842,9 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/e6cc11e3-566e-4010-923c-ac864b1c7926")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 3.5 0)
@@ -7448,7 +7006,7 @@
 			(at -2.102 -1.65)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 14 "unconnected-(H4-Pad1)")
+			(net 12 "unconnected-(H4-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -7490,7 +7048,7 @@
 			(at -1.65 2.102)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 14 "unconnected-(H4-Pad1)")
+			(net 12 "unconnected-(H4-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -7533,7 +7091,7 @@
 			(at 1.65 -2.102)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 14 "unconnected-(H4-Pad1)")
+			(net 12 "unconnected-(H4-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -7575,7 +7133,7 @@
 			(at 2.102 1.65)
 			(size 0.000001 0.000001)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 14 "unconnected-(H4-Pad1)")
+			(net 12 "unconnected-(H4-Pad1)")
 			(pinfunction "1")
 			(pintype "input")
 			(thermal_bridge_angle 90)
@@ -7680,8 +7238,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b6874657-6546-461f-9535-002011f1b150")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -7709,7 +7268,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "6d5ea3c2-e527-432c-bb4f-667656a54ebb")
@@ -7723,7 +7282,7 @@
 		(property "Reference" "C4"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "b3a094f0-e840-4e9c-a2c2-2c99c1a828e6")
+			(uuid "62a6e2ab-5553-4c3f-8339-dde9f4d4c6cf")
 			(effects
 				(font
 					(size 1 1)
@@ -7734,7 +7293,7 @@
 		(property "Value" "4.7uF 50V X7S 0805"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "8c58b9ca-a890-49d4-ace2-2297ffe78563")
+			(uuid "a4302bf5-3cd1-47c7-bbaf-229371fb96f9")
 			(effects
 				(font
 					(size 1 1)
@@ -7746,7 +7305,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac90329e-4449-44c7-bf0a-08f5d4c5f296")
+			(uuid "a8fb0490-bd07-496d-afe3-5c787cba18b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,19 +7317,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb787d34-6968-4354-aa59-16e2dca5b558")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C3861036"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eec7aac0-7cce-4cc6-b105-4edaf87fb9c9")
+			(uuid "abecd74d-f5a7-4f98-ae12-c1db3d41e0d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,7 +7352,7 @@
 			)
 		)
 		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9/a4ddcb99-c7a1-4c85-8f8f-3adcdff15245")
-		(sheetname "/LV_Bridge/Gate_Driver/")
+		(sheetname "/LV_Bridge/Gate_Driver1/")
 		(sheetfile "Gate_Driver.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7978,7 +7525,7 @@
 			(at -1 0)
 			(size 1.41 1.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 16 "/LV_Bridge/Gate_Driver/+12V")
+			(net 17 "/LV_Bridge/Gate_Driver1/+12V")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "7917832b-e4bb-41a8-898d-53466d45762d")
@@ -7987,7 +7534,7 @@
 			(at 1 0)
 			(size 1.41 1.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 15 "/LV_Bridge/Gate_Driver/0 V")
+			(net 18 "/LV_Bridge/Gate_Driver1/0 V")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "e66bdf85-c9d1-490f-b90b-c3e6c8aeefaa")
@@ -8012,7 +7559,7 @@
 		(property "Reference" "J1"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "309957e1-b833-49a2-9069-a1a8a8a8c121")
+			(uuid "7280080a-4b48-4c30-8731-5a4167ad1f3f")
 			(effects
 				(font
 					(size 1 1)
@@ -8023,7 +7570,7 @@
 		(property "Value" "TS30050050-040"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "98fd1595-3d8e-4120-919f-1b6ad6e8dc20")
+			(uuid "c4ab2204-0ee7-42da-8ef1-68154fd4bc9f")
 			(effects
 				(font
 					(size 1 1)
@@ -8035,7 +7582,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "110c7c30-1334-49a6-ae04-f8c67d649113")
+			(uuid "85843b64-83c9-4761-b709-9c8c00fbf643")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,19 +7594,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c01a13fd-1657-4845-bc8d-6ad6d986330b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C51018168"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f12467b1-81b6-4007-9b5e-a7811fededd0")
+			(uuid "74d39614-a247-49ce-8dc4-cfc6bc626c18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,8 +7628,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/130b5ca5-13af-46ed-ad42-7baeb695652f")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.05 -3.05)
@@ -8266,7 +7802,7 @@
 		(property "Reference" "C1"
 			(at 0 -4 90)
 			(layer "F.SilkS")
-			(uuid "5f0652c9-50b9-4d4b-b65a-15d079acdc92")
+			(uuid "2a19c976-3a57-4893-b247-591acee07f2b")
 			(effects
 				(font
 					(size 1 1)
@@ -8277,7 +7813,7 @@
 		(property "Value" "47uF, 80 V"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(uuid "ea1ab926-491c-4a3d-b02a-f67bbb0dff25")
+			(uuid "82d3eedc-1593-469f-a843-c1e4d071ab00")
 			(effects
 				(font
 					(size 1 1)
@@ -8289,7 +7825,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11f261ac-4a94-4202-9b60-1be9060f24b5")
+			(uuid "e79abd0f-b8cc-443c-858c-fe943a2a0a40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,19 +7837,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "939619ac-1fc4-45cd-be68-6a1735d2b1f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C3031594"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "defd7154-2292-48a9-81c4-8a023633d4d9")
+			(uuid "762c1005-c9e7-4a66-a7f4-3c6a55458dd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,8 +7871,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/e5d7b7d8-47ad-410d-8cb8-e2679de9e8fa")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.09 5.23)
@@ -8580,6 +8105,347 @@
 			)
 		)
 	)
+	(footprint "lcsc_footprints:C141980_SOIC-8_L4_9-W3_9-P1_27-LS6_0-BL-EP"
+		(layer "F.Cu")
+		(uuid "c4b086cc-b08f-4faa-a2ba-02f16d384df2")
+		(at 82.1 54.28)
+		(property "Reference" "U2"
+			(at 0 -6.721 0)
+			(layer "F.SilkS")
+			(uuid "5014dd34-c8ea-4ef7-8c92-2dcab2807a28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "UCC27211DDAR"
+			(at 0 6.721 0)
+			(layer "F.Fab")
+			(uuid "82ca67a2-8d19-4ab6-b65d-9cf256950d28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1808280155_Texas-Instruments-UCC27211DDAR_C141980.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e0b05e0-60a5-4ce8-8b65-ae9977b9083e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "UCC27211DDAR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "114d8293-c515-486e-8490-c6fbae7f3821")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C141980"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b75cbeb-2ab0-4948-bbdf-7f346aec0751")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f176b35-9aba-4652-89ed-5506f61a3360")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/f8c4e1d5-c720-4c36-bf5f-b4f0ce234f2f/fc7405e2-49fc-4d90-a3a9-10c99937222a")
+		(sheetname "/LV_Bridge/Gate_Driver2/")
+		(sheetfile "Gate_Driver.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.53 -1.52)
+			(end 2.53 -1.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "033780e0-1ec3-47bf-8650-9126b410ad7c")
+		)
+		(fp_line
+			(start -2.53 1.52)
+			(end -2.53 -1.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3688bccb-350f-475a-8ee1-23df4dfa8819")
+		)
+		(fp_line
+			(start 2.53 -1.52)
+			(end 2.53 1.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "181f7560-0169-4b1c-b08e-fa6ca84be087")
+		)
+		(fp_line
+			(start 2.53 1.52)
+			(end -2.53 1.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3d4d60d3-426b-46d7-b13d-8c1c9c70f82e")
+		)
+		(fp_circle
+			(center -2.66 2.72)
+			(end -2.51 2.72)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "64185a72-22c3-4f84-b2f2-73f494ba706a")
+		)
+		(fp_circle
+			(center -2.45 3)
+			(end -2.42 3)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4a53b558-c750-4da6-aa56-212b09390182")
+		)
+		(fp_circle
+			(center -2.03 1.02)
+			(end -1.88 1.02)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3a259d1f-aec3-4c20-bc04-5c66633efe12")
+		)
+		(fp_circle
+			(center -1.9 3.4)
+			(end -1.75 3.4)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "8fd2aba1-11fd-47e1-80b6-303cc620e1ab")
+		)
+		(fp_line
+			(start -2.45 -1.95)
+			(end 2.45 -1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d5366a18-9432-449c-be3f-aa9f2ad54750")
+		)
+		(fp_line
+			(start -2.45 1.95)
+			(end -2.45 -1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cd1fc1dd-2fd0-4a4e-984b-13e2e844cb11")
+		)
+		(fp_line
+			(start 2.45 -1.95)
+			(end 2.45 1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "20152116-c8d4-4e30-a643-0a89e163206a")
+		)
+		(fp_line
+			(start 2.45 1.95)
+			(end -2.45 1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7e8fc64d-73b8-4fbe-b767-0bde6e45137c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dac7ec6e-c76a-42f5-8978-a59e42080a2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" thru_hole circle
+			(at -0.5 -0.5)
+			(size 0.61 0.61)
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "7ed1f634-7531-4c66-98fa-e0e0c3d3e6c5")
+		)
+		(pad "" thru_hole circle
+			(at -0.5 0.5)
+			(size 0.61 0.61)
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "4975890b-f8b1-47bd-88b5-73c92c161cb4")
+		)
+		(pad "" thru_hole circle
+			(at 0.5 -0.5)
+			(size 0.61 0.61)
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "23f08ad7-56ee-4ef8-98bc-a991a3d6d9b4")
+		)
+		(pad "" thru_hole circle
+			(at 0.5 0.5)
+			(size 0.61 0.61)
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "92382fa4-af24-406b-8a94-c764e69cf0ee")
+		)
+		(pad "1" smd oval
+			(at -1.9 2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 16 "/LV_Bridge/Gate_Driver2/+12V")
+			(pinfunction "VDD")
+			(pintype "unspecified")
+			(uuid "637c7414-96d1-4ddb-9f63-032309ebd292")
+		)
+		(pad "2" smd oval
+			(at -0.63 2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 20 "Net-(U2-HB)")
+			(pinfunction "HB")
+			(pintype "unspecified")
+			(uuid "be25c726-2a60-40ea-9b1f-d1876baf59ff")
+		)
+		(pad "3" smd oval
+			(at 0.63 2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 30 "/LV_Bridge/HO2")
+			(pinfunction "HO")
+			(pintype "unspecified")
+			(uuid "3b558d98-c9cb-4f90-9d5c-b5ee011918fd")
+		)
+		(pad "4" smd oval
+			(at 1.9 2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 29 "/LV_Bridge/LSW2")
+			(pinfunction "HS")
+			(pintype "unspecified")
+			(uuid "730621cb-23fc-4c68-9a65-2eb1c0d89c10")
+		)
+		(pad "5" smd oval
+			(at 1.9 -2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 26 "/LV_Bridge/Gate_Driver2/PWM-H")
+			(pinfunction "HI")
+			(pintype "unspecified")
+			(uuid "449bb9eb-74fc-4208-90f2-c6ee25f7eec6")
+		)
+		(pad "6" smd oval
+			(at 0.63 -2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 27 "/LV_Bridge/Gate_Driver2/PWM-L")
+			(pinfunction "LI")
+			(pintype "unspecified")
+			(uuid "81eee70c-4df9-4c4f-9eba-36aebd491840")
+		)
+		(pad "7" smd oval
+			(at -0.63 -2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 15 "/LV_Bridge/Gate_Driver2/0 V")
+			(pinfunction "VSS")
+			(pintype "unspecified")
+			(uuid "b7f17742-e114-4007-9ff8-c8a947cfbb8f")
+		)
+		(pad "8" smd oval
+			(at -1.9 -2.72)
+			(size 0.602 1.941)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 31 "/LV_Bridge/LO2")
+			(pinfunction "LO")
+			(pintype "unspecified")
+			(uuid "2ac3ae4e-9b2c-4c71-921a-c052a9a7d792")
+		)
+		(pad "9" smd rect
+			(at 0 0)
+			(size 3.098 2.41)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 25 "unconnected-(U2-EP-Pad9)")
+			(pinfunction "EP")
+			(pintype "unspecified")
+			(uuid "342c66ae-99a2-4b0a-85ca-9d740509c668")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C141980.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "lcsc_footprints:C51018168_SMD_L5_0-W5_0_CON1_5X5_SMD"
 		(layer "F.Cu")
 		(uuid "c8e553df-eb58-48e2-89e7-788ffef18b2e")
@@ -8587,7 +8453,7 @@
 		(property "Reference" "J4"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "1a037c6e-0ec7-4d15-bdec-4d01d34898ea")
+			(uuid "3129edcd-9405-4b9a-8f52-88602f2fd31f")
 			(effects
 				(font
 					(size 1 1)
@@ -8598,7 +8464,7 @@
 		(property "Value" "TS30050050-040"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "fccb01d6-761c-456b-af28-2c24a786638b")
+			(uuid "65bd19f4-2b30-458f-973b-f762210d6ed2")
 			(effects
 				(font
 					(size 1 1)
@@ -8610,7 +8476,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d901c06-8c3b-4ac1-83c9-eb7ef1e5d4d1")
+			(uuid "1528c00b-79ee-4c5b-91da-1b42b040f26a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,19 +8488,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1ff0b3e-3f43-4203-ab47-eb3480f4afdd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C51018168"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b72bb204-3d7d-461f-85f8-87b28ebd8142")
+			(uuid "90a74c8a-a565-476f-b8aa-1a12536669ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,8 +8522,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/0022ef0a-e46b-4015-91fa-f910ebe47e2c")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.05 -3.05)
@@ -8827,7 +8682,7 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 5 "Net-(Q1-S)")
+			(net 28 "/LV_Bridge/LSW1")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "d6d14187-dfb6-4282-af4d-139afef46653")
@@ -8888,8 +8743,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/f48e187d-a907-4b4f-b3d4-bd7dc795bcb6")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -8924,6 +8780,283 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "lcsc_footprints:C3861036_C0805"
+		(layer "F.Cu")
+		(uuid "ce754d11-f609-41f3-8828-de55cedb8cff")
+		(at 87.735 51.5645)
+		(property "Reference" "C3"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "df48b6fd-159a-4147-84eb-58ed3badcc29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4.7uF 50V X7S 0805"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "a3f41194-59a4-4803-8463-9c4ed200acf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308111526_Murata-Electronics-GRT21BC71H475KE13L_C3861036.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50e175a9-9e20-4f6f-a428-49630271fcc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "GRT21BC71H475KE13L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d8c0c1f-7f78-4687-b8b4-8b7308ee17cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3861036"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38891b9b-dc91-4b54-9365-281787edc3c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f572ffba-5f77-440e-87b9-dcfd353051d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/f8c4e1d5-c720-4c36-bf5f-b4f0ce234f2f/a4ddcb99-c7a1-4c85-8f8f-3adcdff15245")
+		(sheetname "/LV_Bridge/Gate_Driver2/")
+		(sheetfile "Gate_Driver.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.96 0.75)
+			(end -1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "251e9b0c-29e4-4699-b0f6-d410fa6cc88d")
+		)
+		(fp_line
+			(start -1.81 -0.9)
+			(end -0.4 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7754b505-f7cc-4311-bcc4-16833150f89a")
+		)
+		(fp_line
+			(start -0.4 0.9)
+			(end -1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8302cd91-57ea-42e2-bb13-84f114a97d9b")
+		)
+		(fp_line
+			(start 0.4 0.9)
+			(end 1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7700d3ba-ae22-4b23-8913-a08817014aa6")
+		)
+		(fp_line
+			(start 1.81 -0.9)
+			(end 0.4 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "14dc2503-fe88-449a-80e3-70d2b7827fc9")
+		)
+		(fp_line
+			(start 1.96 0.75)
+			(end 1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f53ea0a-c172-47c4-80e8-76183408948a")
+		)
+		(fp_arc
+			(start -1.96 -0.75)
+			(mid -1.916066 -0.856066)
+			(end -1.81 -0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6bf323b2-632d-4322-ad4e-0098ed67ce74")
+		)
+		(fp_arc
+			(start -1.81 0.9)
+			(mid -1.916066 0.856066)
+			(end -1.96 0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8bd1b775-f749-4bec-81b9-63abc96dc5c0")
+		)
+		(fp_arc
+			(start 1.81 -0.9)
+			(mid 1.916066 -0.856066)
+			(end 1.96 -0.75)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3d8641bf-e097-4173-b39c-481530338de8")
+		)
+		(fp_arc
+			(start 1.96 0.75)
+			(mid 1.916066 0.856066)
+			(end 1.81 0.9)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "06914937-dc8e-4a86-88a9-e2353949e61d")
+		)
+		(fp_circle
+			(center -1 0.63)
+			(end -0.97 0.63)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ed7b9058-1e78-41f3-9349-ebced98f7e12")
+		)
+		(fp_line
+			(start -1 -0.62)
+			(end 1 -0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c487c4f9-d86b-4fa0-b815-1089364332b4")
+		)
+		(fp_line
+			(start -1 0.62)
+			(end -1 -0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a4924da7-5c9b-4583-a5a2-9d597b4653fc")
+		)
+		(fp_line
+			(start 1 -0.62)
+			(end 1 0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fcc2d2fe-0570-4d6d-b323-f3ce9149f2ae")
+		)
+		(fp_line
+			(start 1 0.62)
+			(end -1 0.62)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8eab0dcb-389b-4fc6-a850-73a156626d09")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4c52bd35-1aac-4171-8538-acf7079b9df4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.41 1.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 16 "/LV_Bridge/Gate_Driver2/+12V")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "caa37444-cc16-404e-b3f3-7eecb59dee36")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.41 1.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 15 "/LV_Bridge/Gate_Driver2/0 V")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "0151eb73-2b0c-47ed-b48a-dd4f98f1bae4")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3861036.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "1Footprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "d24b155a-834e-446b-9bb1-e545ba146189")
@@ -8934,7 +9067,7 @@
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a12af5fd-f686-4cd5-bcf2-c266c669bae2")
+			(uuid "a8f98c91-a1c1-49ea-91fa-cb3447f9585d")
 			(effects
 				(font
 					(size 1 1)
@@ -8945,7 +9078,7 @@
 		(property "Value" "TestPoint_Probe"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "358698cd-c767-45fc-bc94-df96983fc978")
+			(uuid "0c6e6b4d-750f-401a-bd06-3d60cb6a382d")
 			(effects
 				(font
 					(size 1 1)
@@ -8957,7 +9090,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc301214-44d8-4384-9ffb-aa31b264750f")
+			(uuid "0331276c-3622-4b23-8ecc-eeaf369ab3ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +9102,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa546b17-028a-4625-b4da-420fa722fda4")
+			(uuid "363e968f-e0bf-4139-ab89-214309296d2d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,8 +9111,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/01ba4534-69ac-4c71-b3ff-cdb91c182029")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -9007,7 +9141,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net 10 "Net-(Q3-G)")
+			(net 30 "/LV_Bridge/HO2")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "e3b97e7c-91cc-4ade-ba19-39c13849a2e5")
@@ -9021,7 +9155,7 @@
 		(property "Reference" "C5"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "1867d8c9-f2c1-4545-9516-2317832e3715")
+			(uuid "79e7ba74-016d-44c5-83d0-19c7a60a4947")
 			(effects
 				(font
 					(size 1 1)
@@ -9032,7 +9166,7 @@
 		(property "Value" "100nF 250V X7R 0805"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "ecc114ec-1506-418f-9470-4eeada259584")
+			(uuid "9c02c8cf-f769-4e15-ace6-916666d8966b")
 			(effects
 				(font
 					(size 1 1)
@@ -9044,7 +9178,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f769577f-676a-43a2-bc69-16486b2eb180")
+			(uuid "5f9b4bb4-e088-407b-914e-663f210a5ccb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,19 +9190,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da8fa7fa-fbc6-48b5-9d1c-a91f3b48f559")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C5182461"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1020ef2c-6938-4647-b906-1f0692d765f4")
+			(uuid "e2b47998-ef21-4c89-bdc1-e8349d87e9bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9103,7 +9225,7 @@
 			)
 		)
 		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9/5685b85f-77d5-4fd9-99f3-f8a44e13ae98")
-		(sheetname "/LV_Bridge/Gate_Driver/")
+		(sheetname "/LV_Bridge/Gate_Driver1/")
 		(sheetfile "Gate_Driver.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9276,7 +9398,7 @@
 			(at -1 0)
 			(size 1.41 1.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 17 "Net-(U1-HB)")
+			(net 13 "Net-(U1-HB)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "5f61bb23-cc57-4f6f-935e-28b9627fdabd")
@@ -9285,7 +9407,6 @@
 			(at 1 0)
 			(size 1.41 1.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 18 "/LV_Bridge/Gate_Driver/MID")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "a04f69be-9c0a-445e-a324-f547d0eb7eb1")
@@ -9355,8 +9476,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/86cda225-786e-4f20-8b8b-a81855810adf")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr board_only exclude_from_pos_files)
 		(fp_poly
 			(pts
@@ -9710,7 +9832,7 @@
 		(property "Reference" "R15"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "5305129c-e23b-4d44-9020-80e4c581152f")
+			(uuid "505bb938-e41d-4783-ad70-fac5c3fe2186")
 			(effects
 				(font
 					(size 1 1)
@@ -9721,7 +9843,7 @@
 		(property "Value" "10kΩ ±1% 0805"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "a22acb16-f477-4cd0-b345-2e3caf11e873")
+			(uuid "a9999600-a60a-4583-8089-325d77375d39")
 			(effects
 				(font
 					(size 1 1)
@@ -9733,7 +9855,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e9b6b2d-afd6-4482-90a5-523cdcce9317")
+			(uuid "31687901-4f37-4e37-a051-f0528f17038e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,19 +9867,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d47d8ec6-4db9-47c8-9b24-f3b04375c281")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C2907219"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9a5cfc4-8d9c-40d6-b3e8-7de6ee669a05")
+			(uuid "4ac99494-337a-4501-b2b4-239e245cd63f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +10031,7 @@
 			(at -1 0)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 7 "Net-(Q2-G)")
+			(net 5 "Net-(Q2-G)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "697540f2-b677-47ce-9396-7209840ecf5e")
@@ -9930,276 +10040,13 @@
 			(at 1 0)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "d196d7d0-607a-4a15-82ec-6ef73afadf36")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2907219.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "lcsc_footprints:C41432921_HDR-SMD_3P-P2_54-V-M-LS4_8_R2"
-		(layer "F.Cu")
-		(uuid "e5656f36-7eb7-4cda-983f-d71d5a7b602f")
-		(at 179.42 78 -90)
-		(property "Reference" "J5"
-			(at -3 -2.58 180)
-			(layer "F.SilkS")
-			(uuid "9bec456d-ad0d-4ffb-be48-34db94fc3c82")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "PZ254VS-11-03P-B01"
-			(at 0 5.585 90)
-			(layer "F.Fab")
-			(uuid "bfae5cb5-4baf-4139-b33b-6791aea4372c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "None"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "931fcdf7-77e0-475e-a59f-ea5fb87918b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "PZ254VS-11-03P-B01"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef9c9c76-e623-416e-8e7d-33015d1a831b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C41432921"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ded92531-ab1f-4984-96db-a83c7ccb21d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C41432921"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f240abef-b0a1-4a34-8900-5ded1bc2f337")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "XFCN(兴飞)"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "209e6cb1-f132-4585-a690-866c403085dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 3.81 1.27)
-			(end 3.28 1.27)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "423708a6-daf2-4bb8-aa3a-78ea3f243980")
-		)
-		(fp_line
-			(start -3.81 1.25)
-			(end -3.81 -1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "abeee543-9698-43dd-a8c0-63d33a45c0db")
-		)
-		(fp_line
-			(start -3.28 1.25)
-			(end -3.81 1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b9b73b83-be33-4203-8566-2e7d93d4cab0")
-		)
-		(fp_line
-			(start 1.8 1.25)
-			(end -1.8 1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d045c881-c8c9-463e-a05e-b411f8d838f9")
-		)
-		(fp_line
-			(start 0.74 -1.23)
-			(end 3.81 -1.23)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5368f579-4f71-4a18-9d7b-648edb66261e")
-		)
-		(fp_line
-			(start -3.81 -1.25)
-			(end -0.74 -1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1a6b904c-3cf6-4163-8dbd-ea09bb13c9f5")
-		)
-		(fp_line
-			(start 3.81 -1.25)
-			(end 3.81 1.25)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7aef26ab-433f-4772-ae22-8483fe8d9d42")
-		)
-		(fp_circle
-			(center -3.81 2.4)
-			(end -3.78 2.4)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "15733171-8204-4e75-b839-af9aea8f731d")
-		)
-		(fp_line
-			(start -3.81 1.25)
-			(end -3.81 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5b838d5b-eae2-4b99-a6b1-711fb20370d6")
-		)
-		(fp_line
-			(start 3.81 1.25)
-			(end -3.81 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4b4d127f-44f5-4f4b-8c3b-2b9aebd336b4")
-		)
-		(fp_line
-			(start -3.81 -1.25)
-			(end 3.81 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d7e27c70-3752-4b1d-88c7-74cfe61e7b37")
-		)
-		(fp_line
-			(start 3.81 -1.25)
-			(end 3.81 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f3f8f800-f578-4260-abdc-f97aaffcaf66")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "386c3582-b3cb-408c-8945-365e1a986707")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -2.54 1.58 90)
-			(size 1.02 3.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 3 "Net-(C2-Pad2)")
-			(pinfunction "1")
-			(pintype "unspecified")
-			(uuid "6b22a7ac-14c3-4869-9b06-d85d11abae66")
-		)
-		(pad "2" smd rect
-			(at 0 -1.58 90)
-			(size 1.02 3.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "Net-(C1-Pad2)")
-			(pinfunction "2")
-			(pintype "unspecified")
-			(uuid "e82fab68-a834-4e58-921c-29d7726fec19")
-		)
-		(pad "3" smd rect
-			(at 2.54 1.58 90)
-			(size 1.02 3.17)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
-			(pinfunction "3")
-			(pintype "unspecified")
-			(uuid "d0e9fb18-17c2-4996-8573-d13ebd134be9")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C41432921.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10218,7 +10065,7 @@
 		(property "Reference" "R13"
 			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "b8a7286c-a608-4369-8cd3-83e4e02e83cd")
+			(uuid "e43b2a40-c0a9-42d7-9084-e93446a035b1")
 			(effects
 				(font
 					(size 1 1)
@@ -10229,7 +10076,7 @@
 		(property "Value" "3.3Ω ±5% 1W 2512"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "d1cc5f1c-c8f3-4824-a5bb-1ed2133b9278")
+			(uuid "7bfb1483-f3d1-47dd-9eb1-47d840bca6a2")
 			(effects
 				(font
 					(size 1 1)
@@ -10241,7 +10088,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "601a1fa2-bcc2-483f-85d4-92134ecc060b")
+			(uuid "2aa32df4-e569-4b4e-9e4a-26f245660637")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,19 +10100,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f8c4bc9-6f6b-4007-8668-f1f3e3db924b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C393074"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc7064e5-6aa7-4ef4-9935-9bb2a64cf911")
+			(uuid "f06f9cdb-6c28-4cb9-ab9b-c70b0d1e4749")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +10264,6 @@
 			(at -3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 25 "Net-(J6-Pad3)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "4331aac5-c62c-4f50-8eab-db948cbcb070")
@@ -10438,7 +10272,7 @@
 			(at 3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 7 "Net-(Q2-G)")
+			(net 5 "Net-(Q2-G)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "92211a9f-779a-48ca-bf11-3557aed73b87")
@@ -10463,7 +10297,7 @@
 		(property "Reference" "U1"
 			(at 0 -6.721 0)
 			(layer "F.SilkS")
-			(uuid "3ce2621d-56f8-491f-9b76-5ff07c516841")
+			(uuid "967bd8bb-a2f5-48a3-8f09-73bdc9f674a7")
 			(effects
 				(font
 					(size 1 1)
@@ -10474,7 +10308,7 @@
 		(property "Value" "UCC27211DDAR"
 			(at 0 6.721 0)
 			(layer "F.Fab")
-			(uuid "11d84d3d-fc84-429b-b367-4273a45c6b04")
+			(uuid "7b10fea6-e928-409d-b871-139616f7687f")
 			(effects
 				(font
 					(size 1 1)
@@ -10486,7 +10320,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e7c5731-a4ba-4cae-9ba4-bd3de58a5dab")
+			(uuid "d39da279-167f-4678-83dd-052141302478")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10498,19 +10332,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7170d70-1489-4c23-a0b6-507bab05e26c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C141980"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78f67207-2440-47ca-910d-04945fb0219b")
+			(uuid "d43d724f-43ac-4e1b-805f-ba3c97a98eea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +10367,7 @@
 			)
 		)
 		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9/fc7405e2-49fc-4d90-a3a9-10c99937222a")
-		(sheetname "/LV_Bridge/Gate_Driver/")
+		(sheetname "/LV_Bridge/Gate_Driver1/")
 		(sheetfile "Gate_Driver.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10719,7 +10541,7 @@
 			(at -1.9 2.72)
 			(size 0.602 1.941)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 16 "/LV_Bridge/Gate_Driver/+12V")
+			(net 17 "/LV_Bridge/Gate_Driver1/+12V")
 			(pinfunction "VDD")
 			(pintype "unspecified")
 			(uuid "0dccf4a7-2dde-4d42-b880-25e029f2923c")
@@ -10728,7 +10550,7 @@
 			(at -0.63 2.72)
 			(size 0.602 1.941)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 17 "Net-(U1-HB)")
+			(net 13 "Net-(U1-HB)")
 			(pinfunction "HB")
 			(pintype "unspecified")
 			(uuid "bb9bd2d9-a3fe-4c2f-a80c-2f802bfcdc26")
@@ -10737,7 +10559,7 @@
 			(at 0.63 2.72)
 			(size 0.602 1.941)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 20 "/LV_Bridge/Gate_Driver/QH-G")
+			(net 32 "/LV_Bridge/HO1")
 			(pinfunction "HO")
 			(pintype "unspecified")
 			(uuid "9da77d30-ea06-4c5e-ace9-b73e6bdf2fea")
@@ -10746,7 +10568,7 @@
 			(at 1.9 2.72)
 			(size 0.602 1.941)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 18 "/LV_Bridge/Gate_Driver/MID")
+			(net 28 "/LV_Bridge/LSW1")
 			(pinfunction "HS")
 			(pintype "unspecified")
 			(uuid "f8483a82-cec5-4d81-9b73-0ffc1ffe57eb")
@@ -10755,7 +10577,7 @@
 			(at 1.9 -2.72)
 			(size 0.602 1.941)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 22 "/LV_Bridge/Gate_Driver/PWM-H")
+			(net 23 "/LV_Bridge/Gate_Driver1/PWM-H")
 			(pinfunction "HI")
 			(pintype "unspecified")
 			(uuid "52cdc4ee-fac3-4086-8ba3-8e2e1bb988f4")
@@ -10764,7 +10586,7 @@
 			(at 0.63 -2.72)
 			(size 0.602 1.941)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 23 "/LV_Bridge/Gate_Driver/PWM-L")
+			(net 24 "/LV_Bridge/Gate_Driver1/PWM-L")
 			(pinfunction "LI")
 			(pintype "unspecified")
 			(uuid "d27a033f-a52c-486f-bf6d-b2a5d1fb63f5")
@@ -10773,7 +10595,7 @@
 			(at -0.63 -2.72)
 			(size 0.602 1.941)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 15 "/LV_Bridge/Gate_Driver/0 V")
+			(net 18 "/LV_Bridge/Gate_Driver1/0 V")
 			(pinfunction "VSS")
 			(pintype "unspecified")
 			(uuid "57981295-ccf6-430f-bca3-cdf92b240054")
@@ -10782,7 +10604,7 @@
 			(at -1.9 -2.72)
 			(size 0.602 1.941)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 19 "/LV_Bridge/Gate_Driver/QL-G")
+			(net 33 "/LV_Bridge/LO1")
 			(pinfunction "LO")
 			(pintype "unspecified")
 			(uuid "91b75f9e-98c3-42c5-836a-6bf3f493fe61")
@@ -10791,7 +10613,7 @@
 			(at 0 0)
 			(size 3.098 2.41)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 21 "unconnected-(U1-EP-Pad9)")
+			(net 14 "unconnected-(U1-EP-Pad9)")
 			(pinfunction "EP")
 			(pintype "unspecified")
 			(uuid "ce201f2e-74d5-43d0-9028-9fe87e4e3c4e")
@@ -10816,7 +10638,7 @@
 		(property "Reference" "R6"
 			(at -5.9 -0.32 0)
 			(layer "F.SilkS")
-			(uuid "afe555c0-1066-4be0-9ab5-2533289946e0")
+			(uuid "5526d1a7-f4ef-41b2-a609-7ccfd63793f4")
 			(effects
 				(font
 					(size 1 1)
@@ -10827,7 +10649,7 @@
 		(property "Value" "5mΩ ±1% 3W 2512"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "46576d74-e398-48be-9ea9-6eef9e292c6b")
+			(uuid "f273bbf8-a5a8-42a1-a776-de0d48f936fa")
 			(effects
 				(font
 					(size 1 1)
@@ -10839,7 +10661,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8aea3858-a670-4105-8fc8-ed9b9603dad5")
+			(uuid "436ea89d-6127-422f-b513-370367678466")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,19 +10673,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ab994d3-c29f-4059-8089-a23ce14eea86")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C393074"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c63a6d64-2332-4fd4-8e1c-bcbc58fb247e")
+			(uuid "7b78e69c-350f-4a98-a3e1-5a90ebb29cf6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10897,8 +10707,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/c77825ac-2979-4d92-81c0-cc1320d8b679")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.69 -2.03)
@@ -11035,7 +10846,7 @@
 			(at 3.1 0)
 			(size 2.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "50c57f49-c7e3-4e53-815c-cb41afc538a2")
@@ -11060,7 +10871,7 @@
 		(property "Reference" "Q2"
 			(at -4.6 -7.65 0)
 			(layer "F.SilkS")
-			(uuid "b1af2b32-d377-46d2-a6cf-5ec35850ba87")
+			(uuid "92f42c0c-22cd-4a19-995d-57f0ae72ec01")
 			(effects
 				(font
 					(size 1 1)
@@ -11071,7 +10882,7 @@
 		(property "Value" "SP010N01BGHTO"
 			(at 0 7.65 0)
 			(layer "F.Fab")
-			(uuid "760913e1-1645-4393-8445-3c745c5b1561")
+			(uuid "d4db1c68-6e4c-417e-86b7-72dac5bd1219")
 			(effects
 				(font
 					(size 1 1)
@@ -11083,7 +10894,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2eae050f-aef3-4bc9-8b7d-20dbf8ce0d6b")
+			(uuid "7f117d57-6d8c-4b81-93c9-376dc73add33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,19 +10906,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c67c6098-78d6-487c-86c6-0b76a0870c39")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part" "C22385350"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cb7d7379-36a4-4490-b486-61300529a0f5")
+			(uuid "b67d5844-f799-4a88-8c55-0c348302bf4d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,8 +10940,9 @@
 				)
 			)
 		)
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/ccd0a812-eb41-42c4-baac-29b6ba4eb884")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.28 0.76)
@@ -11261,7 +11061,7 @@
 			(at -2.4 3.65)
 			(size 0.9 2.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 7 "Net-(Q2-G)")
+			(net 5 "Net-(Q2-G)")
 			(pinfunction "G")
 			(pintype "unspecified")
 			(uuid "a16287c4-a869-46ed-9c46-fbe8bc0b0ff5")
@@ -11270,7 +11070,7 @@
 			(at 2.4 3.65)
 			(size 0.005 0.005)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "Net-(Q2-S)")
+			(net 4 "Net-(Q2-S)")
 			(pinfunction "S")
 			(pintype "unspecified")
 			(thermal_bridge_angle 90)
@@ -11307,7 +11107,7 @@
 			(at 1.82 -3.65)
 			(size 10 8.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 5 "Net-(Q1-S)")
+			(net 28 "/LV_Bridge/LSW1")
 			(pinfunction "D")
 			(pintype "unspecified")
 			(uuid "064d13fe-3d2e-4f58-84d9-1754f043bd90")
@@ -11379,8 +11179,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(sheetname "/")
-		(sheetfile "LibreDAB.kicad_sch")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b9f31e15-9251-4e96-b8c5-81fe051df90e")
+		(sheetname "/LV_Bridge/")
+		(sheetfile "LV_Bridge.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
