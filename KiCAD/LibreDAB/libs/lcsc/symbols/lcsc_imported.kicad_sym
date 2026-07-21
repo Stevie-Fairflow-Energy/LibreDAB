@@ -3,6 +3,12 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "1MΩ_(1004)_±1%"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -119,6 +125,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "1W_3.3Ω_200V_Thick_Film_Resistor_±400ppm/℃_±5%_2512_Chip_Resistor"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -391,6 +403,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "25_5KΩ_(2552)_±1%"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -813,6 +831,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "HBV470M1KTR-1010"
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1280,6 +1301,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "RES 10kΩ ±1% 125mW 0805"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1396,6 +1423,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "RLP25FEGMR005"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1512,6 +1545,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "SP010N01BGHTO"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1767,6 +1803,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "TS30050050-040"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)

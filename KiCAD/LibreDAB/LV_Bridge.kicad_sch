@@ -282,6 +282,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "lcsc_imported:1MΩ_(1004)_±1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -398,6 +404,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "lcsc_imported:1W_3.3Ω_200V_Thick_Film_Resistor_±400ppm/℃_±5%_2512_Chip_Resistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -670,6 +682,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "lcsc_imported:25_5KΩ_(2552)_±1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -786,6 +804,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "lcsc_imported:HBV470M1KTR-1010"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1108,6 +1129,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "lcsc_imported:RES 10kΩ ±1% 125mW 0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1224,6 +1251,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "lcsc_imported:RLP25FEGMR005"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1340,6 +1373,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "lcsc_imported:SP010N01BGHTO"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1595,6 +1631,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "lcsc_imported:TS30050050-040"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1783,6 +1825,16 @@
 			)
 		)
 		(uuid "ea903d20-468e-4f6c-96c3-aecdde46a339")
+	)
+	(text "Filter cutoff ~ 6.2 kHz"
+		(exclude_from_sim no)
+		(at 94.742 77.724 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+		)
+		(uuid "fc304d33-45ee-4b26-89d8-80ecc87070fa")
 	)
 	(junction
 		(at 90.17 76.2)
