@@ -49,7 +49,7 @@
             "Angle": 0,
             "HF": false,
             "VF": false,
-            "Disabled": false,
+            "Disabled": true,
             "Name": "Ground1",
             "ID": "92416c40-b8c4-4c5b-990d-1cea46860893",
             "Parameters": {
@@ -75,7 +75,7 @@
             "Angle": 90,
             "HF": false,
             "VF": false,
-            "Disabled": false,
+            "Disabled": true,
             "Name": "R1",
             "ID": "ba334243-c23e-4cec-99ae-96a03071e4e4",
             "Parameters": {
@@ -111,7 +111,7 @@
             "Angle": 0,
             "HF": false,
             "VF": false,
-            "Disabled": false,
+            "Disabled": true,
             "Name": "R2",
             "ID": "4784eb33-da95-41ab-8dbc-8805add1f810",
             "Parameters": {
@@ -147,7 +147,7 @@
             "Angle": 0,
             "HF": false,
             "VF": false,
-            "Disabled": false,
+            "Disabled": true,
             "Name": "R3",
             "ID": "0dbc4f94-7573-44ab-afc7-511c9c5a95d1",
             "Parameters": {
@@ -317,7 +317,7 @@
             "Angle": 0,
             "HF": false,
             "VF": false,
-            "Disabled": false,
+            "Disabled": true,
             "Name": "OA1",
             "ID": "f32b7a94-b187-4fee-92cd-81c8f7656720",
             "Parameters": {
@@ -425,7 +425,7 @@
             "Angle": 0,
             "HF": false,
             "VF": false,
-            "Disabled": false,
+            "Disabled": true,
             "Name": "\u002B5V",
             "ID": "96289b7a-c4cc-4bbf-b652-2d480c9ec8d6",
             "Parameters": {
@@ -451,7 +451,7 @@
             "Angle": 0,
             "HF": false,
             "VF": false,
-            "Disabled": false,
+            "Disabled": true,
             "Name": "GND",
             "ID": "94f31265-2b24-4d62-ad6e-cf6a27c00226",
             "Parameters": {
@@ -485,7 +485,9 @@
               "Value": "20p",
               "Vinit": "0"
             },
-            "EnabledScopes": [],
+            "EnabledScopes": [
+              "Voltage"
+            ],
             "ParametersDisplayAttributes": {
               "Name": {
                 "IsVisible": true,
@@ -509,114 +511,6 @@
                 "IsVisible": false,
                 "Suffix": "V",
                 "RelativeLocation": "2 3",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              }
-            }
-          },
-          {
-            "LibraryName": "Operational Amplifier",
-            "Top": 21,
-            "Left": 2,
-            "Angle": 0,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "OA2",
-            "ID": "28d51b38-4477-40b1-8326-bd3d0f09464e",
-            "Parameters": {
-              "Expression": "((V1\u002BV4)/2)\u002B((V1-V4)/2)*tanh(100000*(V2-V3)/(((V1-V4)==0)*1e-6\u002B((V1-V4)/2)))",
-              "Name": "OA2",
-              "NumberOfCurrentVariables": "0",
-              "NumberOfVoltageVariables": "4"
-            },
-            "EnabledScopes": [],
-            "ParametersDisplayAttributes": {
-              "Expression": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "1 2",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "Black"
-              },
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "2 -1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "NumberOfCurrentVariables": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "1 2",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "Black"
-              },
-              "NumberOfVoltageVariables": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "1 2",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "Black"
-              }
-            }
-          },
-          {
-            "LibraryName": "Electrical Connector Label",
-            "Top": 16,
-            "Left": 5,
-            "Angle": 0,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "\u002B5V",
-            "ID": "26b7dfa7-da01-4667-801c-cc2ed5db5f79",
-            "Parameters": {
-              "Name": "\u002B5V"
-            },
-            "EnabledScopes": [],
-            "ParametersDisplayAttributes": {
-              "Name": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "1 -1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              }
-            }
-          },
-          {
-            "LibraryName": "Electrical Connector Label",
-            "Top": 27,
-            "Left": 5,
-            "Angle": 0,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "GND",
-            "ID": "14144d24-7a78-4ea7-b5a7-d7056a2e130d",
-            "Parameters": {
-              "Name": "GND"
-            },
-            "EnabledScopes": [],
-            "ParametersDisplayAttributes": {
-              "Name": {
-                "IsVisible": false,
-                "Suffix": "",
-                "RelativeLocation": "1 -1",
                 "UnrotatedWidth": 2,
                 "UnrotatedHeight": 1,
                 "FontSize": 12,
@@ -689,52 +583,6 @@
             }
           },
           {
-            "LibraryName": "Capacitor",
-            "Top": 34,
-            "Left": 3,
-            "Angle": 0,
-            "HF": false,
-            "VF": false,
-            "Disabled": false,
-            "Name": "C2",
-            "ID": "bcf0797b-ef11-43ec-afd6-8ab3200bdd6a",
-            "Parameters": {
-              "Name": "C2",
-              "Value": "20p",
-              "Vinit": "0"
-            },
-            "EnabledScopes": [],
-            "ParametersDisplayAttributes": {
-              "Name": {
-                "IsVisible": true,
-                "Suffix": "",
-                "RelativeLocation": "2 -1",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Value": {
-                "IsVisible": true,
-                "Suffix": "F",
-                "RelativeLocation": "2 2",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              },
-              "Vinit": {
-                "IsVisible": false,
-                "Suffix": "V",
-                "RelativeLocation": "2 3",
-                "UnrotatedWidth": 2,
-                "UnrotatedHeight": 1,
-                "FontSize": 12,
-                "Color": "#0081BC"
-              }
-            }
-          },
-          {
             "LibraryName": "Resistor",
             "Top": 26,
             "Left": 18,
@@ -793,6 +641,82 @@
                 "UnrotatedHeight": 1,
                 "FontSize": 12,
                 "Color": "#0081BC"
+              }
+            }
+          },
+          {
+            "LibraryName": "Operational Amplifier (Internal Supplies)",
+            "Top": 21,
+            "Left": 2,
+            "Angle": 0,
+            "HF": false,
+            "VF": false,
+            "Disabled": false,
+            "Name": "OA2",
+            "ID": "6f370448-c651-48dc-b0a3-3dc9c9d43650",
+            "Parameters": {
+              "Expression": "((5\u002B(0))/2)\u002B((5-(0))/2)*tanh(100000*(V1-V2)/((5-(0))/2))",
+              "Name": "OA2",
+              "NumberOfCurrentVariables": "0",
+              "NumberOfVoltageVariables": "2",
+              "Vccn": "0",
+              "Vccp": "5"
+            },
+            "EnabledScopes": [],
+            "ParametersDisplayAttributes": {
+              "Expression": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "1 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "Black"
+              },
+              "Name": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 -1",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "#0081BC"
+              },
+              "NumberOfCurrentVariables": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "1 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "Black"
+              },
+              "NumberOfVoltageVariables": {
+                "IsVisible": false,
+                "Suffix": "",
+                "RelativeLocation": "1 2",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "Black"
+              },
+              "Vccn": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 4",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "Black"
+              },
+              "Vccp": {
+                "IsVisible": true,
+                "Suffix": "",
+                "RelativeLocation": "2 3",
+                "UnrotatedWidth": 2,
+                "UnrotatedHeight": 1,
+                "FontSize": 12,
+                "Color": "Black"
               }
             }
           }
@@ -859,19 +783,19 @@
                 "EndY": 24
               },
               {
-                "StartX": 2,
-                "StartY": 22,
-                "EndX": -7,
-                "EndY": 22
-              },
-              {
                 "StartX": -7,
                 "StartY": 22,
                 "EndX": -7,
                 "EndY": 24
+              },
+              {
+                "StartX": 2,
+                "StartY": 22,
+                "EndX": -7,
+                "EndY": 22
               }
             ],
-            "Name": "C13"
+            "Name": "C11"
           },
           {
             "Segments": [
@@ -1014,74 +938,16 @@
           {
             "Segments": [
               {
-                "StartX": 4,
-                "StartY": 21,
-                "EndX": 4,
-                "EndY": 17
-              },
-              {
-                "StartX": 5,
-                "StartY": 17,
-                "EndX": 4,
-                "EndY": 17
-              }
-            ],
-            "Name": "C11"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 4,
-                "StartY": 25,
-                "EndX": 4,
-                "EndY": 28
-              },
-              {
-                "StartX": 5,
-                "StartY": 28,
-                "EndX": 4,
-                "EndY": 28
-              }
-            ],
-            "Name": "C12"
-          },
-          {
-            "Segments": [
-              {
-                "StartX": 2,
-                "StartY": 24,
-                "EndX": -1,
-                "EndY": 24
-              },
-              {
                 "StartX": -1,
                 "StartY": 30,
                 "EndX": 12,
                 "EndY": 30
               },
               {
-                "StartX": 8,
-                "StartY": 23,
-                "EndX": 12,
-                "EndY": 23
-              },
-              {
                 "StartX": 13,
                 "StartY": 26,
                 "EndX": 12,
                 "EndY": 26
-              },
-              {
-                "StartX": 3,
-                "StartY": 35,
-                "EndX": -1,
-                "EndY": 35
-              },
-              {
-                "StartX": 9,
-                "StartY": 35,
-                "EndX": 12,
-                "EndY": 35
               },
               {
                 "StartX": 21,
@@ -1096,16 +962,16 @@
                 "EndY": 30
               },
               {
-                "StartX": -1,
-                "StartY": 30,
+                "StartX": 2,
+                "StartY": 24,
                 "EndX": -1,
-                "EndY": 35
+                "EndY": 24
               },
               {
-                "StartX": 12,
-                "StartY": 30,
+                "StartX": 8,
+                "StartY": 23,
                 "EndX": 12,
-                "EndY": 35
+                "EndY": 23
               },
               {
                 "StartX": 12,
@@ -1152,7 +1018,7 @@
       },
       "TransientAnalysis": {
         "EndTime": "50m",
-        "FixedTimeStep": false,
+        "FixedTimeStep": true,
         "SaveInitialPoint": true,
         "CompressScopes": true,
         "DualStageElectroThermalAnalysis": false,
