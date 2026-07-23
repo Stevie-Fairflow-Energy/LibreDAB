@@ -50,10 +50,18 @@ Size | Target 70 mm x 280 mm PCB footprint | Similar size to 14 x 18650 cells ne
 	- <100 V switch
 		- TI LMG5200MOFR - 80 V, 10 A half bridge with driver
 		- EPC2152 - 80 V, 15 A half bridge with driver
-		- **EPC23102 - 100 V, 35 A half bridge with driver** - https://epc-co.com/epc/products/gan-fets-and-ics/epc23102
+		- EPC23102 - 100 V, 35 A half bridge with driver - https://epc-co.com/epc/products/gan-fets-and-ics/epc23102
+		- Siliup SP010N01BGHTO 100 V 370A TOLL-8L MOSFET  https://www.lcsc.com/product-detail/C22385350.html?s_z=n_q_SP010N01BGHTO plus TI Driver UCC27211DDAR https://www.lcsc.com/product-detail/C141980.html?s_z=n_q_UCC27211DDAR
 	- . >500 V switch
 		- **TI LMG2652 GaN Integrated Half Bridge and driver** 650 V, 140 mOhm - https://www.ti.com/product/LMG2652
 		- Tokmas CID12N65D(TOKMAS) GaN single switch with integrated driver 650 V,  - 140 mOhm https://www.lcsc.com/product-detail/C21547657.html?s_z=n_q_C21547657&globalKeyword=C21547657
 	- Controller
 		- OwnTech SPIN https://www.owntech.org/spin-2/
-	
+
+- **PCB Stackup**
+	- 4 Layer FR4 insulated PCB with the following layer assignments:
+		- Sig / Power 2oz
+		- In.1 reference 2oz GND plane
+		- Core
+		- In.2 reference 2oz GND plane
+		- Sig / Power 2oz
