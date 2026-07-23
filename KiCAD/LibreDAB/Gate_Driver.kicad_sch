@@ -2967,7 +2967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5685b85f-77d5-4fd9-99f3-f8a44e13ae98")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 129.54 85.7249 90)
 			(effects
 				(font
@@ -3039,11 +3039,11 @@
 		(instances
 			(project ""
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/f8c4e1d5-c720-4c36-bf5f-b4f0ce234f2f"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3058,7 +3058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ddcb99-c7a1-4c85-8f8f-3adcdff15245")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 116.332 70.358 90)
 			(effects
 				(font
@@ -3130,11 +3130,11 @@
 		(instances
 			(project "LibreDAB"
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/b5311c66-b122-4c07-875a-24692e20fcb9"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/f8c4e1d5-c720-4c36-bf5f-b4f0ce234f2f"
-					(reference "C3")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3245,7 @@
 					(unit 1)
 				)
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/f8c4e1d5-c720-4c36-bf5f-b4f0ce234f2f"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
