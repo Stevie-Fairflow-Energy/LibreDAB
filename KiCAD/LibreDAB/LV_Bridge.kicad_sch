@@ -383,6 +383,42 @@
 					)
 				)
 				(pin unspecified line
+					(at -3.81 -2.54 90)
+					(length 2.54)
+					(name "Vsense1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -2.54 90)
+					(length 2.54)
+					(name "Vsense2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -3217,7 +3253,7 @@
 	)
 	(text "Ipeak = 60 A, bidirectional in short circuit condition\nSmallest 2512 Resistor is 0.5 mOhm\nCheck losses:\nI^2R = 60^2 * 0.5m = 1.8 Watts at short circuit condition\nI^2R = 35^2 * 0.5m = 0.61 Watts at max normal current\n\nCheck voltage drop:\nV = IR = 60*0.5m = 30 mV"
 		(exclude_from_sim no)
-		(at 79.248 110.998 0)
+		(at 79.248 116.078 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4125,6 +4161,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 153.67) (xy 138.43 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57163994-c5bc-49af-aa21-e076160a7e7f")
+	)
+	(wire
+		(pts
 			(xy 220.98 135.89) (xy 226.06 135.89)
 		)
 		(stroke
@@ -4705,6 +4751,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 96.52) (xy 87.63 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6abbe5-7a2f-4292-af15-48064f7a772e")
+	)
+	(wire
+		(pts
 			(xy 151.13 76.2) (xy 158.75 76.2)
 		)
 		(stroke
@@ -4712,6 +4768,16 @@
 			(type default)
 		)
 		(uuid "b21f9c53-61a4-4a75-b685-0aea0b0de311")
+	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 95.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b412489a-7a7e-4367-bfba-88f2efdf6240")
 	)
 	(wire
 		(pts
@@ -4772,16 +4838,6 @@
 			(type default)
 		)
 		(uuid "bfc0e400-2133-4c9b-97e0-80afc3291b40")
-	)
-	(wire
-		(pts
-			(xy 130.81 153.67) (xy 138.43 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61860cf-f1dc-4626-8397-49ad08d50d6d")
 	)
 	(wire
 		(pts
@@ -4855,7 +4911,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 138.43 133.35)
+			(xy 128.27 133.35) (xy 138.43 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5429,6 +5485,16 @@
 		)
 		(uuid "036936bf-9b02-4484-8f0e-90b123bc08b9")
 	)
+	(label "GND_sense"
+		(at 95.25 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "062e46ac-09f2-400a-b1a9-a96ca07524e3")
+	)
 	(label "LSW1"
 		(at 142.24 76.2 0)
 		(effects
@@ -5448,6 +5514,16 @@
 			(justify left bottom)
 		)
 		(uuid "16237931-deb4-414d-9189-57e3745b8dc7")
+	)
+	(label "V_LV-_sense"
+		(at 87.63 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16d630a2-d5e9-48ae-83eb-2a21ccf4b9a2")
 	)
 	(label "I_LVsense"
 		(at 226.06 135.89 0)
@@ -5538,6 +5614,16 @@
 			(justify left bottom)
 		)
 		(uuid "493c7346-b6bb-4fdd-b24d-88812c86917f")
+	)
+	(label "V_LV-_sense"
+		(at 128.27 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "579ad461-9277-4a7f-829f-db04db4df8f1")
 	)
 	(label "PWM-L1"
 		(at 53.34 22.86 0)
@@ -5659,15 +5745,15 @@
 		)
 		(uuid "9ee55ac7-0277-4d14-8b02-84f3f8c2b574")
 	)
-	(label "V_LV-"
-		(at 130.81 153.67 0)
+	(label "GND_sense"
+		(at 128.27 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e39c7d1f-51cc-4bee-bd6e-fe29d8070ab1")
+		(uuid "acfa5550-eb58-4117-afa9-d71b65464a93")
 	)
 	(label "I_LVsense"
 		(at 80.01 137.16 0)
@@ -6960,6 +7046,12 @@
 		)
 		(pin "1"
 			(uuid "00eaa98f-470e-4bac-b454-249f969ddedf")
+		)
+		(pin "4"
+			(uuid "a4976e20-095d-4640-827f-2690d51a0d65")
+		)
+		(pin "3"
+			(uuid "545a262b-27b6-4093-8d57-617ee9a9bf11")
 		)
 		(instances
 			(project ""
@@ -10035,72 +10127,6 @@
 			(project "LibreDAB"
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaeca0c0-4ca0-4837-84f0-6e5d30af09ae")
-		(property "Reference" "#PWR018"
-			(at 130.81 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03a39103-dc42-44da-a1bf-8cd5d62e427d")
-		)
-		(instances
-			(project "LibreDAB"
-				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)

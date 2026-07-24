@@ -203,12 +203,6 @@
 		(uuid "66c5ead0-fdc4-4b70-be62-8f93f28829e0")
 	)
 	(pad "1" smd rect
-		(at -2.475 0)
-		(size 3.4 0.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "91ed4daa-ba2f-41ae-9e91-c48d25bb18b4")
-	)
-	(pad "1" smd rect
 		(at -2.475 1.4)
 		(size 3.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -221,16 +215,22 @@
 		(uuid "7efd1d6f-ad0d-4b4a-b880-d5cf39c2144f")
 	)
 	(pad "2" smd rect
-		(at 2.535 0)
-		(size 3.4 0.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ad6172c9-96aa-44f2-9317-8ed19cbe081e")
-	)
-	(pad "2" smd rect
 		(at 2.535 1.4)
 		(size 3.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d46ee19-454e-4f91-bc35-47a05cfdd543")
+	)
+	(pad "3" smd rect
+		(at -2.475 0)
+		(size 3.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91ed4daa-ba2f-41ae-9e91-c48d25bb18b4")
+	)
+	(pad "4" smd rect
+		(at 2.535 0)
+		(size 3.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ad6172c9-96aa-44f2-9317-8ed19cbe081e")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/lcsc/3dmodels/C710260.wrl"
