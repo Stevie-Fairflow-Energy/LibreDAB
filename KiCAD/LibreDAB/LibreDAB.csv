@@ -4,6 +4,7 @@
 "C4","1","47uF, 80 V","","","","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208301730_Lelon-HBV470M1KTR-1010_C3031594.pdf","Lelon(立隆)","C3031594","HBV470M1KTR-1010"
 "C5,C6","2","1nF (102) ±10% 50V","","","","https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B102KBCNNNC_C46653.pdf","SAMSUNG(三星)","C46653","1nF (102) ±10% 50V"
 "C8,C10","2","20pF 50V C0G 0805","","","","https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0805CG200F500NT_C176292.pdf","FH(风华)","C176292","CAP CER 20pF 50V C0G 0805"
+"D1","1","TVS DIODE 60VWM 96.8VC SMB(DO-214AA)","","","","https://www.lcsc.com/datasheet/C49066953.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FANbVFRST1hfU1JfR1ZbXlBfEgcPVgcEQgNYBlVSEwAxVlNeQlBaXlFfQ1JYXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRlRfVVBRWQkaCgg%3D","R+O(宏嘉诚)","C49066953","SMBJ60A TVS"
 "H1,H2,H3,H4","4","MountingHole_Pad","","","","~","","C2916333","Mounting Hole with connection"
 "J1,J4,J5,J6","4","HX PM2.54-1X4P TP H8.5-ZQ","","","","https://www.lcsc.com/datasheet/lcsc_datasheet_2504301452_hanxia-HX-PM2-54-1x4P-TP-H8-5-ZQ_C48641754.pdf","hanxia(韩下)","C48641754","HX PM2.54-1X4P TP H8.5-ZQ"
 "J2,J3,J7,J8","4","TS30050050-040","","","","None","XFCN(兴飞)","C51018168","TS30050050-040"
