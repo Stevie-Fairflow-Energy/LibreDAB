@@ -58,10 +58,30 @@ Size | Target 70 mm x 280 mm PCB footprint | Similar size to 14 x 18650 cells ne
 	- Controller
 		- OwnTech SPIN https://www.owntech.org/spin-2/
 
-- **PCB Stackup**
+- **Expected PCB Stackup**
 	- 4 Layer FR4 insulated PCB with the following layer assignments:
 		- Sig / Power 2oz
 		- In.1 reference 2oz GND plane
 		- Core
 		- In.2 reference 2oz GND plane
 		- Sig / Power 2oz
+ - **Prototyping Status**
+    - Prototype LV Bridge module ready for review.
+    - Design in KiCAD 9.0.7
+    - The LV Bridge module is a functional LV H bridge inverter to interface between the battery / BMS and the High Frequency DAB transformer. The prototype module has gate drivers on board as well as DC voltage and current measurements. The control interfaces for the gate drive signals, voltage and current measurements and 12 V and 5 V power supplies should be connected using 2.54 mm pin headers.
+        - 4 Layer FR4 insulated PCB with the following layer assignments, with via stitching for power nets to maximise use of the PCB copper for power transfer:
+		  - Sig / Power 1oz
+		  - In.1 reference 0.5oz GND plane
+		  - Core
+		  - In.2 reference 0.5oz GND plane
+		  - Sig / Power 1oz
+    - Specifications for LV Bridge prototype module:
+    
+Category | Requirement | Notes 
+:---|:---|:---
+Battery voltage range | 23.8 V - 58.8 V | 14 Series Cells of ~1.7 V to 4.2 V per cell. This enables compatibility with LibreSolar BMS C1 which sets a maximum voltage of 60 V. (https://github.com/LibreSolar/bms-c1) 
+Nominal Battery Voltage | 42 V | Based on 3 V per cell 
+Nominal Battery Current | 20 A | At 42 V and 800 W power transfer to DC link 
+Peak Battery Current | 35.3 A | At 23.8 V and 800 W power transfer to DC link 
+Efficiency | >97% | Target at nominal conditions 
+Size | 92 mm x 92 mm PCB  | Sized to mount 92 mm fan
