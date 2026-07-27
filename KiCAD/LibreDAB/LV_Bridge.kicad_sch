@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "bb9302e2-075e-4779-9076-3cf79b288d28")
 	(paper "A4")
+	(title_block
+		(title "LV Bridge")
+		(date "2026-07-27")
+		(rev "V0.1 for review")
+	)
 	(lib_symbols
 		(symbol "!Mechanical:FFE_logo"
 			(exclude_from_sim no)
