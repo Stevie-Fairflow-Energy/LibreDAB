@@ -2231,6 +2231,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:SMBJ60A TVS "
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TVS DIODE 60VWM 96.8VC SMB(DO-214AA)"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C49066953_SMB_L4_5-W3_7-LS5_4-RD"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C49066953.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FANbVFRST1hfU1JfR1ZbXlBfEgcPVgcEQgNYBlVSEwAxVlNeQlBaXlFfQ1JYXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRlRfVVBRWQkaCgg%3D"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMBJ60A TVS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C49066953"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "R+O(宏嘉诚)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ60A TVS _1_1"
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:SP010N01BGHTO"
 			(pin_numbers
 				(hide yes)
@@ -3193,7 +3349,7 @@
 	)
 	(text "Stored energy: 0.5 CV^2\n0.5 * 45u * 80^2 = 0.144 J\nDischarge time constant: RC\n~ 1M * 47u = 45 seconds"
 		(exclude_from_sim no)
-		(at 38.862 79.756 0)
+		(at 29.972 79.502 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3328,6 +3484,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11a55f28-cadd-499d-b68a-434f34a40f22")
+	)
+	(junction
+		(at 49.53 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12e2c3c2-0b4d-45ce-a6e0-023f1db352cd")
 	)
 	(junction
 		(at 128.27 22.86)
@@ -3618,6 +3780,12 @@
 		(uuid "f4388428-869c-47aa-87c3-6f347025b68d")
 	)
 	(junction
+		(at 49.53 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feb546d4-b933-4888-a03b-8097e6c7adcf")
+	)
+	(junction
 		(at 151.13 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3711,6 +3879,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 63.5) (xy 49.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f81881-acc4-4281-b423-3cf54fdd0664")
+	)
+	(wire
+		(pts
 			(xy 50.8 170.18) (xy 55.88 170.18)
 		)
 		(stroke
@@ -3768,6 +3946,16 @@
 			(type default)
 		)
 		(uuid "18281f9c-ee44-4579-9005-7ed3aef2d895")
+	)
+	(wire
+		(pts
+			(xy 49.53 83.82) (xy 49.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0078ab-088f-4e04-bcb5-7b855d05669a")
 	)
 	(wire
 		(pts
@@ -11265,6 +11453,93 @@
 			(project "LibreDAB"
 				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:SMBJ60A TVS ")
+		(at 49.53 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d02eea2a-58b7-470e-9fee-0666f883c844")
+		(property "Reference" "D1"
+			(at 52.07 78.1049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS DIODE 60VWM 96.8VC SMB(DO-214AA)"
+			(at 46.482 69.596 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C49066953_SMB_L4_5-W3_7-LS5_4-RD"
+			(at 39.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49066953.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FANbVFRST1hfU1JfR1ZbXlBfEgcPVgcEQgNYBlVSEwAxVlNeQlBaXlFfQ1JYXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRlRfVVBRWQkaCgg%3D"
+			(at 49.657 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMBJ60A TVS"
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49066953"
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b59a4d7d-751c-4045-855c-875a38684049")
+		)
+		(pin "2"
+			(uuid "5a1d6cc4-aebf-4ed6-8655-93d7ff86b8d4")
+		)
+		(instances
+			(project ""
+				(path "/daf77073-b189-4351-8636-4e7a5198e1b7/f3c2518b-d41d-4c2c-ab2c-6739c5137e70"
+					(reference "D1")
 					(unit 1)
 				)
 			)
