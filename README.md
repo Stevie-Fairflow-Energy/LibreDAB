@@ -67,6 +67,7 @@ Size | Target 70 mm x 280 mm PCB footprint | Similar size to 14 x 18650 cells ne
 		- Sig / Power 2oz
  - **Prototyping Status**
     - Prototype LV Bridge module ready for review.
+    - Design in KiCAD 9.0.7
     - The LV Bridge module is a functional LV H bridge inverter to interface between the battery / BMS and the High Frequency DAB transformer. The prototype module has gate drivers on board as well as DC voltage and current measurements. The control interfaces for the gate drive signals, voltage and current measurements and 12 V and 5 V power supplies should be connected using 2.54 mm pin headers.
         - 4 Layer FR4 insulated PCB with the following layer assignments, with via stitching for power nets to maximise use of the PCB copper for power transfer:
 		  - Sig / Power 1oz
