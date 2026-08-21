@@ -1,4 +1,4 @@
-27288627305668356
+27297565032650274
 1Footprints
 C_2.2u_50V_1206
 Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -108024,6 +108024,13 @@ Varistor VF
 2
 2
 lcsc_footprints
+C17477_R0805
+0Ω (0R0) ±1%
+
+0
+2
+2
+lcsc_footprints
 C17514_R0805
 1MΩ (1004) ±1%
 
@@ -108059,6 +108066,13 @@ C176292_C0805
 2
 2
 lcsc_footprints
+C309662_R1206
+
+
+0
+2
+2
+lcsc_footprints
 C393074_RES-SMD_L6_4-W3_2-1
 
 
@@ -108080,7 +108094,21 @@ C710260_RES-SMD_L6_4-W3_2_RLM25
 6
 4
 lcsc_footprints
+C865332_R0805
+
+
+0
+2
+2
+lcsc_footprints
 C865408_R0805
+
+
+0
+2
+2
+lcsc_footprints
+C870586_R1206
 
 
 0
@@ -108149,6 +108177,13 @@ C41432921_HDR-SMD_3P-P2_54-V-M-LS4_8_R2
 0
 3
 3
+lcsc_footprints
+C41582415_C1206
+
+
+0
+2
+2
 lcsc_footprints
 C46635839_HDR-SMD_3P-P2_54-V-F-LS4_7-6779753103411-RC
 
