@@ -2934,7 +2934,7 @@
 	(footprint "1Footprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "2bba6cc6-6e9a-4093-aa6d-a9babca35af9")
-		(at 74.2061 109.7534)
+		(at 74.1992 110.2448)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP8"
@@ -7313,7 +7313,7 @@
 		(at 74.1934 112.9284 90)
 		(descr "1nF (102) ±10% 50V")
 		(property "Reference" "C6"
-			(at -2.5908 2.4638 180)
+			(at -3.133 -0.1466 180)
 			(layer "F.SilkS")
 			(uuid "bebdcabc-3318-43ce-81d3-7a09fcfdafee")
 			(effects
@@ -9871,13 +9871,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "lcsc_footprints:C17514_R0805"
+	(footprint "lcsc_footprints:C309662_R1206"
 		(layer "F.Cu")
 		(uuid "93cc99fa-e1c8-4d96-b49e-4339a60969f4")
-		(at 74.1934 106.8578 -90)
-		(descr "1MΩ (1004) ±1%")
+		(at 74.0976 107.2916 -90)
 		(property "Reference" "R3"
-			(at -1 -2 180)
+			(at 0 -4 270)
 			(layer "F.SilkS")
 			(uuid "63f27b56-c86b-415d-a2e5-ec422ee026d1")
 			(effects
@@ -9887,8 +9886,8 @@
 				)
 			)
 		)
-		(property "Value" "1MΩ (1004) ±1%"
-			(at 0 4 90)
+		(property "Value" "1MΩ ±0.1%"
+			(at 0 4 270)
 			(layer "F.Fab")
 			(uuid "91b90f0c-375a-4215-aa7e-1fd1f69ff6c4")
 			(effects
@@ -9898,8 +9897,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F1004T5E_C17514.pdf"
-			(at 0 0 90)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_YAGEO-RT1206BRD071ML_C309662.pdf"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc6f8d91-529c-4de4-bbaa-75cade4684a6")
@@ -9910,8 +9909,8 @@
 				)
 			)
 		)
-		(property "Description" "1MΩ (1004) ±1%"
-			(at 0 0 90)
+		(property "Description" "RT1206BRD071ML"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d651bb9c-3d5b-46bf-8756-06c2c0f31025")
@@ -9922,7 +9921,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17514"
+		(property "LCSC Part" "C309662"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9934,12 +9933,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C17514"
+		(property "LCSC" "C309662"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74dc08ae-d6d3-4b76-b545-beaed7c32f8e")
+			(uuid "de71e7d0-82be-49a8-800b-a3a16f11e8d1")
 			(effects
 				(font
 					(size 1 1)
@@ -9947,12 +9946,12 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a637f5f9-ad5d-4616-9ee2-ee4095eee130")
+			(uuid "899d8ea7-e165-4398-b368-0ec7d175470b")
 			(effects
 				(font
 					(size 1 1)
@@ -9960,123 +9959,123 @@
 				)
 			)
 		)
-		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/e2a2c49a-c489-48a1-9077-daf8bb791930")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/6803f442-376a-42ab-a7bf-b66a8c994c55")
 		(sheetname "/LV_Bridge/")
 		(sheetfile "LV_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.76 0.92)
-			(end -1.76 -0.92)
+			(start -2.31 1.08)
+			(end -2.31 -1.08)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "17fd8afb-3465-43e2-9cbc-47fd07d56df8")
+			(uuid "f8e530dc-d92b-4d3c-a93b-b3553888f5cf")
 		)
 		(fp_line
-			(start -0.48 0.92)
-			(end -1.76 0.92)
+			(start -0.95 1.08)
+			(end -2.31 1.08)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "506b7330-224f-4be0-840d-13c11c84a857")
+			(uuid "e5461fb2-0014-4bd8-9bd6-51f29c72f63a")
 		)
 		(fp_line
-			(start 0.48 0.92)
-			(end 1.76 0.92)
+			(start 0.95 1.08)
+			(end 2.31 1.08)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "57b494cb-d757-4614-8286-038f91527b77")
+			(uuid "e0517259-0090-46e2-8be7-794c36d95e46")
 		)
 		(fp_line
-			(start 1.76 0.92)
-			(end 1.76 -0.92)
+			(start 2.31 1.08)
+			(end 2.31 -1.08)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c77251ac-660a-4910-9124-5ebbe5347750")
+			(uuid "2ecf7fbb-dac4-4987-94cc-33f1c27cae16")
 		)
 		(fp_line
-			(start -1.76 -0.92)
-			(end -0.48 -0.92)
+			(start -2.31 -1.08)
+			(end -0.95 -1.08)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "688ed382-0ec6-421e-84a3-2b00f0e103cf")
+			(uuid "aeb49870-a1ac-4a82-b8c2-ace00aef9249")
 		)
 		(fp_line
-			(start 1.76 -0.92)
-			(end 0.48 -0.92)
+			(start 2.31 -1.08)
+			(end 0.95 -1.08)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "53879e9a-38f5-4741-80c6-c97abcfe6c5f")
+			(uuid "b401b9e8-6f97-4cfa-9745-c7c7a2a129c8")
 		)
 		(fp_circle
-			(center -1 0.64)
-			(end -0.97 0.64)
+			(center -1.55 0.79)
+			(end -1.52 0.79)
 			(stroke
 				(width 0.06)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "885970a2-ba64-4840-8842-38f6da075b53")
+			(uuid "fae3d4ef-0943-4e24-8c78-34cd88773046")
 		)
 		(fp_line
-			(start -1 0.64)
-			(end -1 -0.64)
+			(start -1.55 0.79)
+			(end -1.55 -0.79)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fb69b078-b405-4133-9216-2339ac166b35")
+			(uuid "a343613c-2329-4079-89eb-1f2e55285a11")
 		)
 		(fp_line
-			(start 1 0.64)
-			(end -1 0.64)
+			(start 1.55 0.79)
+			(end -1.55 0.79)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0ac78c44-8fc9-4660-90f5-b786a0a6b2f7")
+			(uuid "ca17d225-a915-456f-bca2-4ef8c3756a03")
 		)
 		(fp_line
-			(start -1 -0.64)
-			(end 1 -0.64)
+			(start -1.55 -0.79)
+			(end 1.55 -0.79)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "10730f87-2b3a-4e94-83a5-af06134f17cb")
+			(uuid "6afc5864-7599-45ca-b49b-52ca03ff7109")
 		)
 		(fp_line
-			(start 1 -0.64)
-			(end 1 0.64)
+			(start 1.55 -0.79)
+			(end 1.55 0.79)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c099cf11-0421-4799-ad27-d75ec13b1d5f")
+			(uuid "8bcec125-ffbd-45e8-81eb-a453c50c5f38")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "43278615-8cd8-4281-8b19-048daac674e7")
 			(effects
@@ -10087,43 +10086,42 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1 0 270)
-			(size 1.133 1.377)
+			(at -1.48 0 270)
+			(size 1.208 1.701)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "/LV_Bridge/V_LV+")
 			(pinfunction "1")
-			(pintype "input")
+			(pintype "unspecified")
 			(uuid "f77e415e-1ea0-4076-9b00-bef2cdf0cb3d")
 		)
 		(pad "2" smd rect
-			(at 1 0 270)
-			(size 1.133 1.377)
+			(at 1.48 0 270)
+			(size 1.208 1.701)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "/LV_Bridge/V_LV_Divider")
 			(pinfunction "2")
-			(pintype "input")
+			(pintype "unspecified")
 			(uuid "5b90be0b-4300-429a-a140-631136d0faf7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C17514.wrl"
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C309662.wrl"
 			(offset
-				(xyz 1.5 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
-	(footprint "lcsc_footprints:C46670_R0805"
+	(footprint "lcsc_footprints:C865332_R0805"
 		(layer "F.Cu")
 		(uuid "948c9b58-8242-4e83-bc2a-7827f908d464")
 		(at 76.7842 112.9284 -90)
-		(descr "25.5KΩ (2552) ±1%")
 		(property "Reference" "R4"
-			(at 2.8194 2.6416 180)
+			(at 2.6504 -0.0058 0)
 			(layer "F.SilkS")
 			(uuid "1fef1443-38e2-48e7-a6ce-f1fac0a5c3d8")
 			(effects
@@ -10133,8 +10131,8 @@
 				)
 			)
 		)
-		(property "Value" "25.5KΩ (2552) ±1%"
-			(at 0 4 90)
+		(property "Value" "25.5kΩ ±0.1%"
+			(at 0 4 270)
 			(layer "F.Fab")
 			(uuid "f6da2fdc-7223-4a08-8d2a-b3f60dc5bf59")
 			(effects
@@ -10144,8 +10142,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010000_UNI-ROYAL-Uniroyal-Elec-0805W8F2552T5E_C46670.pdf"
-			(at 0 0 90)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210081801_YAGEO-RT0805BRD0725K5L_C865332.pdf"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45657a06-4044-4fd0-abf7-d6ab0fb4102a")
@@ -10156,8 +10154,8 @@
 				)
 			)
 		)
-		(property "Description" "25.5KΩ (2552) ±1%"
-			(at 0 0 90)
+		(property "Description" "RT0805BRD0725K5L"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "410f20bc-cf00-47bb-9d32-e67679d020fa")
@@ -10168,7 +10166,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C46670"
+		(property "LCSC Part" "C865332"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10180,12 +10178,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C46670"
+		(property "LCSC" "C865332"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2fc5fafb-de43-4618-93e8-e16976fe9ea9")
+			(uuid "427d7d90-84e1-4d3e-afb3-5795041dc032")
 			(effects
 				(font
 					(size 1 1)
@@ -10193,12 +10191,12 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8d98880-5f6b-4a5a-aae0-5baf8ce5c894")
+			(uuid "8e14162a-c4f8-47e5-9eff-f568a7da6ac4")
 			(effects
 				(font
 					(size 1 1)
@@ -10206,10 +10204,10 @@
 				)
 			)
 		)
-		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/4b75ded2-4a7e-4cfb-8921-8164c4c4cc14")
+		(path "/f3c2518b-d41d-4c2c-ab2c-6739c5137e70/f2d2ac1b-4e34-4706-8e38-cec9a343228a")
 		(sheetname "/LV_Bridge/")
 		(sheetfile "LV_Bridge.kicad_sch")
-		(attr smd)
+		(attr through_hole)
 		(fp_line
 			(start -1.76 0.92)
 			(end -1.76 -0.92)
@@ -10218,7 +10216,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d26e185a-b8ea-4592-ab18-3edb53b577b0")
+			(uuid "ec83661a-dccd-4e8e-ad11-587178a3cd33")
 		)
 		(fp_line
 			(start -0.48 0.92)
@@ -10228,7 +10226,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7b07c645-647c-4a95-b357-2700772a991d")
+			(uuid "0271f772-5c6c-4095-a428-a680f0167eb9")
 		)
 		(fp_line
 			(start 0.48 0.92)
@@ -10238,7 +10236,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1c42cbcd-ba61-411b-b9b3-59e0e1ec6002")
+			(uuid "773aff0e-3c27-4aa6-9574-32ece7e922ce")
 		)
 		(fp_line
 			(start 1.76 0.92)
@@ -10248,7 +10246,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9e0decdc-4482-415a-97b7-bef84bc44aca")
+			(uuid "76befae9-0c01-493c-9619-39670ea16220")
 		)
 		(fp_line
 			(start -1.76 -0.92)
@@ -10258,7 +10256,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d9689265-4390-463d-a9e6-f6a835cddd9a")
+			(uuid "f1d52d7b-d927-40b1-bb1a-7e3989d9f133")
 		)
 		(fp_line
 			(start 1.76 -0.92)
@@ -10268,7 +10266,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f2404c33-4f1d-4263-a264-a81b58cc396d")
+			(uuid "b3feda68-5116-41e4-a8eb-bea701c41562")
 		)
 		(fp_circle
 			(center -1 0.64)
@@ -10279,7 +10277,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "13703a00-5187-4670-a215-a8e6407f2105")
+			(uuid "94bbdb8c-a86a-4f17-b5af-cd730973ca2d")
 		)
 		(fp_line
 			(start -1 0.64)
@@ -10289,7 +10287,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bb0acb32-549e-4216-a4f0-b59af2a61f51")
+			(uuid "00beba27-1bb6-433d-8073-3c9583aae057")
 		)
 		(fp_line
 			(start 1 0.64)
@@ -10299,7 +10297,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bd825a8c-f1a3-461c-8559-7bbff8a576ee")
+			(uuid "d7577bfb-20bc-4aaf-8d99-e7608739689c")
 		)
 		(fp_line
 			(start -1 -0.64)
@@ -10309,7 +10307,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ac0313a0-1057-49e3-8358-cd6b8a6a6a46")
+			(uuid "427da182-2570-4fc7-b007-38a1ba6a5b5d")
 		)
 		(fp_line
 			(start 1 -0.64)
@@ -10319,10 +10317,10 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a9376bc3-eaad-42ff-bf54-dc585b5894bc")
+			(uuid "bf06ab8d-95c2-4293-82cb-19b2f3f9744a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "97483112-56a2-44a8-b0b3-10f041ec27ad")
 			(effects
@@ -10336,30 +10334,30 @@
 			(at -1 0 270)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 3 "/LV_Bridge/V_LV_Divider")
+			(net 2 "/LV_Bridge/V_LV-")
 			(pinfunction "1")
-			(pintype "input")
+			(pintype "unspecified")
 			(uuid "86269e94-bd8a-4192-9e43-c85a2a1abf1d")
 		)
 		(pad "2" smd rect
 			(at 1 0 270)
 			(size 1.133 1.377)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "/LV_Bridge/V_LV-")
+			(net 3 "/LV_Bridge/V_LV_Divider")
 			(pinfunction "2")
-			(pintype "input")
+			(pintype "unspecified")
 			(uuid "5b4c0829-aa59-43da-bf24-86640043e42b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C46670.wrl"
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C865332.wrl"
 			(offset
-				(xyz 1.5 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -19632,20 +19630,28 @@
 		(uuid "4ca9cc32-e0c7-4124-bcc4-f404a750f271")
 	)
 	(segment
+		(start 74.1934 108.8674)
+		(end 74.0976 108.7716)
+		(width 0.6)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "9212fb4c-09e7-4652-8b14-cffd4fdf4960")
+	)
+	(segment
+		(start 74.1934 111.9284)
+		(end 74.1934 108.8674)
+		(width 0.6)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "b17379aa-84f9-41e2-960c-d1ef9b7a586a")
+	)
+	(segment
 		(start 71.6915 109.7534)
 		(end 71.6661 109.728)
 		(width 0.4)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "bf748224-11f1-4640-8387-8e47c449300e")
-	)
-	(segment
-		(start 74.1934 111.9284)
-		(end 74.1934 107.8578)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "c28f410e-69ba-4240-b84d-bfb4f315430e")
 	)
 	(segment
 		(start 74.168 111.903)
