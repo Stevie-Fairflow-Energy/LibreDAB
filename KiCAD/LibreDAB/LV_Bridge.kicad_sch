@@ -3683,12 +3683,6 @@
 		(uuid "2463896e-bfdc-4b44-b954-2234c5ebb615")
 	)
 	(junction
-		(at 82.55 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "302fbee5-87f8-457c-94e8-11a33201418c")
-	)
-	(junction
 		(at 26.6567 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3741,12 +3735,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "527b4d93-74df-44df-8d30-e69b4884a6cd")
-	)
-	(junction
-		(at 82.55 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52feaaca-925e-44fd-99da-f96b109c1e7a")
 	)
 	(junction
 		(at 177.8 153.67)
@@ -3851,6 +3839,12 @@
 		(uuid "a5f2731b-f0b7-4223-b99f-1ecd77257b6b")
 	)
 	(junction
+		(at 82.55 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a71a978e-25d2-4660-aaeb-5eb31e36c0e7")
+	)
+	(junction
 		(at 212.09 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3933,6 +3927,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e991cf2f-25f9-4e16-8342-5033cb4dd4f9")
+	)
+	(junction
+		(at 82.55 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeafe39f-8c60-484e-870f-ba6bbb19864a")
 	)
 	(junction
 		(at 57.15 63.5)
@@ -4532,6 +4532,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 86.36) (xy 82.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548df972-aa5b-4f15-a13c-b3f215cee85b")
+	)
+	(wire
+		(pts
 			(xy 128.27 153.67) (xy 138.43 153.67)
 		)
 		(stroke
@@ -5009,16 +5019,6 @@
 			(type default)
 		)
 		(uuid "9449d31a-be95-4a05-b210-22e5cbad92a8")
-	)
-	(wire
-		(pts
-			(xy 82.55 86.36) (xy 82.55 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96d1925b-e6b9-48f8-9c9c-9481c48147d2")
 	)
 	(wire
 		(pts
@@ -7082,7 +7082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 			(at 138.43 172.72 0)
 			(effects
 				(font
@@ -9807,7 +9807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -10797,7 +10797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 			(at 138.43 185.42 0)
 			(effects
 				(font
@@ -12555,7 +12555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1Footprints:MountingHole_Pad_SMD_BD5.6-D4.1"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 			(at 152.4 185.42 0)
 			(effects
 				(font
@@ -13005,6 +13005,7 @@
 	(symbol
 		(lib_id "lcsc_imported:RES 25.5kΩ ±0.1% 125mW 0805")
 		(at 82.55 81.28 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13012,7 +13013,7 @@
 		(dnp no)
 		(uuid "f2d2ac1b-4e34-4706-8e38-cec9a343228a")
 		(property "Reference" "R4"
-			(at 84.074 80.772 90)
+			(at 84.074 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13021,7 +13022,7 @@
 			)
 		)
 		(property "Value" "25.5kΩ ±0.1%"
-			(at 80.01 77.978 0)
+			(at 80.01 84.582 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -13039,7 +13040,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210081801_YAGEO-RT0805BRD0725K5L_C865332.pdf"
-			(at 82.423 83.566 0)
+			(at 82.423 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
